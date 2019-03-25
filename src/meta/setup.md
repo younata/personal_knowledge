@@ -21,6 +21,19 @@ The server hosting this is a [linode](https://linode.com) VPS. It gets deployed 
 
 On Sol, the repository containing this playbook is located at `~/workspace/Apps`.
 
+## Offline/Development Setup
+
+For making changes and doing a local preview (or just simply running locally), the following setup is recommended/required:
+
+- Rust/Cargo: Install [rustup](https://rustup.rs)
+- mdbook: `cargo install mdbook`
+
+Running:
+
+`mdbook watch` will build your sources, watch for any changes to the `src/` directory, and serve up the book on [http://localhost:3000](http://localhost:3000).
+
+I do this for my work repository, which I want to keep separate from my personal stuff.
+
 [^pipeline]: The pipeline definition looks like this:
 
 ```yaml
