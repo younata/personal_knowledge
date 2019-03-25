@@ -1,0 +1,12 @@
+[book]
+title = "Knowledge Repository"
+authors = ["Rachel Brindle"]
+description = "Rachel's second brain"
+
+[build]
+preprocess = ["links", "index"]
+
+[output.html]
+curly-quotes = true
+no-section-label = true
+
