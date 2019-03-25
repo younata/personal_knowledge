@@ -8,7 +8,7 @@ This is a simple mdbook, the markdown files are under `src/`, and `SUMMARY.md` r
 
 ## Pipeline
 
-The pipeline[^2] is relatively simple:
+The pipeline[^pipeline] is relatively simple:
 
 - Check for new pushes to master
 - Build the book (using [this mdbook docker image](https://hub.docker.com/r/hrektts/mdbook))
@@ -21,23 +21,7 @@ The server hosting this is a [linode](https://linode.com) VPS. It gets deployed 
 
 On Sol, the repository containing this playbook is located at `~/workspace/Apps`.
 
-[^1]: The book.toml file looks like:
-
-```toml
-[book]
-title = "Knowledge Repository"
-authors = ["Rachel Brindle"]
-description = "Rachel's second brain"
-
-[build]
-preprocess = ["links", "index"]
-
-[output.html]
-curly-quotes = true
-no-section-label = true
-```
-
-[^2]: The pipeline definition looks like this:
+[^pipeline]: The pipeline definition looks like this:
 
 ```yaml
 resource_types:
