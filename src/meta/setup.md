@@ -30,7 +30,7 @@ For making changes and doing a local preview (or just simply running locally), t
 
 Running:
 
-`mdbook watch` will build your sources, watch for any changes to the `src/` directory, and serve up the book on [http://localhost:3000](http://localhost:3000).
+`mdbook watch` will build your sources, watch for any changes to the `src/` directory, and serve up the book on localhost:3000.
 
 I do this for my work repository, which I want to keep separate from my personal stuff.
 
