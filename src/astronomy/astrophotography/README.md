@@ -6,7 +6,7 @@ See [Cafuego's page](https://cafuego.net/2017/02/05/astrophotography-mac-os-x) o
 
 I use the following software:
 
-- [AstroDSLR](https://www.cloudmakers.eu/astrodslr/) for capturing from my DSLR.
+- AstroDSLR[^astrodslr ssl] for capturing from my DSLR.
 - [Nebulosity](https://www.stark-labs.com/nebulosity.html) for stacking images.
 
 ## Finding a site
@@ -52,7 +52,7 @@ Also, for stacking[^stacking] reasons, the more photos you take, the better it i
 
 ### Using a computer
 
-Use [AstroDSLR](https://www.cloudmakers.eu/astrodslr/) from computer to control the camera.
+Use AstroDSLR from computer to control the camera.
 Keep the camera in bulb mode to allow the software to control exposure time.
 
 Make a different folder for each different set of photos you take.
@@ -74,6 +74,8 @@ Now, select the same star in each photograph as it prompts you. You're going to 
 Now, do some manual editing, and save the end result.
 
 Post to instagram[^instagram] or whatever. Use it as your new desktop background.
+
+[^astrodslr ssl]: They don't have an up to date ssl cert. Site is at www.cloudmakers.eu/astrodslr/
 
 [^f.lux]: or use [f.lux](https://justgetflux.com) to remove as much blue from your screen as possible.
 
