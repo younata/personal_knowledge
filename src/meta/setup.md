@@ -1,16 +1,17 @@
 # How This is Setup
 
-This is setup using [mdBook](https://github.com/rust-lang-nursery/mdBook). It's hosted as a private repository on github. I set up a pipeline in [concourse](https://concourse-ci.org) to build, check that things work, and then push new versions once things are set up.
+This is setup using [mdBook](https://github.com/rust-lang-nursery/mdBook). It's hosted as a [repository on github](https://github.com/younata/personal_knowledge). I set up a pipeline in [concourse](https://concourse-ci.org) to build, check that things work, and then push new versions once things are set up.
 
 ## Repository Layout
 
-This is a simple mdbook, the markdown files are under `src/`, and `SUMMARY.md` reflects the directory structure of `src/`. I do eventually want to write tooling to autogenerate `SUMMARY.md` for me.
+This is a simple mdbook, the actual content files is under `src/`. `SUMMARY.md` is missing, because I have [tooling to automatically generate one automatically](https://github.com/younata/mdbook-generate-summary).
 
 ## Pipeline
 
 The pipeline[^pipeline] is relatively simple:
 
 - Check for new pushes to master
+- Generate a SUMMARY.md for the book.
 - Build the book (using [this mdbook docker image](https://hub.docker.com/r/hrektts/mdbook))
 - Test that the generated book isn't broken (mostly verify the links work) using [html-proofer](https://github.com/gjtorikian/html-proofer), via [this docker image](https://hub.docker.com/r/18fgsa/html-proofer).
 - rsync the updated book to the server hosting the contents.
@@ -26,6 +27,7 @@ On Sol, the repository containing this playbook is located at `~/workspace/Apps`
 For making changes and doing a local preview (or just simply running locally), the following setup is recommended/required:
 
 - Rust/Cargo: Install [rustup](https://rustup.rs)
+- mdbook-generate-summary: `cargo install mdbook-generate-summary` will get you an out-of-date version. The CI uses a dockerimage for this, but that docker image is not yet set up for local usage. The "best" way to get an up-to-date version is to download the source, run `cargo build --release`, and place the generated binary (from `target/release/mdbook-generate-summary`) in a directory on your `$PATH`. Which is a pretty shitty way to distribute software. 🤷🏻‍♀️
 - mdbook: `cargo install mdbook`
 
 Running:
@@ -45,12 +47,11 @@ resource_types:
     tag: latest
 
 resources:
-  # Knowledge Repository
+  # Knowledge Wiki
   - name: knowledge_source
     type: git
     source:
-      uri: {{knowledge_repository}}
-      private_key: {{GITHUB_PRIVATE_KEY}}
+      uri: https:/github.com/younata/personal_knowledge.git
       branch: master
   # Task info
   - name: tasks
@@ -75,10 +76,32 @@ jobs:
         - get: knowledge_source
           trigger: true
         - get: tasks
+      - task: generate_summary
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: younata/mdbook-generate-summary
+              tag: latest
+          run:
+            path: sh
+            args:
+            - -c
+            - |
+              #!/bin/bash
+              cd knowledge_source
+              mdbook-generate-summary src/ -v
+              cp -r * ../generated/
+            dir: ""
+          inputs:
+          - name: knowledge_source
+          outputs:
+          - name: generated
       - task: mdbook
         file: tasks/tasks/mdbook.yml
         input_mapping: 
-          code: knowledge_source
+          code: generated
           concourse: tasks
         output_mapping:
           book: book
