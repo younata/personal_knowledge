@@ -1,4 +1,6 @@
-# Soup
+# Simple Soup
+
+Soups are super easy. You can make a soup simply by tossing a bunch of vegetables into a pot and let them boil for 20 minutes. This is a simple vegetable (or beef) soup I like to make.
 
 The only real way to screw up soup is to let it sit/cook for too long. Mushy soup isn't good. I've learned that when I do make soup, I need to commit to finishing it by the next night, or else it's not something I'm going to enjoy finishing.
 
