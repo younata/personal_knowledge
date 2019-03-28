@@ -6,13 +6,13 @@ See [Cafuego's page](https://cafuego.net/2017/02/05/astrophotography-mac-os-x) o
 
 I use the following software:
 
-- [AstroDSLR](http://www.cloudmakers.eu/astrodslr/) for capturing from my DSLR.
-- [Nebulosity](http://www.stark-labs.com/nebulosity.html) for stacking images.
+- [AstroDSLR](https://www.cloudmakers.eu/astrodslr/) for capturing from my DSLR.
+- [Nebulosity](https://www.stark-labs.com/nebulosity.html) for stacking images.
 
 ## Finding a site
 
 [Find a local dark sky site](https://darksitefinder.com/maps/world.html). In LA, I like [Joshua Tree National Park](https://darksitefinder.com/placemarks/joshua-tree-national-park-california-united-states/).
-However, being able to easily access far-away dark sky sites is one of my primary reasons for [learning to fly](/flying/README.md).
+However, being able to easily access far-away dark sky sites is one of my primary reasons for learning to fly.
 
 ## Equipment
 
@@ -52,7 +52,7 @@ Also, for stacking[^stacking] reasons, the more photos you take, the better it i
 
 ### Using a computer
 
-Use [AstroDSLR](http://www.cloudmakers.eu/astrodslr/) from computer to control the camera.
+Use [AstroDSLR](https://www.cloudmakers.eu/astrodslr/) from computer to control the camera.
 Keep the camera in bulb mode to allow the software to control exposure time.
 
 Make a different folder for each different set of photos you take.
