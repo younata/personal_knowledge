@@ -1,6 +1,6 @@
 # Personal Finance
 
-A lot of my views on personal finance come from [Mr. Money Mustache](http://www.mrmoneymustache.com).
+A lot of my views on personal finance come from [Mr. Money Mustache](https://www.mrmoneymustache.com).
 
 ## Budgeting
 
@@ -39,7 +39,7 @@ For example, if your company does matching up to 4%, then at least put in that 4
 
 ### Index Funds
 
-- [Picking stocks is for fools, buy index funds](http://www.mrmoneymustache.com/2011/05/18/how-to-make-money-in-the-stock-market/).
+- [Picking stocks is for fools, buy index funds](https://www.mrmoneymustache.com/2011/05/18/how-to-make-money-in-the-stock-market/).
     - [Betterment](https://betterment.com) is what I use for my non-401k investments.
 - [The S&P 500 enviromental and socially responsible index](https://us.spindices.com/indices/equity/sp-500-environmental-socially-responsible-index) has outperformed the S&P 500 since it was launched.
     - Which means that doing the right thing **is** financially responsible.
