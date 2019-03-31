@@ -6,6 +6,33 @@ It's also one of the most frustrating languages I've ever used. This is because 
 
 It also has the best documentation of any language.
 
+## Serializing json in rust.
+
+Follow [this guide using serde](https://serde.rs/derive.html).
+
+Essentially:
+
+Add to `Cargo.toml`'s `[Dependencies]` section:
+
+```toml
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+```
+
+Make your struct derive `Serialize`, and pass it to `serde_json::to_string()`
+
+```rust
+#[derive(Serialize)]
+struct Thing {
+    x: i32
+}
+
+fn main() {
+    let thing = Thing { a: 1 }
+    println!("{}", serde_json::to_string(&thing).unwrap());
+}
+```
+
 ## Links
 
 - [Too Many Lists](https://rust-unofficial.github.io/too-many-lists/index.html) - a learn rust thing that's really well written and actually fun.

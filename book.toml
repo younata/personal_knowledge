@@ -10,3 +10,4 @@ preprocess = ["links", "index"]
 curly-quotes = true
 no-section-label = true
 
+[output.api]
