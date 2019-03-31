@@ -21,7 +21,7 @@ serde_json = "1.0"
 
 Make your struct derive `Serialize`, and pass it to `serde_json::to_string()`
 
-```rust
+```rust,ignore
 #[derive(Serialize)]
 struct Thing {
     x: i32
