@@ -27,10 +27,12 @@ On Sol, the repository containing this playbook is located at `~/workspace/Apps`
 For making changes and doing a local preview (or just simply running locally), the following setup is recommended/required:
 
 - Rust/Cargo: Install [rustup](https://rustup.rs)
-- mdbook-generate-summary: `cargo install mdbook-generate-summary` will get you an out-of-date version. The CI uses a dockerimage for this, but that docker image is not yet set up for local usage. The "best" way to get an up-to-date version is to download the source, run `cargo build --release`, and place the generated binary (from `target/release/mdbook-generate-summary`) in a directory on your `$PATH`. Which is a pretty shitty way to distribute software. 🤷🏻‍♀️
+- mdbook-generate-summary: `cargo install mdbook-generate-summary` will get you an out-of-date version. The CI uses a dockerimage for this, but that docker image is not yet set up for local usage. The "best" way to get an up-to-date version is to download the source, and run `cargo install --path .`. Which isn't the best way to distribute software. 🤷🏻‍♀️
 - mdbook: `cargo install mdbook`
 
 Running:
+
+`mdbook-generate-summary` will build a SUMMARY.md file for you. This way, you don't have to maintain one.
 
 `mdbook watch` will build your sources, watch for any changes to the `src/` directory, and serve up the book on localhost:3000.
 
