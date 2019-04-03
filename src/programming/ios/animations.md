@@ -61,3 +61,26 @@ animation.delegate = BlockAnimationDelegate { finished in
     [...]
 }
 ```
+
+#### Maintaining Position Post-Animation
+
+One of the things noted in the [CAAnimation Documentation](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/CreatingBasicAnimations/CreatingBasicAnimations.html#//apple_ref/doc/uid/TP40004514-CH3-SW1) is that the layer's data model is not updated as part of the animation.
+This means that, by default, once the animation finishes, it'll immediately go back to it's starting position.
+
+Fixing this is interesting, you can tell the animation to stick around for a bit, but why?
+
+as [Ole notes](https://oleb.net/blog/2012/11/prevent-caanimation-snap-back/), you should instead set the fromValue property, so that the animation knows where to animate from, instead of letting it figure that out from the data layer.
+
+For example:
+
+```swift
+let originalState = layer.position.y
+let desiredState = CGFloat(50)
+
+layer.position.y = desiredState
+
+let animation = CABasicAnimation(keyPath: "position.y")
+animation.toValue = desiredState
+animation.fromValue = desiredState
+layer.add(animation, forKey: "position")
+```
