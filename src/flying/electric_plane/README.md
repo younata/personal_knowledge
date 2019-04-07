@@ -74,4 +74,9 @@ Additionally, just adding solar cells on top of the wings will affect the aerody
 
 Instead, I’ll build a folding array that I can set up next to the plane and use to charge it. This’ll have an inconvenience and weight penalty compared to directly mounting the cells, but I’ll have much more surface area available, and it won’t interfere with the aerodynamics of the plane.
 
+## Other Electric Plane Builds
+
+- [Helno’s Electric Motorglider](https://endless-sphere.com/forums/viewtopic.php?f=38&t=89000)
+- [Farfle’s Electric Ultralight](https://endless-sphere.com/forums/viewtopic.php?f=38&p=1298367)
+
 [^battery heating]: This plane is going to be based in LA. The batteries won’t overheat from use (air-cooled), though they do need some cooling to protect them while the plane sits outside in summer. Heating won’t be required (see: the model 3 lacks a battery heater), but even if it does, then I can utilize the same environmental cooling system to heat as well as cool.
