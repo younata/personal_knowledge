@@ -16,7 +16,7 @@ Sometimes you want to manually cache responses. Because [`URLSession`](https://d
 
 1. Use a URLSession that isn't backed by a cache (by creating one with the configuration's [`urlCache` property set to nil](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410148-urlcache))
 2. Use a URLSession with a cache policy that ignores the cache (set the configuration's [`requestCachePolicy`](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1411655-requestcachepolicy) to [`. reloadIgnoringLocalAndRemoteCacheData`](https://developer.apple.com/documentation/foundation/nsurlrequest/cachepolicy/reloadignoringlocalandremotecachedata)
-3. Have all your [`requests`](https://developer.apple.com/documentation/foundation/urlrequest) individually specify [`. reloadIgnoringLocalAndRemoteCacheData`](https://developer.apple.com/documentation/foundation/nsurlrequest/cachepolicy/reloadignoringlocalandremotecachedata) as their [`cachePolicy`](https://developer.apple.com/documentation/foundation/urlrequest/2011593-cachepolicy)
+3. Have all your [`requests`](https://developer.apple.com/documentation/foundation/urlrequest) individually specify [`.reloadIgnoringLocalAndRemoteCacheData`](https://developer.apple.com/documentation/foundation/nsurlrequest/cachepolicy/reloadignoringlocalandremotecachedata) as their [`cachePolicy`](https://developer.apple.com/documentation/foundation/urlrequest/2011593-cachepolicy)
 
 Once you have the caching behavior set, you need to implement manual caching yourself. I'm going to describe using [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) because that's better (and what my nginx server did for me).
 
