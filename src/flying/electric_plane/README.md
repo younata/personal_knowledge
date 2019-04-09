@@ -52,6 +52,12 @@ The stack configuration is for redundancy and power reasons.
 
 Still researching this. Ideally, these’ll be air-cooled controllers that are rated for 100 A continuous at ~400V.
 
+## Solar Charger
+
+While I'm not going to slap solar cells on the plane, I do want to build a folding solar array that can be stored in the plane.
+
+[https://sunelec.com/](sunelec) is a place where you can buy PALLETS of solar panels for fairly cheap.
+
 ## Things that won’t be on the MVP
 
 Out of scope things that won’t be on the plane, at least, not initially.
