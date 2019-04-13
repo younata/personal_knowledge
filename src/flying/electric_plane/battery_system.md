@@ -8,7 +8,7 @@ I really don’t want to have to design and build my own.
 
 Henry has the Battery Murdering System that he uses in the Quick-E. I could probably ask him about it.
 
-[OrionBMS](https://www.orionbms.com/products/orion-bms-standard) is a commercial off-the-shelf BMS with support for J1772 charging, meant for EVs.
+[OrionBMS](https://www.orionbms.com/products/orion-bms-standard) is a commercial off-the-shelf BMS with support for J1772 charging, meant for EVs. This is quite intriguing to me. They have extension public documentation, not just on [use](https://www.orionbms.com/manuals/pdf/orionbms2_operational_manual.pdf), but also actually [putting the thing together](https://www.orionbms.com/manuals/pdf/orionbms2_wiring_manual.pdf). It is quite expensive, and would more than double the cost of the entire system.
 
 ### Designing my own
 
