@@ -12,11 +12,7 @@ Henry has the Battery Murdering System that he uses in the Quick-E. I could prob
 
 ### Designing my own
 
-There exist chips for making this slightly easier, then the issue is “simply” monitoring each cell.
-
-Most eBike BMSs monitor groups of parallel cells at once, effectively treating parallel group as a single cell. With the 5p pack system I was originally intending to do, I’m not sure I’m comfortable with this.
-
-Additionally, those chips have other quirks that don’t really scale.
+There exist chips for making this slightly easier, I could go down this route. I need to verify how much I can parallelize the mj1 cells.
 
 The main issue with designing my own system is managing charging and how that works out - specifically making sure each gets properly charged. Especially with the 51V packs I was originally designing for - e.g. can I feel 400V to all 7 packs in series and it’ll all charge properly, even up to 95%+ charged? That seems too good to be true, given what else I know about lithium-ion being such a finicky technology.
 
