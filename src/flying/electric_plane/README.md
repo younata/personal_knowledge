@@ -16,7 +16,7 @@ I’m still working through this.
 
 Current thought is to use [LG MJ1](https://www.nkon.nl/sk/k/Specification%20INR18650MJ1%2022.08.2014.pdf) cells, which, as of early 2019, have the highest energy density (just under 260 watt-hours per kilogram) of any battery cell available. This might change by the time I get around to being ready to manufacture the battery packs.
 
-Current thought is to build a large (112) number of 14s5p battery packs, and arrange them in a 7s16p arrangement. This allows each pack to use an off-the-shelf ebike BMS (which are very cheap), while getting to my desired system voltage and overall energy capacity (just shy of 100 kWh, ~3 hours of flight with no reserve).
+Current thought is to build a small (1 to 4) number of 108s battery packs, with as few parallel strings as I can get away with. This is doable with off-the-shelf BMSs, and reduces the engineering challenges.
 
 ### Mounting the Batteries
 
