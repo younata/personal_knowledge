@@ -56,7 +56,7 @@ Still researching this. Ideally, these’ll be air-cooled controllers that are r
 
 While I'm not going to slap solar cells on the plane, I do want to build a folding solar array that can be stored in the plane.
 
-[sunelec](https://sunelec.com/) is a place where you can buy PALLETS of solar panels for fairly cheap.
+sunelec[^sunelec] is a place where you can buy PALLETS of solar panels for fairly cheap.
 
 ## Things that won’t be on the MVP
 
@@ -86,3 +86,5 @@ Instead, I’ll build a folding array that I can set up next to the plane and us
 - [Farfle’s Electric Ultralight](https://endless-sphere.com/forums/viewtopic.php?f=38&p=1298367)
 
 [^battery heating]: This plane is going to be based in LA. The batteries won’t overheat from use (air-cooled), though they do need some cooling to protect them while the plane sits outside in summer. Heating won’t be required (see: the model 3 lacks a battery heater), but even if it does, then I can utilize the same environmental cooling system to heat as well as cool.
+
+[^sunelec]: This link breaks so often... https://sunelec.com/
