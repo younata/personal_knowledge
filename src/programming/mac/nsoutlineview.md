@@ -13,3 +13,8 @@ In cocoa, controllers are super powerful because they allow you to bypass implem
 [This is a much better explanation of how to set up bindings correctly than I'm currently able to do.](https://en.atjason.com/Cocoa/Outline%20With%20Controller.html)
 
 
+## Delegate Methods
+
+### Tooltips
+
+Implement [`outlineView(_:tooltipFor:rect:tableColumn:item:mouseLocation)`](https://developer.apple.com/documentation/appkit/nsoutlineviewdelegate/1527695-outlineview).
