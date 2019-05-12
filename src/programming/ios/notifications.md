@@ -27,7 +27,7 @@ As of iOS 12, there are four kinds of notification: [Calendar](https://developer
 
 Local Notifications are notifications generated entirely on the device. These would be things that appear when you enter or leave an area, at a certain time, etc.
 
-The way to send a local notification is to create a [`UNNotificationRequest`](https://developer.apple.com/documentation/usernotifications/unnotificationrequest), with an identifier, [content](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent), and a [trigger](), then ask the [`current`](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter/1649510-current) [`UNUserNotificationCenter`](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter) to [`add(_:withCompletionHandler:)`](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter/1649508-add) the request.
+The way to send a local notification is to create a [`UNNotificationRequest`](https://developer.apple.com/documentation/usernotifications/unnotificationrequest), with an identifier, [content](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent), and a [trigger](https://developer.apple.com/documentation/usernotifications/unnotificationtrigger), then ask the [`current`](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter/1649510-current) [`UNUserNotificationCenter`](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter) to [`add(_:withCompletionHandler:)`](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter/1649508-add) the request.
 
 ### Remote Notifications
 
