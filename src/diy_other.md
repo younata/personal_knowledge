@@ -8,4 +8,4 @@ DIY Projects other people have done that inspire me.
 
 ## DIY Ebook Reader
 
-[This guy published a DIY ebook reader](https://orbides.org/book.php).
+[This person published a DIY ebook reader](https://orbides.org/book.php).
