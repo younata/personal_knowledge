@@ -35,4 +35,10 @@ Also called Push Notifications. Push notifications are sent from some external s
 
 As of iOS 7, you can also send "silent" or "content-available" notifications. These notifications do not present an alert to the user and instead wake up your app so that you can do something in response to the notification (usually update your content cache so when the user next opens the app they already have up to date information). See [this apple documentation](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/pushing_updates_to_your_app_silently).
 
+#### Sending Push Notifications
+
+Push notifications need to be signed in order to be sent. There are two ways to do this: with a certificate pre-installed or with a jwt.
+
+[This script is a simple curl-based script for sending test notifications](http://thrysoee.dk/apns/). It requires modifications for your specific key and such, and you should change the `$curl` variable to us what you got from running `brew install curl-openssl`.
+
 [^location-trigger-permissions]: This requires location permissions, but not always permissions. Apparently, this is due to the system handling the monitoring as opposed to the app. I've never tried this, though.
