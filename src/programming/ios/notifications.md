@@ -39,6 +39,6 @@ As of iOS 7, you can also send "silent" or "content-available" notifications. Th
 
 Push notifications need to be signed in order to be sent. There are two ways to do this: with a certificate pre-installed or with a jwt.
 
-[This script is a simple curl-based script for sending test notifications](http://thrysoee.dk/apns/). It requires modifications for your specific key and such, and you should change the `$curl` variable to us what you got from running `brew install curl-openssl`.
+[This script is a simple curl-based script for sending test notifications](https://thrysoee.dk/apns/). It requires modifications for your specific key and such, and you should change the `$curl` variable to us what you got from running `brew install curl-openssl`.
 
 [^location-trigger-permissions]: This requires location permissions, but not always permissions. Apparently, this is due to the system handling the monitoring as opposed to the app. I've never tried this, though.
