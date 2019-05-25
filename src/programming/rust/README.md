@@ -40,3 +40,4 @@ fn main() {
 - [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/about.html).
 - [Command Line Apps in Rust](https://rust-lang-nursery.github.io/cli-wg/index.html) is a small book that serves as a great intro to CLI apps in rust.
   - [Publishing CLI apps](https://rust-lang-nursery.github.io/cli-wg/tutorial/packaging.html).
+- [Rust Koans](https://users.rust-lang.org/t/rust-koans/2408) offers a humorous explanation at some of the language paradigms.
