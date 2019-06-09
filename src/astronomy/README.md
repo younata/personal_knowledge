@@ -4,4 +4,4 @@ I love everything related to space, both human exploration of space, and the obs
 
 ## How to align and use an Equatorial Mount
 
-... Todo.
+- [celestron cg 4](./celestron_cg4.html)
