@@ -17,4 +17,4 @@ Resources for learning astronomy.
 He also has some more recent, itunes only content that first started as itunes U collections, before Apple simply made them podcasts. I haven't listened to these yet, but am looking forward to them.
 
 - [Life in the Universe](https://itunes.apple.com/us/course/life-in-the-universe/id559775126) is an intro to astrobiolagy - basically the AST 141 podcast with additional material included (slides, video).
-- [From Planets to the Cosmos](https://itunes.apple.com/us/course/from-planets-to-the-cosmos/id1131597016) appears to be a combination of AST 161 and AST 141, with additional material included (slides, video).
+- [From Planets to the Cosmos](https://itunes.apple.com/us/course/from-planets-to-the-cosmos/id1131597016) appears to be a combination of AST 161 and AST 162, with additional material included (slides, video).
