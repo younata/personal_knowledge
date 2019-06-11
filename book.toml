@@ -9,5 +9,6 @@ preprocess = ["links", "index"]
 [output.html]
 curly-quotes = true
 no-section-label = true
+mathjax-support = true
 
 [output.api]
