@@ -22,7 +22,7 @@ To set up the repository itself, you need to create a `book.toml` file, an initi
 
 For reference, this repository's book.toml file is: 
 
-```
+```toml
 {{#include ../../book.toml}}
 ```
 
