@@ -4,7 +4,7 @@ I maintain a second knowledge repository for work-specific things, these are the
 
 ## Machine Setup
 
-[mdBook](https://github.com/rust-lang-nursery/mdBook) is requires rust to use, so we first install rust. This is done via [rustup](https://rustup.rs).
+[mdBook](https://github.com/rust-lang-nursery/mdBook) requires rust to use, so we first install rust. This is done via [rustup](https://rustup.rs).
 
 - `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
