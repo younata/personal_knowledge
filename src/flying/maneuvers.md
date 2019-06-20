@@ -38,5 +38,21 @@ At this point, you’re going to do a three things in quick succession. All of w
 4. Once the flying speed is back up, level out and climb back to starting altitude. Keep in mind that you don’t want to have dropped too much, because this could have actually been a landing, and dropping into the terrain sounds like not a good time.
 5. In the climb, go back to a flying configuration - gear up, raise flaps, trim as needed.
 
+## Ground Reference Maneuvers
+
+Ground Reference Maneuvers are necessary for all sorts of flying.
+
+For these, you should enter at maneuvering speed, and never go above a 45° bank angle. Ground Reference Maneuvers should be established from the downwind position, and you should always check/clear the area with two 90° clearing turns prior to performing a GRM.
+
+For the most part, these are all the same thing - keep multiple reference points in sight, make small corrections for the wind, etc.
+
+Some things to keep in mind:
+
+- Bank into the wind.
+  That is, when in a crosswind that is blowing away from the point, you want a higher bank angle (because you need to compensate for the wind blowing you away from the point). Similarly, when the crosswind is blowing into the point you're orbiting, bank less now that the wind is helping you in your turn.
+- Similar idea as above, have a slightly higher bank angle in the downwind - the wind is blowing you tangent to the turn, so you're going to be in this portion of the turn less than in the upwind part of the turn.
+  You will have the steepest bank angle when you have a direct tailwind.
+- In a low wing aircraft, the wing might conceal the object you're supposed to be orbiting. This is fine, you should have other points you're referencing anyway.
+
 
 [^lift not zero]: In a stall, the wing is still generating lift - this is why the plane doesn’t fall at 9.8 m/s^2 when in a stall - it’s just not enough to keep the plane from falling period.
