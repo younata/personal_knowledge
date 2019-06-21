@@ -1,0 +1,8 @@
+|Color/Type               |On Ground                           |In Flight                                        |
+|-------------------------|------------------------------------|-------------------------------------------------|
+|Green, Steady            |Cleared for takeoff                 |Cleared to land                                  |
+|Green, Flashing          |Cleared to taxi                     |Return for landing                               |
+|Red, Steady              |Stop                                |Give way to other aircraft and continue circling |
+|Red, Flashing            |Taxi clear of runway in use         |Airport unsafe - do not land                     |
+|White, Flashing          |Return to starting point on airport |N/A                                              |
+|Red & Green, alternating |Exercise Extreme Caution            |Exercise Extreme Caution                         |
