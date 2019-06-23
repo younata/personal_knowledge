@@ -17,13 +17,17 @@ Sorted by Author
 - [The Martian](https://www.goodreads.com/book/show/18007564-the-martian) is a hard sci-fi book about someone left behind on one of the first missions to Mars, and his struggles to get back home.
 - [Artemis](https://www.goodreads.com/book/show/34928122-artemis) is a heist novel set in the first city on the moon. Like The Martian, it's also hard sci-fi.
 
+### Fletcher DeLancey
+
+My partner turned me on to her. Her [Chronicles of Alsea series](https://www.goodreads.com/book/show/39333098-the-caphenon) is pretty great, though at times it reads like the fan fiction it grew out of. They're still highly worth reading.
+
 ### Scott Meyer
 
 I really enjoy his [Magic 2.0](https://www.goodreads.com/book/show/18616975-off-to-be-the-wizard) series, though it does have a significant drop-off in quality. The [first](https://www.goodreads.com/book/show/18616975-off-to-be-the-wizard) [two](https://www.goodreads.com/book/show/21483760-spell-or-high-water) books are amazing, the [third](https://www.goodreads.com/book/show/23249416-an-unwelcome-quest) is pretty good, but not as good as the previous two. But the [reviews for the fourth one](https://www.goodreads.com/book/show/36566205-fight-and-flight) have kept me from continuing.
 
-### Fletcher DeLancey
+### Tamora Pierce
 
-My partner turned me on to her. Her [Chronicles of Alsea series](https://www.goodreads.com/book/show/39333098-the-caphenon) is pretty great, though at times it reads like the fan fiction it grew out of. They're still highly worth reading.
+When I was 11 or 12, her Circle of Magic books caught my eye at a Barnse and Noble. My parents bought the entire quartet for me. Somewhat recently, I began to re-read these, and remembered everything I enjoyed about them, plus additional things that my older perspective was able to pick up on. This time around, I also read her Circle Opens quartet, which is also good. Highly recommend these feminist books for any fans of fantasy.
 
 ## Other Readings
 
