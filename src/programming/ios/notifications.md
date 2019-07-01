@@ -6,7 +6,7 @@ This is going to describe the newer [UserNotifications framework](https://develo
 
 ## Content
 
-[`UNNotificationContent`](https://developer.apple.com/documentation/usernotifications/unnotificationcontent) provides read-only access to information shown to the user about a specific notification. For setting information (e.g. when preparing to send a [local notification](#local-notifications)), you'd use the [`UNMutableNotificationContent`](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent) class.
+[`UNNotificationContent`](https://developer.apple.com/documentation/usernotifications/unnotificationcontent) provides read-only access to information shown to the user about a specific notification. For setting information (e.g. when preparing to send a local notification), you'd use the [`UNMutableNotificationContent`](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent) class.
 
 ## Actions
 
@@ -14,7 +14,7 @@ Either kind of notification can be an [actionable notification](https://develope
 
 ## Triggers
 
-As of iOS 12, there are four kinds of notification: [Calendar](https://developer.apple.com/documentation/usernotifications/uncalendarnotificationtrigger), [Time](https://developer.apple.com/documentation/usernotifications/untimeintervalnotificationtrigger), [Location](https://developer.apple.com/documentation/usernotifications/unlocationnotificationtrigger), and [Push](https://developer.apple.com/documentation/usernotifications/unpushnotificationtrigger). The first 3 are used with [local notifications](#local-notifications), while the last is only used for push notifications.
+As of iOS 12, there are four kinds of notification: [Calendar](https://developer.apple.com/documentation/usernotifications/uncalendarnotificationtrigger), [Time](https://developer.apple.com/documentation/usernotifications/untimeintervalnotificationtrigger), [Location](https://developer.apple.com/documentation/usernotifications/unlocationnotificationtrigger), and [Push](https://developer.apple.com/documentation/usernotifications/unpushnotificationtrigger). The first 3 are used with local notifications, while the last is only used for push notifications.
 
 - Calendar triggers for a specific date: "Today at 7 pm", or "every day at 8 am".
 - Time triggers in a set time from now: In 30 seconds, or every 30 seconds.
