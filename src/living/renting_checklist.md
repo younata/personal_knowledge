@@ -41,6 +41,11 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 - These should all be grounded.
 - Capacity. Can we run everything all at once?
 
+## Previous/Current Tenants
+
+- How long were they there?
+- Why are they leaving?
+
 ## Overall
 
 - "General care and upkeep: are old nails, window hardware painted over a million times? Did previous painters mask the light fixtures, or just paint over them? Indicates they use bargain handyfolk"
@@ -48,7 +53,6 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 - Flooring
 - Verify all locks work.
 - Noise from neighbors: Above, Below, next door.
-- Why are the current tenants leaving?
 - What's the overall area like? Most people renting/owning? Lots of students?
 - Check a crime heat map.
 - Did you notice any bugs?
