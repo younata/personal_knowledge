@@ -41,10 +41,17 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 - These should all be grounded.
 - Capacity. Can we run everything all at once?
 
+## Maintenance
+- What's their general policy on this?
+- Who's responsible?
+- Do they have recommendations on who to call?
+
 ## Previous/Current Tenants
 
 - How long were they there?
 - Why are they leaving?
+- What has the interest been since it's been listed?
+- What have prospective tenants found concern with?
 
 ## Overall
 
@@ -58,3 +65,4 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 - Did you notice any bugs?
 - History of rent increases.
 - Where to store bikes.
+- Does landlord visit often? What are there expectations/policies when visiting?
