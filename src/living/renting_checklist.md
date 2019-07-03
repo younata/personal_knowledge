@@ -53,6 +53,15 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 - What has the interest been since it's been listed?
 - What have prospective tenants found concern with?
 
+## Neighborhood and Surrounding Area
+
+- Check a crime heat map.
+- How far is the nearest grocery store? Is it good? How far is the nearest decent grocery store?
+- What is there to do near the place?
+- Where are the nearest coffee shops?
+- How's the commute like to your jobs and other common places to go?
+- How are the other people in the area? Mostly people renting or owning? Students? etc.
+
 ## Overall
 
 - "General care and upkeep: are old nails, window hardware painted over a million times? Did previous painters mask the light fixtures, or just paint over them? Indicates they use bargain handyfolk"
@@ -60,8 +69,6 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 - Flooring
 - Verify all locks work.
 - Noise from neighbors: Above, Below, next door.
-- What's the overall area like? Most people renting/owning? Lots of students?
-- Check a crime heat map.
 - Did you notice any bugs?
 - History of rent increases.
 - Where to store bikes.
