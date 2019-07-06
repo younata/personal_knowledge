@@ -199,40 +199,50 @@ ffmpeg
 screencasts
 2x
 3x
- - book/api/markdown/astronomy/astrophotography/index.md
+astrodslr
+f.lux
+postprocessing
+5x
+25x
+Emrax
+sunelec
+3rds
+BitBar
+serde
+ - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
 f.lux
 PostProcessing
 5x
 25x
- - book/api/markdown/economics/personal_finance.md
+ - src/economics/personal_finance.md
 ledger-autosync
- - book/api/markdown/flying/atc.md
+ - src/flying/atc.md
 comms
- - book/api/markdown/flying/checklists/emergency.md
+ - src/flying/checklists/emergency.md
 irspeed
 hecklist
 eclare
 ngine
- - book/api/markdown/flying/electric_plane/battery_system.md
+ - src/flying/electric_plane/battery_system.md
 OrionBMS
 108s
 108s74p
- - book/api/markdown/flying/electric_plane/index.md
+ - src/flying/electric_plane/index.md
 BMSs
 Emrax
 sunelec
 3rds
 Helno’s
 Farfle’s
- - book/api/markdown/flying/noise_abatement.md
+ - src/flying/noise_abatement.md
 khhr
 Vy
 Vx
 ksmo
 I-405
- - book/api/markdown/flying/regulations.md
+ - src/flying/regulations.md
 achometer
 il
 agnetic
@@ -246,31 +256,41 @@ anifold
 afety
 osition
 ource
- - book/api/markdown/hardware/phoebe.md
+ - src/hardware/phoebe.md
 ARRMA-RC
 arrma-rc
- - book/api/markdown/macos/index.md
+ - src/macos/index.md
 BitBar
 launchd.info
 launchd
 launchagents
- - book/api/markdown/math/matrices.md
+ - src/math/matrices.md
 bmatrix
- - book/api/markdown/meta/duplicating.md
+ - src/meta/duplicating.md
 SUMMARY.md
 book.toml
- - book/api/markdown/meta/setup.md
+ - src/meta/setup.md
 html-proofer
 rsync
- - book/api/markdown/programming/ci/concourse.md
+ - src/programming/ci/concourse.md
 Worker.beacon.forward
 worker.sh
 conn.failed
- - book/api/markdown/programming/ios/animations.md
+ - src/programming/ios/animations.md
 fromValue
- - book/api/markdown/programming/rust/index.md
+ - src/programming/rust/index.md
 serde
- - book/api/markdown/programming/swift/vapor.md
+ - src/programming/swift/vapor.md
 Kitura
  - src/living/renting_checklist.md
 weekend-wakers
+ - src/astronomy/astrophotography/README.md
+Cafuego's
+ - src/flying/electric_plane/README.md
+BMSs
+Helno’s
+Farfle’s
+ - src/macos/README.md
+launchd.info
+launchd
+launchagents
