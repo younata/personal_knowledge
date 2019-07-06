@@ -40,7 +40,7 @@ I do this for my work repository, which I want to keep separate from my personal
 
 ## Spellcheck
 
-After noticing an embarrassing amount of spelling errors on this (one of the drawbacks to editing this mostly in vim), I spent time looking into how to spellcheck markdown files. I haven't yet added it to CI yet, but I'm inclined to put in the work to do so. (I'm worried about dictionary differences causing failures for things that are domain-specific spelling)
+After noticing an embarrassing amount of spelling errors on this (one of the drawbacks to editing this mostly in vim), I spent time looking into how to spellcheck markdown files.
 
 Regardless, I've used [markdown-spellchecker](https://www.npmjs.com/package/markdown-spellcheck) (which I discovered via [this article](https://pawel.krupa.net.pl/2018/07/automate-your-grammar-checks/)) to locally spellcheck this, using this command:
 
@@ -88,6 +88,25 @@ jobs:
         - get: knowledge_source
           trigger: true
         - get: tasks
+      - task: spellcheck
+        config:
+          platform: linux
+          image_resource:
+            type: docker-image
+            source:
+              repository: tmaier/markdown-spellcheck
+              tag: latest
+          run:
+            path: sh
+            args:
+            - -c
+            - |
+              #!/bin/bash
+              cd knowledge_source
+              mdspell --ignore-acronyms --ignore-numbers --en-us "**/*.md"
+            dir: ""
+          inputs:
+          - name: knowledge_source
       - task: generate_summary
         config:
           platform: linux
