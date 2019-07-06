@@ -1,6 +1,6 @@
 # Phoebe
 
-Phoebe is an [ARRMA-RC Raidel BLS rc car](https://www.arrma-rc.com/rc-cars/latest/raider/bls) that I've spent the past 4 years off and on making semi-autonomous.
+Phoebe is an [ARRMA-RC Raider BLS rc car](https://www.arrma-rc.com/rc-cars/latest/raider/bls) that I've spent the past 4 years off and on making semi-autonomous.
 
 ## Motors
 

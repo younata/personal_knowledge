@@ -20,7 +20,7 @@ Sometimes you want to manually cache responses. Because [`URLSession`](https://d
 
 Once you have the caching behavior set, you need to implement manual caching yourself. I'm going to describe using [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) because that's better (and what my nginx server did for me).
 
-The [ETag header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) is one way to determine whether or not a resource has changed from when it was last served. It's essentialy a hash of the resource information (as opposed to using something like [Last-Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified) for a time-based approach). You pair this with the [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match) request header to have the server calculate whether the data has changed (HTTP 200 response) or not (HTTP 304 response).
+The [ETag header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag) is one way to determine whether or not a resource has changed from when it was last served. It's essentially a hash of the resource information (as opposed to using something like [Last-Modified](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified) for a time-based approach). You pair this with the [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match) request header to have the server calculate whether the data has changed (HTTP 200 response) or not (HTTP 304 response).
 
 So, the algorithm for doing this is:
 

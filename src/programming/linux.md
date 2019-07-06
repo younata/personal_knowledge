@@ -1,6 +1,6 @@
 # Linux
 
-Linux Adminstration Notes and resources.
+Linux Administration Notes and resources.
 
 ## SystemD
 

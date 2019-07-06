@@ -70,7 +70,7 @@ for i in *.cr2; do sips -s format jpeg "$i" --out "${i%.*}.jpg"; done
 ```
 
 From Nebulosity, open batch -> align and combine images. Select "Translation + Rotation + Scale", click "OK", and select the images to stack.
-Now, select the same star in each photograph as it prompts you. You're going to go through the sets 3 times (so that it can correct for transation/rotation/scale).
+Now, select the same star in each photograph as it prompts you. You're going to go through the sets 3 times (so that it can correct for translation/rotation/scale).
 Now, do some manual editing, and save the end result.
 
 Post to instagram[^instagram] or whatever. Use it as your new desktop background.
@@ -83,4 +83,4 @@ Post to instagram[^instagram] or whatever. Use it as your new desktop background
 
 [^stacking returns]: It's essentially an inverse square relation - to get 5x better quality, you need to take 25x more images.
 
-[^instagram]: [flume](https://flumeapp.com) seems to be a decent OSX client for instagramp. The pro version is worth it.
+[^instagram]: [flume](https://flumeapp.com) seems to be a decent OSX client for instagram. The pro version is worth it.

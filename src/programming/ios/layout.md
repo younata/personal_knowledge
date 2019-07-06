@@ -3,17 +3,17 @@
 There are 2 system ways to do layout in iOS.
 
 1. Frame-based
-2. Autolayout
+2. AutoLayout
 
 Don't use frame based layouts unless you have to. Especially when it comes to supporting multiple size classes and such, that's way more effort than it's worth.
 
 In general, I prefer this for laying out code:
 
-1. Nibs w/ Autolayout
-2. Code w/ Autolayout
+1. Nibs w/ AutoLayout
+2. Code w/ AutoLayout
 3. Code w/ frames
 
-## Autolayout
+## AutoLayout
 
 From NSLayoutConstraint's api:
 

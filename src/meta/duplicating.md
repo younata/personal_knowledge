@@ -10,7 +10,7 @@ I maintain a second knowledge repository for work-specific things, these are the
 
 Next, we install mdbook itself: `cargo install mdbook`.
 
-Optionally, we can install my [mdbook-generate-summary](https://github.com/younata/mdbook-generate-summary) tool, which means we don't have to maintain the `SUMMARY.md` file that mbdook requires. If you don't want to install that, then you also need to add an entry to the SUMMARY.md file each time you create or move files around.
+Optionally, we can install my [mdbook-generate-summary](https://github.com/younata/mdbook-generate-summary) tool, which means we don't have to maintain the `SUMMARY.md` file that mdbook requires. If you don't want to install that, then you also need to add an entry to the SUMMARY.md file each time you create or move files around.
 
 - `cargo install mdbook-generate-summary`
 

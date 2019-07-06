@@ -166,7 +166,7 @@ default:
 }
 ```
 
-You can also overload the `~=` operator to provide a custom expression matching beavior.
+You can also overload the `~=` operator to provide a custom expression matching behavior.
 
 ```swift
 func ~= (pattern: String, value: Int) -> Bool {

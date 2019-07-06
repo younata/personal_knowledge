@@ -1,6 +1,6 @@
 # Left Turning Tendencies
 
-Single-engine airplanes in particular are succeptible to left-turning-tendencies, especially at low airspeeds. You're typically taught 4 of these:
+Single-engine airplanes in particular are susceptible to left-turning-tendencies, especially at low airspeeds. You're typically taught 4 of these:
 
 1. Torque (Newton's 3rd law from the engine)
 2. P-Factor (Gravity)

@@ -5,7 +5,7 @@
 - [] **C**hecklist
 - [] **D**eclare
   - [] Squawk 7700
-  - [] Maybay (121.5 or current freq)
+  - [] Mayday (121.5 or current freq)
 - [] **E**ngine - Shutdown
 - [] **F**laps - As required
 - [] **G**et Ready (for crash)

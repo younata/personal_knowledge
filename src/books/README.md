@@ -27,7 +27,7 @@ I really enjoy his [Magic 2.0](https://www.goodreads.com/book/show/18616975-off-
 
 ### Tamora Pierce
 
-When I was 11 or 12, her Circle of Magic books caught my eye at a Barnse and Noble. My parents bought the entire quartet for me. Somewhat recently, I began to re-read these, and remembered everything I enjoyed about them, plus additional things that my older perspective was able to pick up on. This time around, I also read her Circle Opens quartet, which is also good. Highly recommend these feminist books for any fans of fantasy.
+When I was 11 or 12, her Circle of Magic books caught my eye at a Barnes and Noble. My parents bought the entire quartet for me. Somewhat recently, I began to re-read these, and remembered everything I enjoyed about them, plus additional things that my older perspective was able to pick up on. This time around, I also read her Circle Opens quartet, which is also good. Highly recommend these feminist books for any fans of fantasy.
 
 ## Other Readings
 

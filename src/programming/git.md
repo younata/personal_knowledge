@@ -1,6 +1,6 @@
 # Git
 
-Decentalized version control system.
+Decentralized version control system.
 
 ## Searching for when a given string was introduced
 

@@ -10,7 +10,7 @@ Available [here](https://static1.squarespace.com/static/52ec83cee4b032691e28b3ce
 
 - Takeoff at Vy (best rate of climb). (Normal takeoff is Vx)
 - Upwind to at least the end of the runway.
-- Turn crosswind at 500 ft above field elevation OR by hawthorne mall, whichever comes first. (Normal crosswind turn is at 800 ft above field)
+- Turn crosswind at 500 ft above field elevation OR by Hawthorne mall, whichever comes first. (Normal crosswind turn is at 800 ft above field)
 - Fly downwind over El Segundo BLVD. This means that your downwind will be much closer to the field than it otherwise would be.
 
 Note that this is voluntary - but you should still follow it because aviation is already hated by the general public.

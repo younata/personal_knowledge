@@ -20,7 +20,7 @@ Fairly simple
 - Fill a medium-sized pot or saucepan with water, remembering to salt it enough to taste like seawater.
 - Get it to a boil, then add the pasta.
 - Boil the pasta for however long the packaging says.
-    - While this is going, prepair the rest of the ingredients.
+    - While this is going, prepare the rest of the ingredients.
         - get the right amount of butter.
         - shred or grate the cheese.
         - get the milk out.
