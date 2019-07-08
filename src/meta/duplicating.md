@@ -1,5 +1,7 @@
 # Creating your own mdBook-based Knowledge Repository
 
+The short version of [this page](setup.md).
+
 I maintain a second knowledge repository for work-specific things, these are the instructions I used for setting that one up.
 
 ## Machine Setup

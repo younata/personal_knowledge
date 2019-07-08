@@ -2,6 +2,8 @@
 
 This is setup using [mdBook](https://github.com/rust-lang-nursery/mdBook). It's hosted as a [repository on github](https://github.com/younata/personal_knowledge). I set up a pipeline in [concourse](https://concourse-ci.org) to build, check that things work, and then push new versions once things are set up.
 
+[TL;DR, check out these instructions](duplicating.md)
+
 ## Repository Layout
 
 This is a simple mdbook, the actual content files is under `src/`. `SUMMARY.md` is missing, because I have [tooling to automatically generate one automatically](https://github.com/younata/mdbook-generate-summary).
