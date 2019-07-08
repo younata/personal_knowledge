@@ -48,6 +48,13 @@ Regardless, I've used [markdown-spellchecker](https://www.npmjs.com/package/mark
 mdspell --ignore-acronyms --ignore-numbers --en-us "**/*.md"
 ```
 
+## Future Work
+
+- Automatically add a "last updated" line immediately below the title for a page, to make it obvious when I'm looking at outdated information. Could get the last updated information from git ([`git --no-pager log -n 1 --pretty=format:%ci path/to/file`](https://stackoverflow.com/a/14244466)).
+  - It would be extra cool to this for each subsection on a page.
+- On a per-section basis, add other lines to show up for all pages in that section (e.g. I want everything in my [flying](/flying/) section to have the "This is for my own use and is not flight instruction" disclaimer).
+- Figure out a way to actually support checkboxes and such, as how github does. This might require a change to upstream mdbook.
+
 [^pipeline]: The pipeline definition looks like this:
 
 ```yaml
