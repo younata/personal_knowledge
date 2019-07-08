@@ -6,8 +6,17 @@ See [Cafuego's page](https://cafuego.net/2017/02/05/astrophotography-mac-os-x) o
 
 I use the following software:
 
-- AstroDSLR[^astrodslr ssl] for capturing from my DSLR.
+- <a href="http://www.cloudmakers.eu/astrodslr/" data-proofer-ignore>AstroDSLR</a> for capturing from my DSLR.
 - [Nebulosity](https://www.stark-labs.com/nebulosity.html) for stacking images.
+
+## Theory and Books
+
+The standard recommended reading is [The Deep-sky Imaging Primer](https://www.amazon.com/Deep-sky-Imaging-Primer-Second/dp/0999470906/ref=dp_ob_title_bk).
+
+- [A bunch of other useful links for beginners](https://www.cloudynights.com/topic/22488-useful-links-for-beginning-imagers/). Though, the whole [cloudy nights](https://www.cloudynights.com/forum/80-beginning-and-intermediate-imaging/) forum is super useful.
+- [Other useful threads for beginning imaging on cloudy nights](https://www.cloudynights.com/topic/97172-best-threads-in-beginning-imaging/)
+- <a href="http://www.astropix.com/html/i_astrop/toc_ap.html" data-proofer-ignore>Jerry Lodriguss's astrophotography techniques</a>
+
 
 ## Finding a site
 
@@ -20,7 +29,7 @@ You can get away at a bare minimum with just a camera and a tripod. My equipment
 
 - Camera
 - 50 mm lens, because wide field shots are fun.
-- Telescope
+- Telescope[^selecting a telescope]
     - Telescope camera mount
         - (barlow lens, T-ring, etc.)
     - [Bahtinov mask](https://en.wikipedia.org/wiki/Bahtinov_mask).
@@ -43,6 +52,8 @@ Be sure to set the computer to "night shift" mode[^f.lux] before it's dark, as r
 
 Go there, set up camp. Preferably be set up before dark.
 
+<a href="http://www.astropix.com/html/i_astrop/beginner_equipment.html" data-proofer-ignore>Jerry's list of beginner equipment for astrophotography</a>, which is a potential source for expansion.
+
 ## Actually Taking Photos
 
 Regardless of how you use it, be sure to write down what you're taking a photo of when you do it.
@@ -54,12 +65,19 @@ Also, for stacking[^stacking] reasons, the more photos you take, the better it i
 
 Use AstroDSLR from computer to control the camera.
 Keep the camera in bulb mode to allow the software to control exposure time.
+Otherwise follow <a href="http://www.astropix.com/html/i_astrop/settings.html" data-proofer-ignore>these instructions</a>.
 
 Make a different folder for each different set of photos you take.
 
 ### Without a computer
 
 Put the camera in manual mode, and have it set to average.
+
+### Star Trails
+
+Sometimes you're going for that really cool effect, othertimes you're not.
+
+<a href="http://www.astropix.com/index.html" data-proofer-ignore>Here's an article</a> from Jerry Lodriguss on how to deal with star trails.
 
 ## PostProcessing
 
@@ -75,9 +93,9 @@ Now, do some manual editing, and save the end result.
 
 Post to instagram[^instagram] or whatever. Use it as your new desktop background.
 
-[^astrodslr ssl]: They don't have an up to date ssl cert. Site is at www.cloudmakers.eu/astrodslr/
-
 [^f.lux]: or use [f.lux](https://justgetflux.com) to remove as much blue from your screen as possible.
+
+[^selecting a telescope]: <a href="http://www.astropix.com/html/i_astrop/scopes.html" data-proofer-ignore>Much better advice on how to select one</a>. Though, usually, the best one is the one you already own.
 
 [^stacking]: [How Image Stacking works](https://keithwiley.com/astroPhotography/imageStacking.shtml).
 
