@@ -93,9 +93,9 @@ Now, do some manual editing, and save the end result.
 
 Post to instagram[^instagram] or whatever. Use it as your new desktop background.
 
-[^f.lux]: or use [f.lux](https://justgetflux.com) to remove as much blue from your screen as possible.
-
 [^selecting a telescope]: <a href="http://www.astropix.com/html/i_astrop/scopes.html" data-proofer-ignore>Much better advice on how to select one</a>. Though, usually, the best one is the one you already own.
+
+[^f.lux]: or use [f.lux](https://justgetflux.com) to remove as much blue from your screen as possible.
 
 [^stacking]: [How Image Stacking works](https://keithwiley.com/astroPhotography/imageStacking.shtml).
 
