@@ -20,4 +20,6 @@ The main issue with designing my own system is managing charging and how that wo
 
 There exists a working group to design aircraft chargers - they want to come up with a single charger standard. Last I checked, they don’t have anything public released.
 
-Instead, I’m thinking of either placing an onboard J1772 charger, or potentially even a tesla-compatible charger. While it would be awesome to have compatibility with the supercharger network, there are precisely 0 superchargers on airport ramps - making this useless to me (Am I going to land on a highway and then taxi to a supercharger? I’d be floored if there’s even 1 supercharger station where that could work).
+Instead, I’m thinking of either placing an onboard J1772 charger, or potentially even a tesla-compatible charger. While it would be awesome to have compatibility with the supercharger network, there are precisely 0 superchargers on airport ramps - making this useless to me [^lol superchargers]
+
+[^lol superchargers]: Am I going to land on a highway and then taxi to a supercharger? I’d be floored if there’s even 1 supercharger station where that could work.

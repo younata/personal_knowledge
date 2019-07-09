@@ -2,9 +2,15 @@
 
 Lessons learned and consolidation for the electric plane I'm designing.
 
+This might not materialize as a thing I do, mostly due to lack of space to build the thing in.
+
 ## Base Plane
 
-I’m thinking of basing this off either a Sling 2 or a Sling 4. My plan for this doesn’t need not require 4 seats, so the only reason to go with the 4 is for the larger carrying capacity for only slightly more power required.
+Most of my calculations have used a [Sling 2](https://www.airplanefactory.com/aircraft/sling-2-kit/) as the "base" plane - using their published figures for MGTOW, and applying the 50% rule, I can comfortably fit 100 kilowatt-hours of battery and still have weight for a passengar + light amount of cargo.
+
+I'm still deciding between the tailwheel variant or not, because removing the drag from the nosegear is really tempting.
+
+I've also run the numbers for other, more readily available, experimental aicraft, but the Sling still works out to be my best bet.
 
 ## Battery System
 
@@ -56,7 +62,7 @@ Still researching this. Ideally, these’ll be air-cooled controllers that are r
 
 While I'm not going to slap solar cells on the plane, I do want to build a folding solar array that can be stored in the plane.
 
-sunelec[^sunelec] is a place where you can buy PALLETS of solar panels for fairly cheap.
+<a href="https://sunelec.com" data-proofer-ignore>sunelec</a> is a place where you can buy PALLETS of solar panels for fairly cheap.
 
 ## Things that won’t be on the MVP
 
@@ -78,7 +84,7 @@ There’s other things I can do to increase the amount of solar, e.g. covering m
 
 Additionally, just adding solar cells on top of the wings will affect the aerodynamics, potentially in a way I don’t want it to.
 
-Instead, I’ll build a folding array that I can set up next to the plane and use to charge it. This’ll have an inconvenience and weight penalty compared to directly mounting the cells, but I’ll have much more surface area available, and it won’t interfere with the aerodynamics of the plane.
+Instead, I’m considering building a folding array that I can set up next to the plane and use to charge it. This’ll have a convenience and weight penalty compared to directly mounting the cells, but I’ll have much more surface area available, and it won’t interfere with the aerodynamics of the plane.
 
 ## Other Electric Plane Builds
 
@@ -86,5 +92,3 @@ Instead, I’ll build a folding array that I can set up next to the plane and us
 - [Farfle’s Electric Ultralight](https://endless-sphere.com/forums/viewtopic.php?f=38&p=1298367)
 
 [^battery heating]: This plane is going to be based in LA. The batteries won’t overheat from use (air-cooled), though they do need some cooling to protect them while the plane sits outside in summer. Heating won’t be required (see: the model 3 lacks a battery heater), but even if it does, then I can utilize the same environmental cooling system to heat as well as cool.
-
-[^sunelec]: This link breaks so often... https://sunelec.com/
