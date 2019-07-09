@@ -6,11 +6,11 @@ This might not materialize as a thing I do, mostly due to lack of space to build
 
 ## Base Plane
 
-Most of my calculations have used a [Sling 2](https://www.airplanefactory.com/aircraft/sling-2-kit/) as the "base" plane - using their published figures for MGTOW, and applying the 50% rule, I can comfortably fit 100 kilowatt-hours of battery and still have weight for a passengar + light amount of cargo.
+Most of my calculations have used a [Sling 2](https://www.airplanefactory.com/aircraft/sling-2-kit/) as the "base" plane - using their published figures for MGTOW, and applying the 50% rule, I can comfortably fit 100 kilowatt-hours of battery and still have weight for a passenger + light amount of cargo.
 
 I'm still deciding between the tailwheel variant or not, because removing the drag from the nosegear is really tempting.
 
-I've also run the numbers for other, more readily available, experimental aicraft, but the Sling still works out to be my best bet.
+I've also run the numbers for other, more readily available, experimental aircraft, but the Sling still works out to be my best bet.
 
 ## Battery System
 
