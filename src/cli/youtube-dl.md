@@ -1,6 +1,6 @@
 # youtube-dl
 
-[youtube-dl](http://ytdl-org.github.io/youtube-dl/) is a python program for downloading videos from youtube and other sites.
+[youtube-dl](https://ytdl-org.github.io/youtube-dl/) is a python program for downloading videos from youtube and other sites.
 
 ## Video Formats 
 
