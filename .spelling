@@ -219,6 +219,8 @@ nosegear
 Lile's
 Astro-Tech
 svg
+youtube
+ascii
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -310,3 +312,6 @@ rspec-based
 122mm
 102mm
 714mm
+ - src/cli/youtube-dl.md
+youtube-dl
+1280x720
