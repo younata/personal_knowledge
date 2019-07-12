@@ -217,6 +217,8 @@ lol
 tailwheel
 nosegear
 Lile's
+Astro-Tech
+svg
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -304,3 +306,7 @@ launchd
 launchagents
  - src/programming/testing.md
 rspec-based
+ - src/astronomy/at102ed/README.md
+122mm
+102mm
+714mm
