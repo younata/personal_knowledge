@@ -7,3 +7,5 @@ It's a nice, relatively cheap [refracting telescope](https://www.astronomics.com
 The outer diameter of the leading element is 122mm.
 
 I have a bahtinov mask available [here](bahtinov.stl), it was generated from [this svg](bahtinov.svg), which itself was generated from <a href="http://astrojargon.net/MaskGen.aspx" data-proofer-ignore>this page</a>. The relevant specs for that is it's 102mm diameter lens, and it's 714mm focal length.
+
+This is also available on [thingiverse](https://www.thingiverse.com/thing:3744195)
