@@ -8,6 +8,6 @@ In the header file, you tag the method declaration with this macro, and in a swi
 
 ## `NS_SWIFT_NAME`
 
-[`NS_SWIFT_NAME`](https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/renaming_objective-c_apis_for_swift) is a macro that lets you specify the swift name for an objcetive-c method.
+[`NS_SWIFT_NAME`](https://developer.apple.com/documentation/swift/objective-c_and_c_code_customization/renaming_objective-c_apis_for_swift) is a macro that lets you specify the swift name for an objective-c method.
 
 In the header file, you tag the method declaration with this macro, giving it the swift method name as it's argument, e.g.: `-setFoo:(Foo *)foo NS_SWIFT_NAME(set(foo:));`
