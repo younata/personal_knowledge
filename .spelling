@@ -232,6 +232,8 @@ tieing
 datasheet
 isoSPI
 ethernet
+runup
+ok
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
