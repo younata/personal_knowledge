@@ -49,6 +49,24 @@ Setting up a single-user jupyter notebook server.
          proxy_pass http://$HOST_IP:$HOST_PORT;
          proxy_redirect http:// https://;
      }
+     location ~ /api/kernels/ {
+         proxy_pass http://$HOST_IP:$HOST_PORT;
+         proxy_set_header      Host $host;
+         # websocket support
+         proxy_http_version    1.1;
+         proxy_set_header      Upgrade "websocket";
+         proxy_set_header      Connection "Upgrade";
+         proxy_read_timeout    86400;
+     }
+     location ~ /terminals/ {
+         proxy_pass http://$HOST_IP:$HOST_PORT;
+         proxy_set_header      Host $host;
+         # websocket support
+         proxy_http_version    1.1;
+         proxy_set_header      Upgrade "websocket";
+         proxy_set_header      Connection "Upgrade";
+         proxy_read_timeout    86400;
+     }
    }
    ```
 7. Setup letsencrypt:
