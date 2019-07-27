@@ -234,6 +234,11 @@ isoSPI
 ethernet
 runup
 ok
+Jupyter
+jupyter
+virtualenv
+certbot
+plist
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
