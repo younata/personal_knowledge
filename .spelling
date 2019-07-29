@@ -239,6 +239,10 @@ jupyter
 virtualenv
 certbot
 plist
+e6b
+isa
+keyfob
+frunk
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
