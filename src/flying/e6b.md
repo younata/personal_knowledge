@@ -34,6 +34,16 @@ Which is about what the e6b tells us it us.
 
 ## True Airspeed
 
+True airspeed is effectively calibrated airspeed corrected for the density altitude.
+
+So, in this case let's re-use the earlier density altitude of ~7100 feet.
+
+Calibrated airspeed then corresponds to the inner ring, and true airspeed the outer ring. That is, if your calibrated airspeed is 150 kts, then the true airspeed is ~167 kts.
+
+![sample true airspeed calculation](https://cdn.buttify.io/e6b/true_airspeed.JPG)
+
+Remember to correct for decimal placement.
+
 ## Ground Speed
 
 For a given true airspeed and heading, you can easily calculate your ground speed.
@@ -54,4 +64,47 @@ When done, wipe the pencil lead off.
 
 ## Time to travel distance
 
+Now that we have a ground speed for this leg, we can calculate the time it takes to travel a given distance.
+
+For this example, let's say we have a ground speed of 100 kts, and the leg is going to be 13 nm.
+
+Before we use the e6b, let's do some quick mental math to estimate an acceptable range: `13 nm / 100 kts` is just over `1/10 hour`. Converting to minutes, it's just over 6 minutes, but only just - this leg should take between 7 and 9 minutes.
+
+First thing we do to calculate this on an e6b is to align the "60 RATE" box on the inner circle with the approximate speed you're going. In this case, it should be aligned with the "10" at the top.
+
+![sample estimated time elapsed speed alignment](https://cdn.buttify.io/e6b/ete_ground_speed_alignment.JPG)
+
+Next, we count the distance from the "10" marker - 13 ticks from the marker, and compare that with the corresponding value on the "time" scale. This gives us our estimated time. In this case, it's just under 8 minutes. As expected.
+
+![sample estimated time elapsed calculation](https://cdn.buttify.io/e6b/ete_time_calculation.JPG)
+
+Of course, since we have the time (and a calculator handy) to do this, the actual estimated time is:
+
+```txt
+distance = speed * time
+time = distance / speed
+time = 13 nm / 100 kts
+time = 0.13 hrs
+time = 7.8 minutes
+```
+
+As expected.
+
+
 ## Fuel usage
+
+Now that we have time to travel a given distance, we can use the known rate of fuel consumption to calculate fuel usage.
+
+For this, let's assume fuel usage rate of 6.8 gph at cruise - a somewhat efficient Cessna. I'll also use a time from the previous calculation.
+
+We'll mentally move the decimal point to the right one, to place the "rate" indicator at 68 on the calculator.
+
+![fuel usage setting](https://cdn.buttify.io/e6b/fuel_usage_setting.JPG)
+
+Now, on that same minutes time scale we used earlier, we count 8 minutes - or the amount of time we plan to travel that leg.
+
+The gph usage then corresponds to the other side of that 8 minute marker - in this case, 9 ticks above the 68 tick. Keep in mind to move the decimal point back to the left, so that we use 0.9 gallons as our expect fuel usage.
+
+![fuel usage calculation](https://cdn.buttify.io/e6b/fuel_usage_calculation.JPG)
+
+Note that we could go the other way - if we had 10 gallons available, then we could move 100 ticks clockwise to get the number of minutes we can travel at that rate. (In this case, just under 2.5 hours). You can also compare to the inner "time scale" to get the value in hours instead of minutes.
