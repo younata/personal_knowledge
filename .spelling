@@ -247,6 +247,8 @@ kts
 nm
 gph
 headspace
+jq
+sed
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
