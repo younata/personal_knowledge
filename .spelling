@@ -249,6 +249,7 @@ gph
 headspace
 jq
 sed
+webapps
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -353,3 +354,5 @@ ly
 GGyG
  - src/flying/electric_plane/bms.md
 LTC6811-1
+ - src/programming/ruby/README.md
+rspec
