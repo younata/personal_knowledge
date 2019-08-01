@@ -6,5 +6,5 @@ Really nice, convenient, and powerful programming language.
 
 Lightweight DSL for creating simple webapps.
 
-- [Setting up with rspec](http://shiroyasha.io/sinatra-app-with-rspec.html).
+- <a href="http://shiroyasha.io/sinatra-app-with-rspec.html" data-proofer-ignore>Setting up with rspec</a>.
 
