@@ -250,6 +250,7 @@ headspace
 jq
 sed
 webapps
+erb
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
