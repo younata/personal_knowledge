@@ -357,3 +357,8 @@ GGyG
 LTC6811-1
  - src/programming/ruby/README.md
 rspec
+ - src/3d_printing.md
+Prusa
+i3
+mk3
+PrusaSlicer
