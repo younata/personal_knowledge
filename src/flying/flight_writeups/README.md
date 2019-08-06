@@ -1,3 +1,3 @@
 # Flight Writeups
 
-Writeups for flight I'm particularly proud of. Usually with ATC logs.
+Writeups for flights I thought were significant. Sometimes with ATC logs and other tracks.
