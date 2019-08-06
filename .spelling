@@ -252,6 +252,12 @@ sed
 webapps
 erb
 cheatsheet
+chts
+Mugu
+airspaces
+tacs
+1-800-wx-brief
+cruise_altitude
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -363,3 +369,5 @@ Prusa
 i3
 mk3
 PrusaSlicer
+ - src/flying/flight_writeups/2019-08-01.md
+TAIL_NUMBER
