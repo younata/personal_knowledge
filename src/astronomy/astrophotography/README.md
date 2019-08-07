@@ -4,6 +4,8 @@ Taking pictures of the sky!
 
 See [Cafuego's page](https://cafuego.net/2017/02/05/astrophotography-mac-os-x) on software for osx.
 
+See also the [Mac Observatory site](https://www.macobservatory.com).
+
 I use the following software:
 
 - <a href="http://www.cloudmakers.eu/astrodslr/" data-proofer-ignore>AstroDSLR</a> for capturing from my DSLR.
