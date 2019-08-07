@@ -26,7 +26,7 @@ end
 
 ## rspec
 
-[rspec]() is the original BDD testing framework.
+[rspec](https://rspec.info) is the original BDD testing framework.
 
 - [rspec mocks, `allow`, `to_receive`](https://relishapp.com/rspec/rspec-mocks/v/2-14/docs/method-stubs)
 - [Verifying doubles, instance doubles](https://relishapp.com/rspec/rspec-mocks/docs/verifying-doubles/using-an-instance-double)
