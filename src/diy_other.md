@@ -9,3 +9,9 @@ DIY Projects other people have done that inspire me.
 ## DIY Ebook Reader
 
 [This person published a DIY ebook reader](https://orbides.org/book.php).
+
+## Automatic Fume Extractor
+
+Been wanting to build my own, at it's simplest, it's a fan connected to an activated charcoal filter.
+
+[Automatic Fume Extractor](https://hackaday.io/project/166813-automatic-fume-extractor/details)
