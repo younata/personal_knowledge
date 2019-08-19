@@ -263,6 +263,8 @@ Korra
 applescript
 maxima
 wh
+SunFounder
+usb
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -313,6 +315,9 @@ ource
  - src/hardware/phoebe.md
 ARRMA-RC
 arrma-rc
+m3
+16mm
+3.5mm
  - src/macos/index.md
 BitBar
 launchd.info
