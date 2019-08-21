@@ -384,3 +384,6 @@ PrusaSlicer
 TAIL_NUMBER
  - src/books/fanfic.md
 Korrasami
+ - src/cli/shell.md
+woohoo
+stdout

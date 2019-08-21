@@ -30,3 +30,29 @@ if [ ! -d "some_directory" ]; then
     echo "'./some_directory' does not exist!"
 fi
 ```
+
+## Checking if a command exists
+
+You can check whether a command exists by checking if `command -v ${COMMAND_TO_CHECK} >/dev/null 2>/dev/null` returns 0 (it exists) or non-zero (does not exist)
+
+```bash
+if [ ! command -v my_special_script >/dev/null 2>&1 ]; then
+    echo "my_special_script not found"
+fi
+```
+
+## Traps
+
+You can use the `trap` command to run code when the shell script exits (or any signal occurs), like so:
+
+```bash
+function on_end {
+    echo "woohoo"
+}
+
+trap on_end exit
+```
+
+which will print "woohoo" to stdout when the script exits.
+
+See [this article](http://redsymbol.net/articles/bash-exit-traps/) for more details.
