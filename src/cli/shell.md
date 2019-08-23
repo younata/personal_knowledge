@@ -41,6 +41,12 @@ if [ ! command -v my_special_script >/dev/null 2>&1 ]; then
 fi
 ```
 
+## Checking if a string is a number
+
+You can use the `-eq` operator to verify if something is a number: `if ! [ "${some_number}" -eq "${some_number}"] 2>/dev/null; then "${some_number} is not a number"; fi`
+
+You can similarly use the `-ge` to determine if something is a positive number.
+
 ## Traps
 
 You can use the `trap` command to run code when the shell script exits (or any signal occurs), like so:
