@@ -387,3 +387,6 @@ Korrasami
  - src/cli/shell.md
 woohoo
 stdout
+ - src/cli/ag.md
+ack
+-G
