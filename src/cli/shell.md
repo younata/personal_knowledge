@@ -61,4 +61,3 @@ trap on_end exit
 
 which will print "woohoo" to stdout when the script exits.
 
-See [this article](http://redsymbol.net/articles/bash-exit-traps/) for more details.
