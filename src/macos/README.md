@@ -13,3 +13,16 @@ The only desktop OS worth using. (iOS being the only mobile OS worth using).
 ## LaunchD and LaunchAgents
 
 [launchd.info](https://www.launchd.info) is an excellent resource for using launchd and creating launchagents.
+
+## Remotely shutting down
+
+There's essentially two ways to do this from a terminal: `sudo shutdown -r now` will reboot the machine, now. Apps don't get the chance to stop this.
+
+Alternatively, you can use applescript, with commands like:
+
+- `osascript -e 'tell app "System Events" to shut down'` will shutdown the machine.
+- `osascript -e 'tell app "System Events" to restart'` will reboot the machine.
+
+All of these can be halted by other apps, though.
+
+See [this stackoverflow answer](https://apple.stackexchange.com/a/103633) for other examples.
