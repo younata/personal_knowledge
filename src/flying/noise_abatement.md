@@ -23,5 +23,12 @@ Available [here](https://www.smgov.net/uploadedFiles/Departments/Airport/Pilot_O
 - Don’t turn crosswind until after you fly over Lincoln.
 - Turn base at/around I-405/When ATC tells you.
 
+Also there are night procedure restrictions:
+
+- Monday through Friday, no engine starts or takeoffs between 11 pm and 7 am the following day.
+- Weekends, no engine starts or takeoffs between 11 pm and 8 am the following day.
+- That is, Friday evening, no engine starts/takeoffs from 11 pm until 8 am the next day.
+- Similarly, on Sunday evening, no engine starts/takeoffs from 11 pm until 7 am the next day.
+
 
 Unlike Hawthorne, there’s an actual ordinance behind the Santa Monica noise abatements. Meaning that violating them is something you really don’t want to do.

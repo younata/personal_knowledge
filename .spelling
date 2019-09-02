@@ -258,6 +258,15 @@ airspaces
 tacs
 1-800-wx-brief
 cruise_altitude
+fanfiction
+Korra
+applescript
+maxima
+wh
+SunFounder
+usb
+ellipsing
+keyfobs
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -308,6 +317,9 @@ ource
  - src/hardware/phoebe.md
 ARRMA-RC
 arrma-rc
+m3
+16mm
+3.5mm
  - src/macos/index.md
 BitBar
 launchd.info
@@ -371,3 +383,11 @@ mk3
 PrusaSlicer
  - src/flying/flight_writeups/2019-08-01.md
 TAIL_NUMBER
+ - src/books/fanfic.md
+Korrasami
+ - src/cli/shell.md
+woohoo
+stdout
+ - src/cli/ag.md
+ack
+-G

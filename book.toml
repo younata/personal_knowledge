@@ -10,5 +10,6 @@ preprocess = ["links", "index"]
 curly-quotes = true
 no-section-label = true
 mathjax-support = true
+additional-css = ["css/custom.css"]
 
 [output.api]

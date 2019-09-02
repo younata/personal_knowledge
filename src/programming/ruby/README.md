@@ -26,7 +26,17 @@ end
 
 ## rspec
 
-[rspec]() is the original BDD testing framework.
+[rspec](https://rspec.info) is the original BDD testing framework.
 
 - [rspec mocks, `allow`, `to_receive`](https://relishapp.com/rspec/rspec-mocks/v/2-14/docs/method-stubs)
 - [Verifying doubles, instance doubles](https://relishapp.com/rspec/rspec-mocks/docs/verifying-doubles/using-an-instance-double)
+
+### Asserting json
+
+Turns out, that if you do something like `expect(JSON.parse '{"foo": "bar"}').to eq({"foo": "bar"})`, you'll get a really confusing failure, something like `expected to equal {:foo => "bar}", got {"foo" => "bar"}`. Which is really confusing, until you remember that ruby automatically converts string keys to symbols in hashes. However, the json module doesn't do this unless you tell it to. So, the correct way to do this is to add [`symbolize_names: true`](https://stackoverflow.com/a/5559507) to your call, like so:
+
+```ruby
+expect(JSON.parse('{"foo": "bar"}', symbolize_names: true)).to eq({"foo": "bar"})
+```
+
+which passes as it should.
