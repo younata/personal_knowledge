@@ -71,6 +71,18 @@ Otherwise follow <a href="http://www.astropix.com/html/i_astrop/settings.html" d
 
 Make a different folder for each different set of photos you take.
 
+#### Drift measurement with AstroDSLR
+
+Copied from their website:
+
+> For polar alignment by the drift method or for the validation of the guiding you can use drift measurement helper panel.
+>
+> The scale of the graph is adjusted automatically. Blue curve represents drift in X and red curve in Y direction. Blue value in lower left corner is drift per image in X direction and red value in lower right corner is drift per image in Y direction.
+>
+> To use the panel for polar alignment, rotate camera (to align RA/Dec axes along X/Y directions), start preview in endless loop, select accordingly bright star and use drift method.
+>
+> Please note, that the graph is cleared every time you select the star in the preview image.
+
 ### Without a computer
 
 Put the camera in manual mode, and have it set to average.
