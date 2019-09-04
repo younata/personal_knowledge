@@ -43,7 +43,7 @@ There are 4 screw holes - 2 on each side. They are symmetrical.
 
 ### PWM Servo Driver
 
-Phoebe uses a [SunFounder PCA9685 PWM Servo Driver](https://www.sunfounder.com/pca9685-16-channel-12-bit-pwm-servo-driver.html) to interface a raspberry pi 3 to the servo and ESC.
+Phoebe uses a <a href="https://www.sunfounder.com/pca9685-16-channel-12-bit-pwm-servo-driver.html" data-proofer-ignore>SunFounder PCA9685 PWM Servo Driver</a> to interface a raspberry pi 3 to the servo and ESC.
 
 - It is 62 mm long, 26 mm wide.
 - The (m3) screws are 19 mm apart (centers inset by 3.5), and are 56 mm apart.
