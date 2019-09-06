@@ -392,3 +392,8 @@ stdout
  - src/cli/ag.md
 ack
 -G
+ - src/programming/swift/abi_stability.md
+non-ABI-breaking
+structs
+enums
+ABI-stable
