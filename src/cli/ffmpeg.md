@@ -8,3 +8,7 @@
 
 `ffmpeg -i input.mkv -vf "scale=iw/2:ih/2" half_the_frame_size.mkv` will reduce a 2x retina-sized video down to non-retina size.
 `ffmpeg -i input.mkv -vf "scale=iw/3:ih/3" a_third_the_frame_size.mkv` will reduce a 3x retina-sized video down to non-retina size.
+
+## Creating a video from images
+
+This is awesome. [From this stackoverflow question](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg), it's more-or-less a combination of the `-framerate $X` and `-r $Y` to get what you want. You can also use `-vf fps=$X` to specify the fps of the video.
