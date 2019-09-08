@@ -14,3 +14,11 @@ Anything that conforms to [`XCUIElementAttribute`](https://developer.apple.com/d
 
 - [Finding text on a Cell](https://shoptimizerapp.wordpress.com/2017/01/15/conveniently-finding-uitableviewcells-in-xcuitest/)  
   Honestly, I had more luck with `app.tables.cells.element(boundBy: 0).firstMatch.staticText[LABEL_ACCESSIBILITY_ID]`.
+
+## Dismissing a popover
+
+Popover are dismissed by tapping... basically anywhere outside the popover. There's a specific element to tap that'll do this:
+
+```swift
+XCUIApplication().otherElements["PopoverDismissRegion"].tap()
+```
