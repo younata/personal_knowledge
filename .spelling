@@ -272,6 +272,8 @@ autoguiding
 postprocessed
 AMUs
 get-there-itis
+html
+css
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
