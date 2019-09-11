@@ -1,3 +1,15 @@
 table {
     width: 100%;
 }
+
+table .red {
+    background-color: red;
+}
+
+table .yellow {
+    background-color: yellow;
+}
+
+table .green {
+    background-color: green;
+}
