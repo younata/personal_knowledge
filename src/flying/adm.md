@@ -113,7 +113,9 @@ The way to mitigate risk is one of either:
 - Delay the flight
 - Bring someone more experienced who can help you address the risk
 
-Roughly in order of likelihood. :)
+Roughly in order of likelihood.
+
+One suggested way to eliminate the "must go home" pressure is to always bring an overnight kit with you, so that if you do get stuck somewhere you're at least fine for the night.
 
 Remember, the general rule for choosing to fly GA to a place is:
 
