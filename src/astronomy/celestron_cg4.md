@@ -65,3 +65,9 @@ The idea here is to choose two bright stars - one near the eastern horizon and o
 For the southern star, choose one within half a degree of the meridian, and 5 degrees of the celestial equator. If the star drifts north, the polar axis is too far east. If it drifts south, the polar axis is too far west.
 
 Once that star no longer drifts, we move on the the eastern star. This should be 20 degrees above the horizon and within 5 degrees of the celestial equator. If it drifts south, the polar axis is too low. If it drifts north, the polar axis is too low. Adjust the latitude scale to fix this.
+
+## Modifications
+
+### Modifying Motor Controller for Autoguiding
+
+See [this guide](http://www.store.shoestringastronomy.com/eq_mod.pdf) from Shoestring Astronomy.
