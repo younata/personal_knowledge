@@ -70,4 +70,4 @@ Once that star no longer drifts, we move on the the eastern star. This should be
 
 ### Modifying Motor Controller for Autoguiding
 
-See [this guide](http://www.store.shoestringastronomy.com/eq_mod.pdf) from Shoestring Astronomy.
+See <a href="http://www.store.shoestringastronomy.com/eq_mod.pdf" data-proofer-ignore>this guide</a> from Shoestring Astronomy.

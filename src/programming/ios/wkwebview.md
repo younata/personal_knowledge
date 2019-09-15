@@ -40,7 +40,7 @@ In iOS 13, we got context menus. These replace the previous `WKPreviewItem`-base
 - [`-webView(:contextMenuForElement:willCommitWithAnimator:)`](https://developer.apple.com/documentation/webkit/wkuidelegate/3335222-webview)
 - [`-webView(:contextMenuWillPresentForElement:)`](https://developer.apple.com/documentation/webkit/wkuidelegate/3335223-webview)
 
-If you do nothing, when you long/force-press on a link, the view will present an `SFSafariViewController` configured to show that link, along with a few items. When that view controller is commited, the user is taken out of your app and into the Safari app.
+If you do nothing, when you long/force-press on a link, the view will present an `SFSafariViewController` configured to show that link, along with a few items. When that view controller is committed, the user is taken out of your app and into the Safari app.
 
 Otherwise, to intercept that behavior, you only need to implement [`-webView(:contextMenuConfigurationForElement:completionHandler:)`](https://developer.apple.com/documentation/webkit/wkuidelegate/3335220-webview) and [`-webView(:contextMenuForElement:willCommitWithAnimator:)`](https://developer.apple.com/documentation/webkit/wkuidelegate/3335222-webview).
 
