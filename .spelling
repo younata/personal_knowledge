@@ -274,6 +274,8 @@ AMUs
 get-there-itis
 html
 css
+init'ing
+indexpath
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -404,3 +406,5 @@ non-ABI-breaking
 structs
 enums
 ABI-stable
+ - src/programming/ios/collectionview.md
+UICollectionView
