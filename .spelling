@@ -276,6 +276,7 @@ html
 css
 init'ing
 indexpath
+wikipedia
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -408,3 +409,8 @@ enums
 ABI-stable
  - src/programming/ios/collectionview.md
 UICollectionView
+ - src/cli/pandoc.md
+Pandoc
+pandoc
+ - src/programming/solid.md
+Liskov
