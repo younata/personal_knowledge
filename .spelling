@@ -277,6 +277,15 @@ css
 init'ing
 indexpath
 wikipedia
+ARKit
+sherlock'd
+info.plist
+SceneKit
+uiviews
+UIScene
+UIApplicationDelegate
+UIWindowSceneDelgeate
+rss
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -414,3 +423,5 @@ Pandoc
 pandoc
  - src/programming/solid.md
 Liskov
+ - src/programming/ios/arkit.md
+Sherlocked_as_a_term
