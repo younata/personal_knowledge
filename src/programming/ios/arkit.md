@@ -2,7 +2,7 @@
 
 Introduced in iOS 11, and massively improved with basically each new major release (and a few minor releases) since then. Apple has been promoting ARKit heavily, much to the chagrin of developers, who haven't really found a use case for it apart from the [sherlock'd](https://en.wikipedia.org/wiki/Sherlock_(software)#Sherlocked_as_a_term)-in-iOS 12 "use ARKit as a ruler".
 
-As for actually using it, the easiest way is to place an [`ARView`](https://developer.apple.com/documentation/realitykit/arview) (requires iOS 13) in your view hierarchy, and tell it's associated [`session`](https://developer.apple.com/documentation/arkit/arsession) to run with an [`ARConfiguration`]().
+As for actually using it, the easiest way is to place an [`ARView`](https://developer.apple.com/documentation/realitykit/arview) (requires iOS 13) in your view hierarchy, and tell it's associated [`session`](https://developer.apple.com/documentation/arkit/arsession) to run with an [`ARConfiguration`](https://developer.apple.com/documentation/arkit/arconfiguration).
 
 Be sure to update your info.plist with an appropriate string for `NSCameraUsageDescription`, e.g.:
 
