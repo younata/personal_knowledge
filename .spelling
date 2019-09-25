@@ -286,6 +286,8 @@ UIScene
 UIApplicationDelegate
 UIWindowSceneDelgeate
 rss
+FlightChops
+s1
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -425,3 +427,5 @@ pandoc
 Liskov
  - src/programming/ios/arkit.md
 Sherlocked_as_a_term
+ - src/flying/maneuvers.md
+Gryder
