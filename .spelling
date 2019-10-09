@@ -429,3 +429,5 @@ Liskov
 Sherlocked_as_a_term
  - src/flying/maneuvers.md
 Gryder
+ - src/programming/ios/accessibility.md
+UIAccessibility
