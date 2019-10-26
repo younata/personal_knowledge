@@ -2,6 +2,12 @@
 
 `UITableView`-specific things.
 
+## DiffableDataSource
+
+New in iOS 13 is [`UITableViewDiffableDataSource`](https://developer.apple.com/documentation/uikit/uitableviewdiffabledatasource). A generic class which does the heavy lifting of determining updates for a tableview. This class allows you to make edits to the tableView in a much more type-safe way. ALl that it requires is that your sections and row models be `Hashable`.
+
+You initialize it by passing in a tableView and a way to create the tableView cells. Updates come in the form of "snapshots". The simplest way is to just give it a snapshot of the entirely new data and let the class figure out what the diff is. It's pretty cool.
+
 ## Section Titles
 
 Section titles are asserted by checking the [`headerView(forSection:)`](https://developer.apple.com/documentation/uikit/uitableview/1614965-headerview). You can then check the [`textLabel.text`](https://developer.apple.com/documentation/uikit/uitableviewheaderfooterview/1624912-textlabel) properties to get the displayed text. Note that this needs the section header to be within the view in order to be non-nil. Otherwise you need to scroll to show that.

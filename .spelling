@@ -431,3 +431,5 @@ Sherlocked_as_a_term
 Gryder
  - src/programming/ios/accessibility.md
 UIAccessibility
+ - src/programming/ios/tableview.md
+DiffableDataSource
