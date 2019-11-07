@@ -30,6 +30,7 @@ i.e. this is where I shit on my previous companies.
 - How reliable is your CI? What all do you have CI doing for you? (Verifying tests is usually a given)
 
 - What's the PR flow like for you all?
+  - How is the flow when a PR gets updated after being marked as approved?
 - How do you verify things work before deploying? What's the workflow like after a PR gets merged?
 
 ### Automation and Deployment

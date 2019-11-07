@@ -17,6 +17,8 @@ From [the specs](https://www.arrma-rc.com/power-systems/latest/bls), the motor i
 |Motor Speed    | 4000      | kv |
 |Poles          | 2         |    |
 
+The ESC supports 35A continuous, 50A peak, with either a 7S NiMh (8.4V), or 2S LiPo (7.4V).
+
 Any replacement motor, to fit on the car, needs to match the physical dimensions. To keep a similar performance (I don't care to replace the gearbox - I might as well buy a new platform if I do so), I also want it to have a similar speed as the stock motor.
 
 ## Control System Mounts
