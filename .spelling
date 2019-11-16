@@ -299,6 +299,12 @@ nimh
 8.4v
 lipo
 7.4v
+12s13p
+Berkut
+long-ez
+10-20k
+60k
+chemistries
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -383,6 +389,8 @@ Cafuego's
 BMSs
 Helno’s
 Farfle’s
+kWhr
+45kW
  - src/macos/README.md
 launchd.info
 launchd

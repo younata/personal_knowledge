@@ -2,11 +2,9 @@
 
 Really, the pack design is going to be led by the BMS. Charging is the main unsolved problem in this. Once I figure out a solution to that, everything else should fall into place.
 
-The current thought is 3 strings of 12s25p modules, with 9 modules in series each. For a total of 27 total modules, and 8100 total cells.
+The current thought is to use LG M50 21700 cells (same-size as the model 3 cells, different model cells, though). These present advantages in that they're lighter than 18650 cells, and have higher capacity per-cell (M50 has ~18.15 Wh/cell, MJ1 has ~12.72 Wh/cell)
 
-The parallel strings will introduce eddy currents, but I'd rather have the backup capacity available. I have thoughts of mitigating this by tieing each string together on the pack level, with a fuse or circuit breaker to disable individual modules.
-
-TODO: add circuit diagram.
+The current thought involves 27 12s13p modules, 9 modules in series, and 3 in parallel. The idea behind that (which might be terrible - I need to do further research to verify this) is that it'll mitigate eddy currents as much as possible.
 
 ## BMS
 

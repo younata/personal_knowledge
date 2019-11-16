@@ -6,11 +6,9 @@ This might not materialize as a thing I do, mostly due to lack of space to build
 
 ## Base Plane
 
-Most of my calculations have used a [Sling 2](https://www.airplanefactory.com/aircraft/sling-2-kit/) as the "base" plane - using their published figures for MGTOW, and applying the 50% rule, I can comfortably fit 100 kilowatt-hours of battery and still have weight for a passenger + light amount of cargo.
+Initially, I planned to use a [Sling 2](https://www.airplanefactory.com/aircraft/sling-2-kit/) as the "base" plane. Recently (October 2019), I was able to chat with the person who designed the [Berkut](https://en.wikipedia.org/wiki/Berkut_360), who also worked for Rutan back in the day and he encouraged me to take a look at the [Long-EZ](https://en.wikipedia.org/wiki/Rutan_Long-EZ). Because the Long-EZ is a more aerodynamic aircraft, I can get a longer range with less battery. Which is obviously better as it's less battery weight overall and also cheaper. Additionally, the overall project cost should be MUCH cheaper as it's much cheaper to buy a 90% complete long-ez  (~10-20k USD) than it is to buy a new sling (~60k USD).
 
-I'm still deciding between the tailwheel variant or not, because removing the drag from the nosegear is really tempting.
-
-I've also run the numbers for other, more readily available, experimental aircraft, but the Sling still works out to be my best bet.
+Currently, I estimate I can get approximately 300 statute miles with no reserves on a 70 kWhr battery.
 
 ## Battery System
 
@@ -22,13 +20,13 @@ When I started this project, I thought I might use salvaged Tesla batteries. As 
 
 I’m still working through this.
 
-Current thought is to use [LG MJ1](https://www.nkon.nl/sk/k/Specification%20INR18650MJ1%2022.08.2014.pdf) cells, which, as of early 2019, have the highest energy density (just under 260 watt-hours per kilogram) of any battery cell available. This might change by the time I get around to being ready to manufacture the battery packs.
+Current thought is to use [LG M50](https://www.batteryspace.com/prod-specs/11514.pdf) cells, which, as of late 2019, have the highest energy density (~263 watt-hours per kilogram) of any battery cell I could find[^feasible for use in EVs]. This might change by the time I get around to being ready to manufacture the battery packs.
 
 ### Mounting the Batteries
 
-Initially, I thought I’d mount the batteries where the gas tanks would go - there’s plenty of space, the wing spar will handle the load, etc. But, I realized that I need to be able to access the battery packs easily, and for that it’s much easier to place them firewall forward or otherwise in/around the fuselage. (Having to take apart the wings, or build in a folding hatch, was not appealing to me).
+Initially, I thought I’d mount the batteries where the gas tanks would go - there’s plenty of space, the wing spar will handle the load, etc. But, I realized that I need to be able to access the battery packs easily, and for that it’s much easier to place them firewall forward or otherwise in/around the fuselage. (Having to take apart the wings, or build in a folding hatch, was and is not appealing to me).
 
-I need to CAD this up, but the current thought is to place most of the batteries in front of the firewall, with the rest behind the main seat, as weight and balance dictates.
+I need to CAD this up, but the current thought is to place most of the batteries in where the engine would go, with the rest behind the main seat, as weight and balance dictates.
 
 One of the super nice things about an electric plane is that the “fuel” doesn’t slosh around, or otherwise change the weight and balance. Which makes weight and balance calculations much easier, as well as allowing me to better optimize weight distribution. Of course, this nicety is countered by the fact that I’m always running at the heaviest fuel load.
 
@@ -46,17 +44,17 @@ Ideally, though, I’d be able to integrate an aircraft charger.
 
 ## Motors
 
-Current thought is two [Emrax 228](https://emrax.com/products/emrax-228/) motors in a stack configuration.
+Current thought is a single [Emrax 228](https://emrax.com/products/emrax-228/) motor.
 
-The stack configuration is for redundancy and power reasons.
+### Motor Controllers
 
-- if one motor (or motor controller) dies, then the other can pick up the slack, with a lower max-power.
-- this reduces the strain on each motor, which should improve their longevity
-- For my desired voltage (400V), it’s much easier to find motor controllers that are rated for the lower power each motor will require.
+Still researching this. Current thought is to run two controllers per motor (so... two controllers), with each able to handle 100A at 450V (or 45kW each). This'll allow redundancy in the case one of the controllers blows.
 
-## Motor Controllers
+Need to research what kind of motor controller.
 
-Still researching this. Ideally, these’ll be air-cooled controllers that are rated for 100 A continuous at ~400V.
+### Cooling
+
+While I'd like to use air cooling, this really depends on what I can find for the motor controllers. I might have to build a liquid-cooling system (likely using glycol as the liquid) for this.
 
 ## Solar Charger
 
@@ -92,3 +90,4 @@ Instead, I’m considering building a folding array that I can set up next to th
 - [Farfle’s Electric Ultralight](https://endless-sphere.com/forums/viewtopic.php?f=38&p=1298367)
 
 [^battery heating]: This plane is going to be based in LA. The batteries won’t overheat from use (air-cooled), though they do need some cooling to protect them while the plane sits outside in summer. Heating won’t be required (see: the model 3 lacks a battery heater), but even if it does, then I can utilize the same environmental cooling system to heat as well as cool.
+[^feasible for use in EVs]: There exist batteries that are kinda-available with much higher energy-densities than the M50 (lithium sulfur), but they're not feasible for use in EVs. I'm ok paying a bunch for batteries, but they need to be usable for multiple years. The other chemistries don't hold their capacities after many charge cycles.
