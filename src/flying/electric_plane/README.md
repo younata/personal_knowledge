@@ -84,6 +84,10 @@ Additionally, just adding solar cells on top of the wings will affect the aerody
 
 Instead, I’m considering building a folding array that I can set up next to the plane and use to charge it. This’ll have a convenience and weight penalty compared to directly mounting the cells, but I’ll have much more surface area available, and it won’t interfere with the aerodynamics of the plane.
 
+### Vehicle to Grid
+
+Some EVs are capable of exporting their power to the electrical grid. While there will be an internal inverter for plugging things like laptops in, I have no intention of designing something to allow you to, e.g. power a hangar from the plane. As hilarious as that would be: "hey, we have a power outage, let's get the generator set up" "Don't bother, let me plug my plane in and power things from that".
+
 ## Other Electric Plane Builds
 
 - [Helno’s Electric Motorglider](https://endless-sphere.com/forums/viewtopic.php?f=38&t=89000)
