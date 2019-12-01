@@ -1,10 +1,8 @@
-# Regulations
-
-## Required Equipment
+# Minimum Required Equipment
 
 [FAR 91.205](https://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1205) lists the required equipment for all flights.
 
-### VFR Day
+## VFR Day
 
 - Airspeed indicator
 - Altimeter
@@ -40,7 +38,7 @@ Or, as a mnemonic (retrieved from [Ask A CFI](https://www.askacfi.com/1647/vfr-r
 - **E**mergency Locator Transmitter
 - **S**afety Belts and Shoulder Harnesses
 
-### VFR Night
+## VFR Night
 
 mnemonic:
 
