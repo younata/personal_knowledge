@@ -1,3 +1,3 @@
-# System Adminstration
+# System Administration
 
-Notes on adminstrating systems.
+Notes on administrating systems.
