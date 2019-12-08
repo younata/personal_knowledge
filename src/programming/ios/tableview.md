@@ -18,6 +18,14 @@ Actually setting this is done by implementing the [`tableView(_:titleForHeaderIn
 
 The docs for [`tableHeaderView`](https://developer.apple.com/documentation/uikit/uitableview/1614904-tableheaderview) state that the width will be maintained by the tableview, but you set the height. Don't set this view up for autolayout, as you'll get weird width issues (`translatesAutoresizingMaskIntoConstraints` should be true, not false).
 
+Sizing a tableview with autolayout is non-obvious, adding this snippet does the trick, do it every time the view lays out/will change size.
+
+```swift
+tableView.tableHeaderView.frame.size.height = tableView.tableHeaderView.systemLayoutSizeFitting(
+    UIView.layoutFittingCompressedSize
+).height
+```
+
 ## Scrolling under test
 
 In order to scroll to a row, you invoke the [`scrollToRow(at:at:animated:)`](https://developer.apple.com/documentation/uikit/uitableview/1614997-scrolltorow) method. You also need the view to be within a visible window. This is also animated, so you'll to wait a bit before you do the next assertion.
