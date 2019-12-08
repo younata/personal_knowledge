@@ -14,6 +14,10 @@ Section titles are asserted by checking the [`headerView(forSection:)`](https://
 
 Actually setting this is done by implementing the [`tableView(_:titleForHeaderInSection:)`](https://developer.apple.com/documentation/uikit/uitableviewdatasource/1614850-tableview) method on the [dataSource](https://developer.apple.com/documentation/uikit/uitableviewdatasource).
 
+## Table Header/Footer Views
+
+The docs for [`tableHeaderView`](https://developer.apple.com/documentation/uikit/uitableview/1614904-tableheaderview) state that the width will be maintained by the tableview, but you set the height. Don't set this view up for autolayout, as you'll get weird width issues (`translatesAutoresizingMaskIntoConstraints` should be true, not false).
+
 ## Scrolling under test
 
 In order to scroll to a row, you invoke the [`scrollToRow(at:at:animated:)`](https://developer.apple.com/documentation/uikit/uitableview/1614997-scrolltorow) method. You also need the view to be within a visible window. This is also animated, so you'll to wait a bit before you do the next assertion.
