@@ -305,6 +305,11 @@ long-ez
 10-20k
 60k
 chemistries
+adulting
+xunit
+sunit
+junit
+xcode
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -472,3 +477,5 @@ concat
 privkey.pem
 fullkey.pem
 znc
+ - src/programming/xcode.md
+objc
