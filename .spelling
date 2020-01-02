@@ -311,6 +311,7 @@ sunit
 junit
 xcode
 matchers
+stackexchange
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -488,3 +489,7 @@ objc
 1e-8
 1e-9
 1e-10
+ - src/cli/aircrack.md
+aircrack-ng
+Wifi-sampling
+aircrack
