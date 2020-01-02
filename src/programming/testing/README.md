@@ -1,9 +1,10 @@
 # Testing
 
+Theory behind testing. For practical information, look in each language's pages.
+
 If you're not practicing [TDD](https://en.wikipedia.org/wiki/Test-driven_development), your code is wrong. If your code happens to work without tests, then you're practicing [voodoo programming](https://en.wikipedia.org/wiki/Voodoo_programming), and that's worse than not having tests at all..
 
 What is TDD? At it's simplest, it's test-first. That is, write down what you expect the code to do, then write the code to get the test to pass.
-
 
 ## Why test
 
