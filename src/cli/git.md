@@ -21,3 +21,13 @@ git revert -n <commit hashes to revert>
 ```
 
 See [the git documentation](https://www.git-scm.com/docs/git-revert#Documentation/git-revert.txt---no-commit)
+
+## Deleting multiple local branches
+
+`git branch -d $BRANCH_NAME` will delete a local branch IFF it's been merged with the upstream branch (or remote). If you pass in `--force`, then it'll delete it regardless. `git branch -D $BRANCH_NAME` is a shorthand for `git branch -d --force $BRANCH_NAME`.
+
+`git branch -D prefix*` doesn't work (git won't do the name completion for you). Instead, something like this will work:
+
+```sh
+git branch | grep "$PREFIX_STRING" | xargs git branch -D
+```
