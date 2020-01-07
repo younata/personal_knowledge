@@ -312,6 +312,8 @@ junit
 xcode
 matchers
 stackexchange
+rebasing
+rebase
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr

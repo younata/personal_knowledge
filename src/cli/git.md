@@ -31,3 +31,16 @@ See [the git documentation](https://www.git-scm.com/docs/git-revert#Documentatio
 ```sh
 git branch | grep "$PREFIX_STRING" | xargs git branch -D
 ```
+
+## Rebasing a branch onto another one.
+
+Say you branch off `my_work` from `develop`. But you later find out you need to merge it into `master`. How do you merge only the commits from `my_work` into `master` without including other commits from `develop`?
+
+As with most things in software, [stackoverflow has the answer](https://stackoverflow.com/a/10853956).
+
+```sh
+git checkout my_work
+git rebase --onto master develop my_work
+```
+
+That is, you rebase onto the target branch, from the original branch point, with the branch you want to move.
