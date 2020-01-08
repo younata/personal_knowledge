@@ -14,13 +14,13 @@ Currently, I estimate I can get approximately 300 statute miles with no reserves
 
 [Main page here](./battery_system.md)
 
-When I started this project, I thought I might use salvaged Tesla batteries. As I did more research I realized that the Tesla battery packs are severely over engineered for my needs.[^battery heating]. I can build a battery system that’ll be not as good as a Tesla system, but it’ll be good enough, and much lighter than a Tesla system.
+When I started this project, I thought I might use salvaged Tesla batteries. As I did more research I realized that the Tesla battery packs are severely over engineered for my needs [^battery heating]. I can build a battery system that’ll be not as good as a Tesla system, but it’ll be good enough, and much lighter than a Tesla system.
 
 ### Pack Design
 
 I’m still working through this.
 
-Current thought is to use [LG M50](https://www.batteryspace.com/prod-specs/11514.pdf) cells, which, as of late 2019, have the highest energy density (~263 watt-hours per kilogram) of any battery cell I could find[^feasible for use in EVs]. This might change by the time I get around to being ready to manufacture the battery packs.
+Current thought is to use [LG M50](https://www.batteryspace.com/prod-specs/11514.pdf) cells, which, as of late 2019, have the highest energy density (~263 watt-hours per kilogram) of any battery cell I could find [^feasible for use in evs]. This might change by the time I get around to being ready to manufacture the battery packs.
 
 ### Mounting the Batteries
 
@@ -94,4 +94,5 @@ Some EVs are capable of exporting their power to the electrical grid. While ther
 - [Farfle’s Electric Ultralight](https://endless-sphere.com/forums/viewtopic.php?f=38&p=1298367)
 
 [^battery heating]: This plane is going to be based in LA. The batteries won’t overheat from use (air-cooled), though they do need some cooling to protect them while the plane sits outside in summer. Heating won’t be required (see: the model 3 lacks a battery heater), but even if it does, then I can utilize the same environmental cooling system to heat as well as cool.
-[^feasible for use in EVs]: There exist batteries that are kinda-available with much higher energy-densities than the M50 (lithium sulfur), but they're not feasible for use in EVs. I'm ok paying a bunch for batteries, but they need to be usable for multiple years. The other chemistries don't hold their capacities after many charge cycles.
+
+[^feasible for use in evs]: There exist batteries that are kinda-available with much higher energy-densities than the M50 (lithium sulfur), but they're not feasible for use in EVs. I'm ok paying a bunch for batteries, but they need to be usable for multiple years. The other chemistries don't hold their capacities after many charge cycles.
