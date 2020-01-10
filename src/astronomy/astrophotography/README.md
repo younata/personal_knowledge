@@ -13,7 +13,7 @@ I use the following software:
 
 ## Theory and Books
 
-The standard recommended reading is [The Deep-sky Imaging Primer](https://www.amazon.com/Deep-sky-Imaging-Primer-Second/dp/0999470906).
+The standard recommended reading is <a href="https://www.amazon.com/Deep-sky-Imaging-Primer-Second/dp/0999470906" data-proofer-ignore>The Deep-sky Imaging Primer</a>.
 
 - [A bunch of other useful links for beginners](https://www.cloudynights.com/topic/22488-useful-links-for-beginning-imagers/). Though, the whole [cloudy nights](https://www.cloudynights.com/forum/80-beginning-and-intermediate-imaging/) forum is super useful.
 - [Other useful threads for beginning imaging on cloudy nights](https://www.cloudynights.com/topic/97172-best-threads-in-beginning-imaging/)
