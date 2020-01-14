@@ -505,3 +505,17 @@ GDQx
 twitchcon
 Horaru.org
 ical
+ - src/hardware/3d_printing.md
+Prusa
+i3
+mk3
+PrusaSlicer
+ - src/hardware/electric_plane/bms.md
+LTC6811-1
+ - src/hardware/electric_plane/README.md
+45kW
+Helno’s
+Farfle’s
+kWhr
+ - src/living/personal_finance.md
+ledger-autosync
