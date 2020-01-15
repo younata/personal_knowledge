@@ -3,7 +3,17 @@
 Bash shell, Z Shell, etc.
 
 - [Logical Operators](https://stackoverflow.com/questions/6270440/simple-logical-operators-in-bash)
-- [Basic Math](https://stackoverflow.com/questions/6348902/how-can-i-add-numbers-in-a-bash-script)
+
+## Basic Math
+
+From [this stackoverflow answer](https://stackoverflow.com/questions/6348902/how-can-i-add-numbers-in-a-bash-script), to add two numbers and set the result to another, you use `$(())` syntax, e.g.
+
+```bash
+BAZ=$(($FOO + $BAR))
+
+# Incrementing a number
+A=$(($A + 1))
+```
 
 ## Conditionals
 
