@@ -44,3 +44,19 @@ git rebase --onto master develop my_work
 ```
 
 That is, you rebase onto the target branch, from the original branch point, with the branch you want to move.
+
+## Submodules
+
+Submodule are a neat, basic way to manage dependencies.
+
+Adding one is easy
+
+```sh
+git submodule add SUBMODULE_URL
+```
+
+When you're not the one who added it, the command to pull down the submodules is less obvious.
+
+```sh
+git submodule update --init --recursive
+```
