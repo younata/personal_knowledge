@@ -316,6 +316,10 @@ rebasing
 rebase
 gif
 giphy
+bafang
+chainring
+deallocate
+little-endian
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -519,3 +523,15 @@ Farfle’s
 kWhr
  - src/living/personal_finance.md
 ledger-autosync
+ - src/bicycling/bbs02.md
+bbs02
+bbsHD
+1-10mm
+4mm
+5mm
+ - src/programming/ios/imagecapturecore.md
+ImageCaptureCore
+ICDeviceBrowser
+0x1234
+0x34
+0x12
