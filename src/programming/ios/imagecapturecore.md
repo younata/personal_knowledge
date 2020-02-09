@@ -12,6 +12,8 @@ The API documentation is rather sparse, making it really easy to overlook some i
 
 [Picture Transfer Protocol](https://en.wikipedia.org/wiki/Picture_Transfer_Protocol) is an ISO standard governing transferring images from digital cameras to computers and otherwise controlling them.
 
+Note that, in iOS, you need to be running at least iOS 13.4 in order for PTP callbacks to actually happen.
+
 You can directly send PTP events using [`ICCameraDevice.requestSendPTPCommand(_:outData:completion:)`](https://developer.apple.com/documentation/imagecapturecore/iccameradevice/3393298-requestsendptpcommand). Constructing these events is a pain as there is very little documentation on how to do this. I mostly figured this out by referencing various open source usages of ImageCaptureCore (still less effort to re-implement them than it is to port them to iOS's ImageCaptureCore).
 
 - Integer values are in [little-endian](https://en.wikipedia.org/wiki/Endianness) format. Meaning that the least significant byte is first (e.g. 0x1234 is stored as 0x34, 0x12)
