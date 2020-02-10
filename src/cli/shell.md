@@ -17,6 +17,54 @@ A=$(($A + 1))
 
 ## Conditionals
 
+spaces around the square brackets are important.
+
+You can reverse conditionals with `!`:
+
+```bash
+if [ ! -d "some_directory" ]; then
+    echo "'./some_directory' does not exist!"
+fi
+```
+
+### Numbers
+
+use the `-eq` (equal), `-gt` (greater than), `-ge` (greater than or equal), `-lt` (less than), `-le` (less than or equal) operators (amongst others) to compare numbers.
+
+```bash
+if [ 3 -eq 3 ]; then
+    echo "3 is equal to 3"
+fi
+```
+
+### String
+
+use `=` and `!=` for string equality
+
+```bash
+if [ "$MY_STRING_VARIABLE" = "bar" ]; then
+    echo "MY_STRING_VARIABLE is bar"
+fi
+
+if [ "$MY_STRING_VARIABLE" != "bar" ]; then
+    echo "MY_STRING_VARIABLE is not bar"
+fi
+```
+
+You can also compare whether they are lexicographically greater than or less than (e.g. "aaaa" is lexicographically less than "aaab") another string with the `\<` and `\>` operators.
+
+```bash
+if [ "$MY_STRING_VARIABLE" \< "bar" ]; then
+    echo "MY_STRING_VARIABLE lexicographically greater than bar"
+fi
+
+if [ "$MY_STRING_VARIABLE" \> "bar" ]; then
+    echo "MY_STRING_VARIABLE lexicographically lesser than bar"
+fi
+```
+
+### File/Directories
+
 You can check if a file exists with `-f`.
 
 ```bash
@@ -30,14 +78,6 @@ You can test that a directory exists with `-d`, e.g.:
 ```bash
 if [ -d "some_directory" ]; then
     echo "directory at './some_directory' exists!"
-fi
-```
-
-You can reverse conditionals with `!`:
-
-```bash
-if [ ! -d "some_directory" ]; then
-    echo "'./some_directory' does not exist!"
 fi
 ```
 
