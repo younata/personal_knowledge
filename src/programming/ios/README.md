@@ -22,6 +22,10 @@ The old (pre iOS 7) way of dismissing the keyboard when you scroll is to use UIS
 
 The new way is to set the [`keyboardDismissMode`](https://developer.apple.com/documentation/uikit/uiscrollview/1619437-keyboarddismissmode) property to either [`.onDrag`](https://developer.apple.com/documentation/uikit/uiscrollview/keyboarddismissmode/ondrag) on [`.interactive`](https://developer.apple.com/documentation/uikit/uiscrollview/keyboarddismissmode/interactive)
 
+## Preventing device sleep
+
+Set the [`isIdleTimerDisabled`](https://developer.apple.com/documentation/uikit/uiapplication/1623070-isidletimerdisabled) property on the [`UIApplication`](https://developer.apple.com/documentation/uikit/uiapplication) object to true in order to prevent the device from going to sleep due to limited/no interaction. For obvious reasons, be careful with this api as it'll prevent the device from going to sleep.
+
 ## Common Crashes
 
 ### `unrecognized selector sent to instance 0x8000000000000000`
