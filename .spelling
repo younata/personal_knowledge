@@ -320,6 +320,9 @@ bafang
 chainring
 deallocate
 little-endian
+filesystem
+filemanager
+filetypes
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
