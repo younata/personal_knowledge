@@ -2,7 +2,7 @@
 Guest writer: Nicole Fronda
 
 ## Elopement vs. Wedding
-Rachel and I had been thinking of getting married for a while, but everytime we would sit down to start planning a wedding, we'd get overwhelmed with thoughts of spending thousands of dollars, figuring out who to invite, who to please, etc.  Finally we got it in our heads that eloping was the right move for us.  And when 2020 rolled around, it seemed like the right time.  Rachel was slotted to receive her private pilot's license in the first quarter.  I would finish my Master's degree in the second quarter and (likely) start a PhD program in the third quarter.  It was going to be a big year for us (the impending global pandemic notwithstanding).  
+Rachel and I had been thinking of getting married for a while, but every time we would sit down to start planning a wedding, we'd get overwhelmed with thoughts of spending thousands of dollars, figuring out who to invite, who to please, etc.  Finally we got it in our heads that eloping was the right move for us.  And when 2020 rolled around, it seemed like the right time.  Rachel was slotted to receive her private pilot's license in the first quarter.  I would finish my Master's degree in the second quarter and (likely) start a PhD program in the third quarter.  It was going to be a big year for us (the impending global pandemic notwithstanding).
 
 After ringing in the New Year we settled on a few key items:
 
