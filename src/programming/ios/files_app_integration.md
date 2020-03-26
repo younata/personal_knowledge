@@ -16,3 +16,4 @@ Note that setting this will make ALL of the contents of `$APP_ROOT/Documents` vi
 ## Additional Links
 
 - [AppCoda lists some more things you can do, such as using a UIDocumentBrowser](https://www.appcoda.com/files-app-integration/)
+- [Little Bites of Cocoa has a bite on opening files from the files app](https://littlebitesofcocoa.com/321-opening-files-from-the-files-app)
