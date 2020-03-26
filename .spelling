@@ -555,3 +555,7 @@ ICDeviceBrowser
 Submodules
 Submodule
 submodules
+ - src/programming/ios/files_app_integration.md
+dropbox
+AppCoda
+UIDocumentBrowser
