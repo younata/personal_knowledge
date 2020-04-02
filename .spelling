@@ -334,6 +334,7 @@ info.plist.
 coronavirus
 Fronda
 idk
+scifi
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -559,3 +560,5 @@ submodules
 dropbox
 AppCoda
 UIDocumentBrowser
+ - src/books/hfy.md
+Magineer
