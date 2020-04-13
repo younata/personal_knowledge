@@ -81,6 +81,16 @@ if [ -d "some_directory" ]; then
 fi
 ```
 
+### Number of Arguments
+
+The number of arguments is represented as `$#`
+
+```bash
+if [ $# == 1 ]; then
+    echo "There was only one argument passed to $0: $1"
+fi
+```
+
 ## Checking if a command exists
 
 You can check whether a command exists by checking if `command -v ${COMMAND_TO_CHECK} >/dev/null 2>/dev/null` returns 0 (it exists) or non-zero (does not exist)

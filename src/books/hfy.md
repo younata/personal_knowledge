@@ -15,6 +15,7 @@ Some of my favorite examples are:
   - [Part 5](https://www.reddit.com/r/HFY/comments/3eocvu/oc_intergalactic_challenge_games_v/)
 - [On the Shoulders of Giants](https://www.reddit.com/r/HFY/comments/869f0e/on_the_shoulders_of_giants/) is a look at human rocket development (as of mid-2018 or so, pre BFR -> Starship/Super Heavy rename) from the perspective of them being museum pieces.
 - [The Cult of Janus](https://www.reddit.com/r/HFY/comments/93xgbo/the_cult_of_janus_oc/) - Humans set up a religion to seed spies and soldiers expecting some galactic war. To keep it's cover, the religion takes care of the community. Centuries later, another religion tries to start a holy war, and the Church of Janus responds.
+- [Humanity's Debt](https://www.reddit.com/r/HFY/comments/2b1vqr/oc_humanitys_debt/). Doctors, fuck yeah.
 
 # Fantasy/Sci-Fi mix
 
