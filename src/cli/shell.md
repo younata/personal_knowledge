@@ -95,7 +95,7 @@ fi
 
 You can iterate over all files in a tree with:
 
-```
+```bash
 while IFS= read -r -d '' -u 9
 do
     [Do something with "$REPLY"]
