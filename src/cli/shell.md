@@ -63,6 +63,16 @@ if [ "$MY_STRING_VARIABLE" \> "bar" ]; then
 fi
 ```
 
+### Regex Matching
+
+Use the `=~` operator with a string as the left hand operand and the pattern as the right hand operand.
+
+```bash
+if [ "$MY_STRING_VARIABLE" =~ '.*' ]; then
+    echo "It better have matched, that was wildcard everything."
+fi
+```
+
 ### File/Directories
 
 You can check if a file exists with `-f`.
@@ -80,6 +90,19 @@ if [ -d "some_directory" ]; then
     echo "directory at './some_directory' exists!"
 fi
 ```
+
+#### Iterate over Files in a Tree
+
+You can iterate over all files in a tree with:
+
+```
+while IFS= read -r -d '' -u 9
+do
+    [Do something with "$REPLY"]
+done 9< <( find . -type f -exec printf '%s\0' {} + )
+```
+
+(Thanks [stackexchange](https://unix.stackexchange.com/a/139364))
 
 ### Number of Arguments
 
