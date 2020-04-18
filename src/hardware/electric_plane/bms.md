@@ -18,7 +18,7 @@ I'm likely going to go with the [LTC6820](https://www.analog.com/en/products/ltc
 
 ## isoSPI
 
-Both the LTC6811 and the LTC6820 use the [isoSPI](https://www.eetimes.com/document.asp?doc_id=1280373) standard to safely and reliably transmit large amounts of data between the chips. The idea here is that, instead of directly connecting multiple chips, as you might in traditional SPI, each chip is isolated via transformers. Data is then transmitted electromagnetically via these transformers. This is used in other technologies (twisted pair ethernet, for example), and this is mostly just adapting this to also work via SPI.
+Both the LTC6811 and the LTC6820 use the <a href="https://www.eetimes.com/document.asp?doc_id=1280373" data-proofer-ignore>isoSPI</a> standard to safely and reliably transmit large amounts of data between the chips. The idea here is that, instead of directly connecting multiple chips, as you might in traditional SPI, each chip is isolated via transformers. Data is then transmitted electromagnetically via these transformers. This is used in other technologies (twisted pair ethernet, for example), and this is mostly just adapting this to also work via SPI.
 
 [^LTC6811 Datasheet]: [Datasheet here](https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf)
 
