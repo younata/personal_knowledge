@@ -142,7 +142,81 @@ In addition to calling [`requestAlwaysAuthorization`](https://developer.apple.co
 
 ## Using a `CLGeocoder`
 
+Using a [`CLGeocoder`](https://developer.apple.com/documentation/corelocation/clgeocoder) to convert between human-friendly location representations and latitude and longitude coordinates.
+
+Don't even use `CLGeocoder` for geocoding (string -> `CLLocation`), use [`MKLocalSearch`](https://developer.apple.com/documentation/mapkit/mklocalsearch) for that.
+
 ### Getting an address from a `CLLocation`
 
 Also known as "reverse-geocoding".
 
+`CLGeocoder` has two methods for reserve geocoding:
+
+- [`reversGeocodeLocation(_:preferredLocale:completionHandler:)`](https://developer.apple.com/documentation/corelocation/clgeocoder/2908779-reversegeocodelocation) takes a `CLLocation` object, an optional [`Locale`](https://developer.apple.com/documentation/foundation/locale) argument (pass `nil` to use `Locale.current`), and a callback. Note that this callback **will** be called off the main queue, so be sure to go back to the main queue before you update any UI as a result of the call.
+  - Use the `preferredLocale` call when you want the location data returned in a format different from the user's set locale. For example, if you have an American user looking at addresses in France, you might want to set `preferredLocale` to a french locale.
+- [`reverseGeocodeLocation(_:completionHandler:)`](https://developer.apple.com/documentation/corelocation/clgeocoder/1423621-reversegeocodelocation). takes a `CLLocation` object and a callback. This method is effectively the same as the newer `reversGeocodeLocation(_:preferredLocale:completionHandler:)` call when `preferredLocale` is nil.
+
+Either case, the completion handler is called **off the main queue** with either the list of placemarks or the error. The placemarks is a list of [`CLPlacemark`](https://developer.apple.com/documentation/corelocation/clplacemark) objects, and the error is a type-erased `CLError`.
+
+Despite the method signature, these arguments optional-ness is mutually exclusive - you will never have a case where both `placemarks` and `error` are non-nil, nor will you have a case where both of them are nil.
+
+You should only send one reverse-geocode request at a time, you can check whether a geocoding is making a request via the [`isGeocoding`](https://developer.apple.com/documentation/corelocation/clgeocoder/1423765-isgeocoding) property. You can also cancel an ongoing geocoding request by calling the [`cancelGeocode()`](https://developer.apple.com/documentation/corelocation/clgeocoder/1423562-cancelgeocode) method.
+
+A snippet for handling reverse geocoding looks like this. Note that it assumes that you only ask for geocoding as soon as you actually need it. This is also untested.
+
+```swift
+import CoreLocation
+
+enum GeocoderError {
+    case canceled
+    case noResult
+    case partialResult
+    case network
+    case unknown
+}
+
+class ReverseGeocoder {
+    let geocoder: CLGeocoder
+    private var previousPlacemarks: [(CLLocation, [CLPlacemark])] = [] // not a dictionary because we want fuzzy matching of locations.
+
+    func reverseGecode(_ location: CLLocation, callback: @escaping Result<[CLPlacemark], GeocoderError> -> Void) {
+        if let placemarks = self.cachedPlacemarks(for: location) {
+            callback(.success(placemarks))
+        }
+
+        self.geocoder.reverseGeocodeLocation(location) { (placemarks, error) in
+            if let error = error as? CLError {
+                let geocoderError: GeocoderError
+                if let errorCode = CLError.Code(error.errorCode) {
+                    switch errorCode {
+                    case .network: geocoderError = .network
+                    case .geocodeCanceled: geocoderError = .canceled
+                    case .geocodeFoundNoResult: geocoderError = .noResult
+                    case .geocodeFoundPartialResult: geocoderError = .partialResult
+                    default: geocoderError = .unknown
+                    }
+                } else {
+                    geocoderError = .unknown
+                }
+                request.callback(.failure(geocoderError))
+            } else if let error = error {
+                request.callback(.failure(.unknown))
+            }
+            if let placemarks = placemarks {
+                self.previousPlacemarks.append((location, placemarks))
+                request.callback(.success(placemarks))
+            }
+        }
+    }
+
+    private func cachedPlacemarks(for location: CLLocation) -> [CLPlacemark]? {
+        let accuracy: CLLocationAccuracy = 1e-4 // https://knowledge.rachelbrindle.com/programming/location.html
+        for (existingLocation, placemarks) in self.previousPlacemarks {
+            if abs(location.coordinate.longitude - existingLocation.coordinate.longitude) < accuracy && abs(location.coordinate.latitude - existingLocation.coordinate.latitude) < accuracy {
+                return placemarks
+            }
+        }
+        return nil
+    }
+}
+```

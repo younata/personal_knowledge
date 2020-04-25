@@ -344,6 +344,7 @@ Cyanocracy's
 verieze
 boolean
 reverse-geocoding
+reverse-geocode
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -582,4 +583,6 @@ prebuy
 3-5k
  - src/programming/ios/core_location.md
 locationManager's
+geocoding
+placemarks
 locationManager
