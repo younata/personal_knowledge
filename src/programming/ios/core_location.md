@@ -45,6 +45,7 @@ protocol LocationRetriever {
 
 protocol LocationManager: class {
     var delegate: CLLocationManagerDelegate? { get set }
+    var desiredAccuracy: CLLocationAccuracy { get set }
     func locationServicesEnabled() -> Bool
     func authorizationStatus() -> CLAuthorizationStatus
     func requestWhenInUseAuthorization()
@@ -70,7 +71,7 @@ final class AppleLocationRetriever: NSObject, LocationRetriever {
         super.init()
 
         self.locationManager.delegate = self
-
+        self.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
     }
 
     func currentLocation(callback: @escaping (Result<CLLocation, LocationError>) -> Void) {
@@ -138,4 +139,10 @@ extension AppleLocationRetriever: CLLocationManagerDelegate {
 ### Permissions Strings
 
 In addition to calling [`requestAlwaysAuthorization`](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization) or [`requestWhenInUseAuthorization`](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620562-requestwheninuseauthorization) on your [`CLLocationManager`](https://developer.apple.com/documentation/corelocation/cllocationmanager), you also need to modify your app's `Info.plist` file to include a string for `NSLocationAlwaysUsageDescription` (always) or `NSLocationWhenInUseUsageDescription` (when in use). This text is the localized string displayed to the user when they are prompted to grant location permissions.
+
+## Using a `CLGeocoder`
+
+### Getting an address from a `CLLocation`
+
+Also known as "reverse-geocoding".
 
