@@ -338,6 +338,11 @@ scifi
 starship
 fanfic
 seater
+homebuilt
+Zeitlin
+Cyanocracy's
+verieze
+boolean
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -574,3 +579,6 @@ objc.io
  - src/flying/buying_a_plane.md
 prebuy
 3-5k
+ - src/programming/ios/core_location.md
+locationManager's
+locationManager
