@@ -10,9 +10,10 @@ i.e. this is where I shit on my previous companies.
 
 - What's your tech stack look like?
 - What are some practices you/the team wants to follow, but has difficulty doing so?
+- Similarly, what are some practices you/the team does follow, but you wish you wouldn't?
 - How do you feel about third party frameworks?
 - How do you spread knowledge amongst members of the team? How do you support this kind of professional growth?
-- What's the expected on-call stuff like?
+- What's your on-call rotation look like?
 
 ### iOS-Specific technical questions
 
@@ -22,6 +23,7 @@ i.e. this is where I shit on my previous companies.
 ### Testing & QA
 
 - What's your testing strategy look like?
+  - How do you feel about TDD?
 - How do you handle testing network requests?
 - How do you handle testing that the UI is wired up correctly?
 - How do you feel about XCUITest? (Obviously iOS specific)
