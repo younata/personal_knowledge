@@ -2,9 +2,15 @@
 
 Notes/Reminders on what to ask when interviewing for a job.
 
-Ultimately, a lot of this is based on my own bad experience with previous jobs.
+## Recruiter Screens
 
-i.e. this is where I shit on my previous companies.
+Some are very iOS specific.
+
+- Which particular team is this role for? What can you tell me about them?
+- Does the team own the entire iOS app, or only a portion of it?
+- How cohesive is the team?
+- What's the remote work policy?
+  - For COVID-19: Obviously, it's fully remote, but what was it before the restrictions were put in place, and what can I expect it to look like after?
 
 ## Technical Interviews
 
