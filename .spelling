@@ -352,6 +352,7 @@ hostname
 homebrew
 cmd
 whitespace
+iPadOS
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -593,3 +594,8 @@ locationManager's
 geocoding
 placemarks
 locationManager
+ - src/programming/ios/pointer_interactions.md
+PSPDFKit
+UIButton
+UIPointerInteraction
+reimplement
