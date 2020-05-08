@@ -353,6 +353,7 @@ homebrew
 cmd
 whitespace
 iPadOS
+resize
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -607,3 +608,7 @@ flycut
 rbenv
 tig
 ag
+ - src/programming/ios/stackview.md
+StackViews
+stackviews
+stackview
