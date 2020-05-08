@@ -31,8 +31,8 @@ Open Safari, go to [`brew.sh`](https://brew.sh), and follow it's instructions to
 Once that's done, run the following commands:
 
 ```sh
-brew cask install iterm2 shiftit alfred
-brew install rbenv node tig
+brew cask install iterm2 shiftit alfred flycut
+brew install rbenv node tig the_silver_searcher
 
 # Set up rbenv
 rbenv init | tail -1 >> ~/.zshrc
@@ -46,6 +46,10 @@ gem install bundler
 # mdspell
 npm i markdown-spellcheck -g # For spellchecking the knowledge repo.
 ```
+
+These install iterm2 (terminal emulator), shiftit (keyboard-based window manager), alfred (quick launcher, amongst other responsibilities), flycut (pasteboard manager)
+
+They also install and set up rbenv (ruby environment), node, tig (git tree viewer), ag (Very fast file searcher)
 
 ### Rust
 
