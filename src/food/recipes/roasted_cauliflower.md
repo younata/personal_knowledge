@@ -9,7 +9,7 @@ I more or less follow [this recipe](https://www.foodnetwork.com/recipes/food-net
 * 1 head of cauliflower
 * Olive Oil
 * Chopped Garlic. Even better is mince garlic.(When I’m without garlic, I use garlic salt as substitute, but that’s not nearly as good.)
-* Some Thyme. 1 tblspoon is good for me.
+* Some Thyme. 1 tablespoon is good for me.
 * Some salt. Go easy if you use the garlic salt too.
 * Some crushed black pepper.
 * A dash of crushed red pepper.
