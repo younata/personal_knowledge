@@ -32,7 +32,7 @@ Once that's done, run the following commands:
 
 ```sh
 brew cask install iterm2 shiftit alfred flycut macdown
-brew install rbenv node tig the_silver_searcher jq
+brew install rbenv node tig the_silver_searcher jq wget
 
 # Set up rbenv
 rbenv init | tail -1 >> ~/.zshrc
@@ -49,7 +49,7 @@ npm i markdown-spellcheck -g # For spellchecking the knowledge repo.
 
 These install [iterm2](https://iterm2.com) (terminal emulator), [shiftit](https://github.com/fikovnik/ShiftIt) (keyboard-based window manager), [alfred](https://www.alfredapp.com) (quick launcher, amongst other responsibilities), [flycut](https://github.com/TermiT/Flycut) (pasteboard manager), [macdown](https://macdown.uranusjr.com) (markdown editor)
 
-They also install and set up rbenv (ruby environment), node, tig (git tree viewer), ag (Very fast file searcher), jq (json processor)
+They also install and set up rbenv (ruby environment), node, tig (git tree viewer), ag (Very fast file searcher), jq (json processor), `wget` (url downloader)
 
 ### Rust
 

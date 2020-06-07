@@ -361,6 +361,9 @@ yukon
 fahrenheit
 Shera
 Catradora
+subviews
+interop
+downloader
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -620,3 +623,5 @@ macdown
 StackViews
 stackviews
 stackview
+ - src/programming/ios/viewcontrollers.md
+Lifecycle
