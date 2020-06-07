@@ -364,6 +364,8 @@ Catradora
 subviews
 interop
 downloader
+async
+reimplement
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -625,3 +627,38 @@ stackviews
 stackview
  - src/programming/ios/viewcontrollers.md
 Lifecycle
+ - src/programming/apple/arkit.md
+Sherlocked_as_a_term
+ - src/programming/apple/concurrency.md
+NSOperations
+func
+enqueue
+ - src/programming/apple/core_location.md
+locationManager's
+locationManager
+geocoding
+placemarks
+ - src/programming/apple/imagecapturecore.md
+ImageCaptureCore
+0x1234
+0x34
+0x12
+ - src/programming/apple/ios/animations.md
+fromValue
+ - src/programming/apple/ios/collectionview.md
+UICollectionView
+ - src/programming/apple/ios/files_app_integration.md
+AppCoda
+dropbox
+ - src/programming/apple/ios/pointer_interactions.md
+PSPDFKit
+ - src/programming/apple/ios/stackview.md
+StackViews
+stackviews
+stackview
+ - src/programming/apple/ios/tableview.md
+DiffableDataSource
+ - src/programming/apple/ios/viewcontrollers.md
+Lifecycle
+ - src/programming/apple/localizing.md
+objc.io

@@ -10,11 +10,11 @@ Once you have your app optimized for pointer interactions, then set [`UIApplicat
 
 There are two ways to handle pointer interactions as of iOS 13.4: setting the [`isPointerInteractionEnabled` property on `UIButton`](https://developer.apple.com/documentation/uikit/uibutton/3538957-ispointerinteractionenabled) to true, and by adding a `UIPointerInteraction` to any view.
 
-## UIButton
+## `UIButton`
 
 Life is easier for `UIButton`. Set `isPointerInteractionEnabled` to true, and, for any custom pointer styles, you can also set the button's [`pointerStyleProvider`](https://developer.apple.com/documentation/uikit/uibutton/3543887-pointerstyleprovider) property.
 
-## UIPointerInteraction
+## `UIPointerInteraction`
 
 On non-button views, the way to do this is to add a [`UIPointerInteraction`](https://developer.apple.com/documentation/uikit/uipointerinteraction) to your view. For the default behavior, you don't even need to set a delegate on the pointer.
 

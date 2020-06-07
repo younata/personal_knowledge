@@ -2,7 +2,7 @@
 
 Accessibility is making it usable to normal people. Everyone eventually ends up using the accessibility features in one form or another.
 
-## UIAccessibility
+## `UIAccessibility`
 
 [NSHipster has a great, if old, article on this](https://nshipster.com/uiaccessibility/).
 
