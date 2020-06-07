@@ -25,7 +25,7 @@ e.g. too many threads trying to acquire the same lock.
 
 Given the following lines of code, what happens? What is printed?
 
-```
+```swift
 let queue = DispatchQueue(label: "myLabel")
 
 print("a")
@@ -42,7 +42,7 @@ Now, some async worker thread comes along and runs the first two operations. (`1
 
 So, this is what's printed:
 
-```
+```txt
 a
 b
 c
