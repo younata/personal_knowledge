@@ -1,12 +1,12 @@
 # Phoebe
 
-Phoebe is an [ARRMA-RC Raider BLS rc car](https://www.arrma-rc.com/rc-cars/latest/raider/bls) that I've spent the past 4 years off and on making semi-autonomous.
+Phoebe is an <a href="https://www.arrma-rc.com/rc-cars/latest/raider/bls" data-proofer-ignore>ARRMA-RC Raider BLS rc car</a> that I've spent the past 4 years off and on making semi-autonomous.
 
 ## Motors
 
 Phoebe came stock with an arrma-rc BLS ESC & Motor combination. This is a sensorless brushless motor, which is not ideal for a robot, and I've been on the hunt for a suitable sensored replacement.
 
-From [the specs](https://www.arrma-rc.com/power-systems/latest/bls), the motor is:
+From <a href="https://www.arrma-rc.com/power-systems/latest/bls" data-proofer-ignore>the specs</a>, the motor is:
 
 |Component      |Measurement|Unit|
 |---------------|-----------|----|
