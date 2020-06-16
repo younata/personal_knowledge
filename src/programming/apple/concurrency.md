@@ -56,6 +56,39 @@ d
 
 Use [`DispatchSource`](https://developer.apple.com/documentation/dispatch/dispatchsource).
 
+### Solving the readers-writers problem
+
+The [Readers-writers problem](https://en.wikipedia.org/wiki/Readers–writers_problem) is a classic concurrency problem where where you want to allow as many threads as necessary to read a piece of memory, but to block them from reading while the memory is being mutated. Solving this with grand central dispatch is ridiculously easy. You create a concurrent dispatch queue  (pass in `attributes: .concurrent` when you initialize it), and whenever you want to change the value, you use the [`.barrier`](https://developer.apple.com/documentation/dispatch/dispatchworkitemflags/1780674-barrier) work item flag to allow all other access to finish up, block new access to the variable, and finally write to the underlying piece of memory.
+
+For example, this class will manage a piece of threadsafe memory in a performant manner.
+
+```swift
+import Foundation
+
+class Threadsafe<T> {
+    private var _value: T
+
+    private let syncQueue = DispatchQueue(label: "com.rachelbrindle.threadsafe", attributes: .concurrent)
+
+    var value: T {
+        get {
+            return syncQueue.sync {
+                return self._value
+            }
+        }
+        set {
+            self.syncQueue.sync(flags: .barrier) {
+                self._value = newValue
+            }
+        }
+    }
+
+    init(_ startValue: T) {
+        self._value = startValue
+    }
+}
+```
+
 ## Operation and OperationQueue
 
 The higher-level (Cocoa) API to handle arranging and executing work. Whenever possible, you should operate on this level, for testability reasons.

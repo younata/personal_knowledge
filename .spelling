@@ -366,6 +366,8 @@ interop
 downloader
 async
 reimplement
+threadsafe
+performant
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
