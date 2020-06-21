@@ -74,3 +74,7 @@ git apply change.patch
 ```
 
 Which is a less elegant version of `git stash`.
+
+## Stop tracking changes to a file
+
+Use `git rm --cached` on the file(s), and add them to the ignore patterns.
