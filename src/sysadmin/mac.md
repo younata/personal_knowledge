@@ -35,7 +35,7 @@ brew cask install iterm2 shiftit alfred flycut macdown
 brew install rbenv node tig the_silver_searcher jq wget tree
 
 # Set up rbenv
-rbenv init | tail -1 >> ~/.zshrc
+rbenv init 2>&1 | tail -1 >> ~/.zshrc
 
 # Get the latest ruby.
 LATEST_RUBY=$(rbenv install -l | sed -n '/^[[:space:]]*[0-9]\{1,\}\.[0-9]\{1,\}\.[0-9]\{1,\}[[:space:]]*$/ h;${g;p;}')
