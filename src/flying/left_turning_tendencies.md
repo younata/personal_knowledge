@@ -9,7 +9,7 @@ Single-engine airplanes in particular are susceptible to left-turning-tendencies
 
 These combine to produce a left turning tendency, all because the propeller is turning clockwise (relative to the pilot).
 
-[Cessna Chick had an excellent article on left turning tendencies](https://cessnachick.com/2016/06/01/left-turning-tendencies/)
+<a href="https://cessnachick.com/2016/06/01/left-turning-tendencies/" data-proofer-ignore>Cessna Chick had an excellent article on left turning tendencies</a>, but her domain seems to have slipped.
 
 Standard disclaimer for my other flying notes: I’m not a CFI. Hell, as of this writing, I’m not even a private pilot. Don’t take this as flight instruction.
 

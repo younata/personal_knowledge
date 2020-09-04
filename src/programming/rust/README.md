@@ -6,6 +6,18 @@ It's also one of the most frustrating languages I've ever used. This is because 
 
 It also has the best documentation of any language.
 
+## Swift/iOS Interop
+
+Follow [this article](https://medium.com/visly/rust-on-ios-39f799b3c1dd)
+
+Add the iOS architectures to `rustup`, as well as the tools for building universal iOS binaries (`cargo-lipo`) and C headers from rust (`cbindgen`).
+
+```bash
+rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-apple-ios i386-apple-ios
+cargo install cargo-lipo
+cargo install cbindgen
+```
+
 ## Serializing json in rust.
 
 Follow [this guide using serde](https://serde.rs/derive.html).

@@ -305,6 +305,69 @@ long-ez
 10-20k
 60k
 chemistries
+adulting
+xunit
+sunit
+junit
+xcode
+matchers
+stackexchange
+rebasing
+rebase
+gif
+giphy
+bafang
+chainring
+deallocate
+little-endian
+filesystem
+filemanager
+filetypes
+timeslot
+catalina
+downslope
+cliffside
+Palos
+Verdes
+preflighted
+info.plist.
+coronavirus
+Fronda
+idk
+scifi
+starship
+fanfic
+seater
+homebuilt
+Zeitlin
+Cyanocracy's
+verieze
+boolean
+reverse-geocoding
+reverse-geocode
+kool-aid
+dev-centric
+COVID-19
+hostname
+homebrew
+cmd
+whitespace
+iPadOS
+resize
+tilapia
+filets
+FoodNetwork
+yukon
+fahrenheit
+Shera
+Catradora
+subviews
+interop
+downloader
+async
+reimplement
+threadsafe
+performant
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -429,6 +492,8 @@ Korrasami
  - src/cli/shell.md
 woohoo
 stdout
+aaaa
+aaab
  - src/cli/ag.md
 ack
 -G
@@ -452,3 +517,150 @@ Gryder
 UIAccessibility
  - src/programming/ios/tableview.md
 DiffableDataSource
+ - src/flying/minimum_equipment.md
+achometer
+il
+agnetic
+emperature
+mergency
+nti-collision
+uel
+anding
+ltimeter
+anifold
+afety
+osition
+ource
+ - src/sysadmin/znc.md
+irc
+concat
+privkey.pem
+fullkey.pem
+znc
+ - src/programming/xcode.md
+objc
+ - src/programming/location.md
+1e-4
+1e-5
+1e-6
+1e-7
+1e-8
+1e-9
+1e-10
+ - src/cli/aircrack.md
+aircrack-ng
+Wifi-sampling
+aircrack
+ - src/speedrunning/README.md
+Speedrunning
+speedrunning
+weeklong
+GDQx
+twitchcon
+Horaru.org
+ical
+ - src/hardware/3d_printing.md
+Prusa
+i3
+mk3
+PrusaSlicer
+ - src/hardware/electric_plane/bms.md
+LTC6811-1
+ - src/hardware/electric_plane/README.md
+45kW
+Helno’s
+Farfle’s
+kWhr
+ - src/living/personal_finance.md
+ledger-autosync
+ - src/bicycling/bbs02.md
+bbs02
+bbsHD
+1-10mm
+4mm
+5mm
+ - src/programming/ios/imagecapturecore.md
+ImageCaptureCore
+ICDeviceBrowser
+0x1234
+0x34
+0x12
+ - src/cli/git.md
+Submodules
+Submodule
+submodules
+ - src/programming/ios/files_app_integration.md
+dropbox
+AppCoda
+UIDocumentBrowser
+ - src/books/hfy.md
+Magineer
+Deathworlders
+deathworld
+mid-2018
+neverwinter
+ - src/programming/ios/localizing.md
+objc.io
+ - src/flying/buying_a_plane.md
+prebuy
+3-5k
+ - src/programming/ios/core_location.md
+locationManager's
+geocoding
+placemarks
+locationManager
+ - src/programming/ios/pointer_interactions.md
+PSPDFKit
+UIButton
+UIPointerInteraction
+reimplement
+ - src/sysadmin/mac.md
+iterm2
+shiftit
+alfred
+flycut
+rbenv
+tig
+ag
+macdown
+ - src/programming/ios/stackview.md
+StackViews
+stackviews
+stackview
+ - src/programming/ios/viewcontrollers.md
+Lifecycle
+ - src/programming/apple/arkit.md
+Sherlocked_as_a_term
+ - src/programming/apple/concurrency.md
+NSOperations
+func
+enqueue
+ - src/programming/apple/core_location.md
+locationManager's
+locationManager
+geocoding
+placemarks
+ - src/programming/apple/imagecapturecore.md
+ImageCaptureCore
+0x1234
+0x34
+0x12
+ - src/programming/apple/ios/animations.md
+fromValue
+ - src/programming/apple/ios/collectionview.md
+UICollectionView
+ - src/programming/apple/ios/files_app_integration.md
+AppCoda
+dropbox
+ - src/programming/apple/ios/pointer_interactions.md
+PSPDFKit
+ - src/programming/apple/ios/stackview.md
+StackViews
+stackviews
+stackview
+ - src/programming/apple/ios/tableview.md
+DiffableDataSource
+ - src/programming/apple/ios/viewcontrollers.md
+Lifecycle
+ - src/programming/apple/localizing.md
+objc.io

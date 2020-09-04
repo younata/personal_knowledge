@@ -12,3 +12,9 @@
 ## Creating a video from images
 
 This is awesome. [From this stackoverflow question](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg), it's more-or-less a combination of the `-framerate $X` and `-r $Y` to get what you want. You can also use `-vf fps=$X` to specify the fps of the video.
+
+## Creating a gif from a video
+
+[This post from giphy engineering](https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/) describes how to do that. It's essentially:
+
+`ffmpeg -i $INPUT_VIDEO -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen=stats_mode=single [p];[b][p] paletteuse=new=1" $OUTPUT.gif`

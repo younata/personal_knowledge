@@ -12,11 +12,21 @@ Almost always Korrasami stuff, because of course.
 
 ### Smut
 
-Of course I'm going there.
+Of course I'm going there. NSFW.
 
 - [A Weekend](https://archiveofourown.org/works/17163914)
 - [Florence](https://archiveofourown.org/works/19944472)
 - [Pain Relief](https://archiveofourown.org/works/18796366)
+
+## Shera and the Princesses of Power
+
+Catradora!
+
+### Smut
+
+NSFW.
+
+- [Pros and Cons](https://archiveofourown.org/works/24208729)
 
 ## Greek Mythology
 

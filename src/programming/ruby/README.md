@@ -16,7 +16,7 @@ Note that the `public` name is not included in the URL - e.g. the file at `./pub
 
 ### Rendering stuff
 
-When inside of a URL pattern, you can render an [erb](https://ruby-doc.org/stdlib/libdoc/erb/rdoc/ERB.html) with:
+When inside of a URL pattern, you can render an <a href="https://ruby-doc.org/stdlib/libdoc/erb/rdoc/ERB.html" data-proofer-ignore>erb</a> with:
 
 ```ruby
 get '/' do

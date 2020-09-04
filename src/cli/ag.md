@@ -1,5 +1,7 @@
 # The Silver Searcher
 
+Install on OSX using brew, with `brew install the_silver_searcher`.
+
 A code-specific searching tool similar to ack, but faster. [`ag`](https://www.github.com/ggreer/the_silver_searcher).
 
 By default, you can use it to search for a given pattern in all files under a directory tree.

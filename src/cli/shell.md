@@ -3,9 +3,77 @@
 Bash shell, Z Shell, etc.
 
 - [Logical Operators](https://stackoverflow.com/questions/6270440/simple-logical-operators-in-bash)
-- [Basic Math](https://stackoverflow.com/questions/6348902/how-can-i-add-numbers-in-a-bash-script)
+
+## Basic Math
+
+From [this stackoverflow answer](https://stackoverflow.com/questions/6348902/how-can-i-add-numbers-in-a-bash-script), to add two numbers and set the result to another, you use `$(())` syntax, e.g.
+
+```bash
+BAZ=$(($FOO + $BAR))
+
+# Incrementing a number
+A=$(($A + 1))
+```
 
 ## Conditionals
+
+spaces around the square brackets are important.
+
+You can reverse conditionals with `!`:
+
+```bash
+if [ ! -d "some_directory" ]; then
+    echo "'./some_directory' does not exist!"
+fi
+```
+
+### Numbers
+
+use the `-eq` (equal), `-gt` (greater than), `-ge` (greater than or equal), `-lt` (less than), `-le` (less than or equal) operators (amongst others) to compare numbers.
+
+```bash
+if [ 3 -eq 3 ]; then
+    echo "3 is equal to 3"
+fi
+```
+
+### String
+
+use `=` and `!=` for string equality
+
+```bash
+if [ "$MY_STRING_VARIABLE" = "bar" ]; then
+    echo "MY_STRING_VARIABLE is bar"
+fi
+
+if [ "$MY_STRING_VARIABLE" != "bar" ]; then
+    echo "MY_STRING_VARIABLE is not bar"
+fi
+```
+
+You can also compare whether they are lexicographically greater than or less than (e.g. "aaaa" is lexicographically less than "aaab") another string with the `\<` and `\>` operators.
+
+```bash
+if [ "$MY_STRING_VARIABLE" \< "bar" ]; then
+    echo "MY_STRING_VARIABLE lexicographically greater than bar"
+fi
+
+if [ "$MY_STRING_VARIABLE" \> "bar" ]; then
+    echo "MY_STRING_VARIABLE lexicographically lesser than bar"
+fi
+```
+
+### Regex Matching
+
+Use the `=~` operator with a string as the left hand operand and the pattern as the right hand operand.
+
+```bash
+if [ "$MY_STRING_VARIABLE" =~ '.*' ]; then
+    echo "It better have matched, that was wildcard everything."
+fi
+```
+
+### File/Directories
 
 You can check if a file exists with `-f`.
 
@@ -23,11 +91,26 @@ if [ -d "some_directory" ]; then
 fi
 ```
 
-You can reverse conditionals with `!`:
+#### Iterate over Files in a Tree
+
+You can iterate over all files in a tree with:
 
 ```bash
-if [ ! -d "some_directory" ]; then
-    echo "'./some_directory' does not exist!"
+while IFS= read -r -d '' -u 9
+do
+    [Do something with "$REPLY"]
+done 9< <( find . -type f -exec printf '%s\0' {} + )
+```
+
+(Thanks [stackexchange](https://unix.stackexchange.com/a/139364))
+
+### Number of Arguments
+
+The number of arguments is represented as `$#`
+
+```bash
+if [ $# == 1 ]; then
+    echo "There was only one argument passed to $0: $1"
 fi
 ```
 

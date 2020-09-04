@@ -2,10 +2,6 @@
 
 Spreadsheet program for iOS and macOS
 
-## Shortcuts
-
-[This apple support page](https://support.apple.com/kb/ph23821?locale=en_US) shows a list of current shortcuts available in the iOS version of numbers.
-
 ## Sheets
 
 ### Renaming a Sheet
