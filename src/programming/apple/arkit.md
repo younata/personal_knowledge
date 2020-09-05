@@ -11,8 +11,6 @@ Be sure to update your info.plist with an appropriate string for `NSCameraUsageD
 <string>ARKit uses the camera</string>
 ```
 
-Alternatively, if you don't use the camera, you can set the [`cameraMode`](https://developer.apple.com/documentation/realitykit/arview/3255305-cameramode) property on the [`ARView`](https://developer.apple.com/documentation/realitykit/arview) to [`.nonAR`](https://developer.apple.com/documentation/realitykit/arview/cameramode).
-
 ## Integrating with SceneKit
 
 [`ARView`](https://developer.apple.com/documentation/realitykit/arview), by default, integrates well with SceneKit, with it also hosting an [`SCNScene`](https://developer.apple.com/documentation/scenekit/scnscene).
