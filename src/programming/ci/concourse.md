@@ -24,6 +24,15 @@ See [this issue](https://github.com/concourse/concourse/issues/3493)
 
 Remove `$CONCOURSE_WORK_DIR/garden-properties.json` before each time a worker starts.
 
+#### Unable to resolve host error
+
+I ran in to this issue when "upgrading" the host my concourse installation used from ubuntu 19.10 to 20.04. (Linode recommends you "upgrade" by creating a new instance at the desired OS, and copying over the necessary files - I just set everything up again because it was faster/easier to do it that way).
+
+Sometimes, firewall or dns rules interfere with your workers. I resolved this by doing two things:
+
+- Specifying the `CONCOURSE_GARDEN_DNS_SERVER` variable to a specific dns server (I use 1.1.1.1 so I don't have to rely on Google).
+- If that doesn't work, then it's usually a firewall rule. If you use `fly intercept` on any of the offending gets, and you can't ping ANY IPs, then it's usually an overly restrictive firewall rule. You can adjust these with `ufw` on ubuntu (or `iptables` elsewhere).
+
 #### Resizing the Worker Volume
 
 See [this issue](https://github.com/concourse/concourse/issues/1751#issuecomment-371944140).
