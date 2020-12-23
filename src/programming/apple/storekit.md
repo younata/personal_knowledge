@@ -37,7 +37,7 @@ When checking the receipt, if you have already stored the `original_transaction_
 
 You can also poll the app store for new transactions. To do this, you save the latest version of the base64 receipt data, and then make a new call to `/verifyReceipt` on the app store. This will return with any new transactions that have occurred. This is when you would specify `exclude-old-transactions` as `true`.
 
-You can also get notified when a subscription lapses but renews later (i.e. billing error) by using Server-To-Server Notifications. You set up an endpoint for the app store to make a post request, which has the same `latest_transaction_info` field that `/verifyReceipt` will inclued.
+You can also get notified when a subscription lapses but renews later (i.e. billing error) by using Server-To-Server Notifications. You set up an endpoint for the app store to make a post request, which has the same `latest_transaction_info` field that `/verifyReceipt` will include.
 
 ## Other Notes
 

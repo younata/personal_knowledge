@@ -373,6 +373,11 @@ StoreKit
 ubuntu
 dns
 ips
+lifecycle
+base-64
+appstore
+base64
+urls
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -470,6 +475,7 @@ rspec-based
 102mm
 714mm
 41mm
+82.5mm.
  - src/cli/youtube-dl.md
 youtube-dl
 1280x720

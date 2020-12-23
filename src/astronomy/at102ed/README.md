@@ -14,4 +14,4 @@ This is also available on [thingiverse](https://www.thingiverse.com/thing:374419
 
 With a Canon EOS 6D on a T-ring (1.25 inch), this focuses at just past 41mm.
 
-With a Canon EOS 6d on a 2-inch T-Ring, this focuses at about 82.5mm.
+With a Canon EOS 6D on a 2-inch T-Ring, this focuses at about 82.5mm.
