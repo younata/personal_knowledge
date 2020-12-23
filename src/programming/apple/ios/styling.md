@@ -10,8 +10,6 @@ For multiple themes in an app, I like using a `ThemeRepository` paradigm. When I
 
 ## Styling UINavigationBar
 
-(Adapted from [this post](https://codecantina.com/navigation-styling-with-uiappearance/)).
-
 ```swift
 UINavigationBar.appearance().barTintColor = navColor
 UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: textColor]

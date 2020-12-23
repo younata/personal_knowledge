@@ -41,7 +41,7 @@ For example, if your company does matching up to 4%, then at least put in that 4
 
 - [Picking stocks is for fools, buy index funds](https://www.mrmoneymustache.com/2011/05/18/how-to-make-money-in-the-stock-market/).
     - [Betterment](https://betterment.com) is what I use for my non-401k investments.
-- [The S&P 500 environmental and socially responsible index](https://us.spindices.com/indices/equity/sp-500-environmental-socially-responsible-index) has outperformed the S&P 500 since it was launched.
+- The S&P 500 environmental and socially responsible index has outperformed the S&P 500 since it was launched.
     - Which means that doing the right thing **is** financially responsible.
     - The vanguard [ESGV](https://investor.vanguard.com/etf/profile/ESGV) and [VSGX](https://investor.vanguard.com/etf/profile/VSGX) funds are their US and International socially responsible index funds.
     
