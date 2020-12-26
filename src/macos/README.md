@@ -26,3 +26,7 @@ Alternatively, you can use applescript, with commands like:
 All of these can be halted by other apps, though.
 
 See [this stackoverflow answer](https://apple.stackexchange.com/a/103633) for other examples.
+
+## View Hidden Files in Finder
+
+In a finder or open-file window prompt (using the system control), use `command+shift+.` to toggle showing hidden files.
