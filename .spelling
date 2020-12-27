@@ -379,6 +379,8 @@ appstore
 base64
 urls
 appkit
+coreaudio
+launchctl
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
