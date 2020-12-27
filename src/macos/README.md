@@ -30,3 +30,11 @@ See [this stackoverflow answer](https://apple.stackexchange.com/a/103633) for ot
 ## View Hidden Files in Finder
 
 In a finder or open-file window prompt (using the system control), use `command+shift+.` to toggle showing hidden files.
+
+## Audio Skipping Glitch
+
+Sometimes, the audio will "skip" when using headphones. Restarting coreaudio via launchctl seems to fix it. If not, then restart the machine and that sometimes helps.
+
+```bash
+sudo launchctl stop com.apple.audio.coreaudiod && sudo launchctl start com.apple.audio.coreaudiod
+```
