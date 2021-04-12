@@ -20,5 +20,5 @@ Some of my favorite examples are:
 # Fantasy/Sci-Fi mix
 
 - [The Magineer](https://www.themagineer.com/chapter-1/) is about a futuristic engineer w/ AI implants who gets dumped in an MMORG setting where magic is, at it's most basic level, a programming language. Super interesting.
-- [Finishing The Fight](https://www.fanfiction.net/s/4108390/1/Halo-Finishing-the-Fight) is a halo/neverwinter nights fanfic. It's written pre-Halo 4, which honestly is a plus in my book.
+- <a href="https://www.fanfiction.net/s/4108390/1/Halo-Finishing-the-Fight" data-proofer-ignore>Finishing The Fight</a> is a halo/neverwinter nights fanfic. It's written pre-Halo 4, which honestly is a plus in my book.
 

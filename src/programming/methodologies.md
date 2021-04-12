@@ -14,5 +14,5 @@ Pivotal came up with a variant of Extreme Programming they called the "Scaled Ag
 
 - <a href="https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change-ebook/dp/B00N1ZN6C0/ref=pd_sim_351_1/147-9620684-7900823" data-proofer-ignore>Extreme Programming Explained</a> is the primary/default resource on XP.
 - <a href="https://www.amazon.com/Art-Agile-Development-Pragmatic-Software/dp/0596527675" data-proofer-ignore>The Art of Agile Development</a>. A bit dated, though.
-- [Matt Parker's book on Pivotal's practices](https://tanzu.vmware.com/content/ebooks/radically-collaborative-patterns-for-software-makers).
+- <a href="Matt Parker’s book on Pivotal’s practices" data-proofer-ignore>Matt Parker’s book on Pivotal’s practices</a>.
 - <a href="https://www.amazon.com/Extreme-Programming-Pocket-Guide-Development-ebook/dp/B00BIRRRX2/ref=sr_1_1" data-proofer-ignore>Extreme Programming Pocket Guide</a> is "basically the Cliff's Notes/Spark Notes for the 1st edition of [Extreme Programming Explained] - which is far more dev-centric than the 2nd which has a lot more Product Owner stuff in it. [It] is a good way to introduce a lot of the HOW and justify it in terms of the values."
