@@ -61,6 +61,18 @@ When you're not the one who added it, the command to pull down the submodules is
 git submodule update --init --recursive
 ```
 
+### Removing a submodule
+
+Removing a submodule is less obvious, and, as of git 1.8.5, involves a 3-part process:
+
+```sh
+git submodule deinit -f -- $MODULE
+rm -rf .git/modules/$MODULE
+git rm -f $MODULE
+```
+
+Thanks to [this stackoverflow answer](https://stackoverflow.com/a/16162000)
+
 ## Generating and Applying Patches
 
 Patch files are files (duh) describing changes between one version to another. They can be easily created by piping `git diff $SOURCE_COMMIT $TARGET_COMMIT` to a file. Or, for changes from HEAD to whatever's being worked on, a simple `git diff`.
