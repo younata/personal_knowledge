@@ -1,8 +1,6 @@
 # Vapor
 
-Vapor is one of two swift web frameworks to have gained traction (the other is Kitura, from IBM). It appears that vapor has slightly more documentation available that Kitura does, so I use vapor.
-
-However, Vapor still has PLENTY of rough edges that make it a pain in the ass to develop against.
+Vapor is one of two swift web frameworks to have gained traction (the other is [Kitura](https://github.com/Kitura/Kitura)). Both have their rough edges and reasons to use or not use them. I have slightly more experience with Vapor. Though Kitura feels more native-swift.
 
 ## Specify the http status error
 

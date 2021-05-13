@@ -38,7 +38,11 @@ Or, as a mnemonic (retrieved from [Ask A CFI](https://www.askacfi.com/1647/vfr-r
 - **E**mergency Locator Transmitter
 - **S**afety Belts and Shoulder Harnesses
 
+Source: FAR 91.205 (b)
+
 ## VFR Night
+
+Everything in VFR Day plus the following:
 
 mnemonic:
 
@@ -47,3 +51,20 @@ mnemonic:
 - **A**nti-collision light (beacon and/or strobes)
 - **P**osition Lights – Nav Lights (Red on the left, Green on the Right, White facing aft)
 - **S**ource of electricity (battery, generator, alternator)
+
+Source: FAR 91.205 (c)
+
+## IFR
+
+IFR Adds GRABCARD to the respective VFR Day or Night requirements (i.e. for IFR day, you need all the required equipment for VFR day, plus what follows. For IFR night, you need all the required equipment for VFR Day & Night, plus what follows.)
+
+- **G**enerator/Alternator
+- **R**adios (Two-way comms + navigation equipment suitable for the route to be flown)
+- **A**ltimeter (sensitive & adjustable for barometric pressure)
+- **B**all (Slip-kid indicator)
+- **C**lock (display hours, minutes, and seconds with a sweep-second pointer or digital presentation)
+- **A**ttitude Indicator
+- **R**ate-of-Turn Indicator
+- **D**irection gyroscope (heading indicator)
+
+Source: FAR 91.205 (d)
