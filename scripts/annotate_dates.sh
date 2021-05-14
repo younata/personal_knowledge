@@ -9,4 +9,3 @@ do
         printf "\n\nLast updated: ${LAST_MODIFY_DATE}" >> "${REPLY}"
     fi
 done 9< <( find src -type f -exec printf '%s\0' {} + )
-
