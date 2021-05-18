@@ -54,3 +54,6 @@ fn main() {
   - [Publishing CLI apps](https://rust-lang-nursery.github.io/cli-wg/tutorial/packaging.html).
 - [Rust Koans](https://users.rust-lang.org/t/rust-koans/2408) offers a humorous explanation at some of the language paradigms.
 - [Rust Cheatsheet](https://cheats.rs).
+- [Rust by example](https://doc.rust-lang.org/stable/rust-by-example/)
+  - [Formatting strings, including coloring strings](https://doc.rust-lang.org/rust-by-example/hello/print/fmt.html)
+  - [Reading lines from a file](https://doc.rust-lang.org/stable/rust-by-example/std_misc/file/read_lines.html)
