@@ -391,6 +391,11 @@ UIKit
 de-facto
 speedbumps
 AppDelegate
+microcontroller
+Arduino
+microcontrollers
+toolchain
+preprocessor
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -693,3 +698,5 @@ Lifecycle
 objc.io
  - src/hardware/coz-e/README.md
 Kozy
+ - src/programming/rust/README.md
+Source-ish

@@ -45,6 +45,24 @@ fn main() {
 }
 ```
 
+## Rust on an AVR microcontroller
+
+Source-ish: [Rust on Arduino](https://dev.to/creativcoder/how-to-run-rust-on-arduino-uno-40c0).
+
+You can also use this to abstract for pretty much any AVR microcontroller. I have enough bare microcontrollers to last me a lifetime.
+
+<!-- !!!https://github.com/Rahix/avr-hal/issues/124,https://github.com/rust-lang/rust/issues/82104,https://github.com/rust-lang/compiler-builtins/issues/400 -->
+
+Until [`Rahix/avr-hal#124`](https://github.com/Rahix/avr-hal/issues/124), [`rust-lang/rust#82104`](https://github.com/rust-lang/rust/issues/82104), and [`rust-lang/compiler-builtins#400`](https://github.com/rust-lang/compiler-builtins/issues/400) are closed, you can't use a rust toolchain after 2021-01-07. To mitigate this, add the following to your project's `Cargo.toml`:
+
+```toml
+[toolchain]
+channel = "nightly-2021-01-07"
+components = ["rust-src"]
+```
+
+<!-- !!! -->
+
 ## Links
 
 - [Too Many Lists](https://rust-unofficial.github.io/too-many-lists/index.html) - a learn rust thing that's really well written and actually fun.
