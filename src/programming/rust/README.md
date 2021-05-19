@@ -63,6 +63,8 @@ components = ["rust-src"]
 
 <!-- !!! -->
 
+Also check out [`avr-rust/ruduino`](https://github.com/avr-rust/ruduino) for a library that provides reusable components for an arduino uno/atmega 328p.
+
 ## Links
 
 - [Too Many Lists](https://rust-unofficial.github.io/too-many-lists/index.html) - a learn rust thing that's really well written and actually fun.

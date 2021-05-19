@@ -396,6 +396,9 @@ Arduino
 microcontrollers
 toolchain
 preprocessor
+arduino
+uno
+atmega
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -699,4 +702,5 @@ objc.io
  - src/hardware/coz-e/README.md
 Kozy
  - src/programming/rust/README.md
+328p
 Source-ish
