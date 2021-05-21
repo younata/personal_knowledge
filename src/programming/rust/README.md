@@ -51,9 +51,9 @@ Source-ish: [Rust on Arduino](https://dev.to/creativcoder/how-to-run-rust-on-ard
 
 You can also use this to abstract for pretty much any AVR microcontroller. I have enough bare microcontrollers to last me a lifetime.
 
-<!-- !!!https://github.com/Rahix/avr-hal/issues/124,https://github.com/rust-lang/rust/issues/82104,https://github.com/rust-lang/compiler-builtins/issues/400 -->
+!!!https://github.com/Rahix/avr-hal/issues/124,https://github.com/rust-lang/rust/issues/82104,https://github.com/rust-lang/compiler-builtins/issues/400
 
-Until [`Rahix/avr-hal#124`](https://github.com/Rahix/avr-hal/issues/124), [`rust-lang/rust#82104`](https://github.com/rust-lang/rust/issues/82104), and [`rust-lang/compiler-builtins#400`](https://github.com/rust-lang/compiler-builtins/issues/400) are closed, you can't use a rust toolchain after 2021-01-07. To mitigate this, add the following to your project's `Cargo.toml`:
+There's a bug in the rust compiler right now and you can't use a rust toolchain after 2021-01-07. To mitigate this, add the following to your project's `Cargo.toml`:
 
 ```toml
 [toolchain]
@@ -61,7 +61,7 @@ channel = "nightly-2021-01-07"
 components = ["rust-src"]
 ```
 
-<!-- !!! -->
+!!!
 
 Also check out [`avr-rust/ruduino`](https://github.com/avr-rust/ruduino) for a library that provides reusable components for an arduino uno/atmega 328p.
 
