@@ -399,6 +399,9 @@ preprocessor
 arduino
 uno
 atmega
+gimble
+VSIs
+pitot
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -704,3 +707,5 @@ Kozy
  - src/programming/rust/README.md
 328p
 Source-ish
+ - src/flying/flight_systems.md
+Pitot-Static
