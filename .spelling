@@ -402,6 +402,10 @@ atmega
 gimble
 VSIs
 pitot
+enroute
+MVAs
+MOCAs
+glideslope
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
