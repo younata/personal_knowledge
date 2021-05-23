@@ -44,7 +44,6 @@ Same error when flying from warm air to cool air.
 | Density   | Pressure altitude corrected for nonstandard temperature. Used for performance calculations. "The altitude the airplane behaves like it's at" |
 | True      | Actual altitude above mean sea level (MSL) |
 | Absolute  | Height above ground |
-|-----------|-------------|
 
 ### Vertical Speed Indicator
 

@@ -406,6 +406,12 @@ enroute
 MVAs
 MOCAs
 glideslope
+localizer
+HSIs
+VORs
+14.5k
+18k
+45k
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr

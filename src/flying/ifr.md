@@ -1,5 +1,7 @@
 # Instrument Flying
 
+Operating an aircraft solely by reference to instruments.
+
 ## Mandatory Reporting Events
 
 `MARVELOUS VFR C500`
@@ -21,7 +23,7 @@
 
 ### Position reporting items
 
-"Center, `$CALLSIGN`, reporting `$LOCATION`, `$ALTITUDE` at `$TIME`. On IFR flight plan. Next position `$NEXT_FIX` at `$NEXT_FIX_TIME`. Afterward `$SUCCEEDING_POINT`. `$REMARKS`"
+"Center, `\$CALLSIGN`, reporting `\$LOCATION`, `\$ALTITUDE` at `\$TIME`. On IFR flight plan. Next position `\$NEXT_FIX` at `\$NEXT_FIX_TIME`. Afterward `\$SUCCEEDING_POINT`. `\$REMARKS`"
 
 - Aircraft ID
 - Position
@@ -68,3 +70,64 @@ You can descend below the MDA/DA when all of the following conditions are true:
   - The touchdown zone lights.
   - The runway or runway markings.
   - The runway lights.
+
+## Navigation Systems
+
+Radio navigation systems: DME, NDB, VOR, RNAV, GPS, etc.
+
+[See AIM chapter 1 for more reference](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap1_section_1.html).
+
+### DME - Direct Measuring Equipment
+
+Tuned automatically with a paired VHF station (Localizer or VOR). Works by having the DME unit on the aircraft ping the ground unit. Ground unit will respond to the ping, and the airborne unit will compute & display distance to the ground unit using time-of-flight.
+
+Note that DME will display "slant range" (actual distance) to the receiver, not horizontal distance. However, you can... effectively ignore that and use horizontal distance if you are 1 NM away for every 1000 feet above/below the station. E.G. at 5000 feet above the station, you need to be at least 5 NM to more-or-less use the slant range as a horizontal distance. This results in the degree of error being less than 10° (`asin(1000 ft / 1 NM) ~= asin(0.1646) ~= 9.473°`)
+
+### NDB - Non-Directional Beacon
+
+Operates in the LF to MF range (190-535 kHz). As the name describes, this does not give you the direction to the beacon. Has the following service volumes:
+
+| Type | Service Volume Radius |
+|------|-----------------------|
+| Compass Locator | 15 NM |
+| Medium High | 25 NM |
+| High | 50 NM (or less, as published by NOTAM or in the chart supplement) |
+| High High | 75 NM |
+
+#### Compass Locator
+
+A type of NDB installed at the outer or middle markers (sometimes both) on some ILS approaches. Low-powered, at least 25 watts & 15 NM range.
+
+### VOR - VHF Omnidirectional Range
+
+As the name describes, they're in the VHF range (108 to 117.95 MHz). These are beacons that include a directional signal, so that a receiver can figure out what radial they're on and display how far off the radial (up to 10° for most HSIs) the aircraft is.
+
+The VOR MON (minimum operational network) program ensures that as old
+VORs are decommissioned, a MON airport (equipped with legacy ILS or VOR approach) is available within 100 NM regardless of aircraft position in the continental US.
+
+Service volume depends on the VOR. For all VOR types, from 0 ft AGL up to 1000 ft AGL, it looks like a cone, extending out to the volume specified at 1,000 ft.
+
+| VOR Type | Service Volumes | MON Service Volume |
+|----------|-----------------|--------------------|
+| Terminal | 1,000 ft to 12,000 ft: Radius 25 NM | n/a |
+| Low      | 1,000 ft to 18,000 ft: Radius 40 NM | 5,000 ft to 18,000 ft: Radius 70 NM |
+| High     | 1,000 ft to 14,500 ft: Radius 40 NM. 14.5k to 18k ft: Radius 100 NM. 18k to 45k ft: Radius 130 NM. 45k to 60k ft: Radius 100 NM | 5,000 ft to 14,500 ft: Radius 70 NM. Rest unchanged. |
+
+![[VOR service volumes, thanks to boldmethod.com](https://www.boldmethod.com/learn-to-fly/navigation/how-a-vor-works/)](https://cdn.boldmethod.com/images/learn-to-fly/navigation/how-a-vor-works/vor-service-volumes.jpg)
+
+#### Limitations
+
+- Cone of Confusion: When you're directly over the VOR, the receiver has a hard time distinguishing which radial you're on.
+- Reverse sensing: In older HSIs, if you've accidentally tuned the opposite radial (e.g. you're on the 180 radial, but tuned to the 360 radial), and are off course/trying to get back on, you need to fly away from the line deflection and not towards it.
+- VORs requires line-of-sight between aircraft and the VOR transmitter. i.e. mountains will mess with the signal.
+
+#### Receiver checks
+
+Must be done every 30 calendar days. Log DEPS: date, error, place (location), and signature.
+
+- VOT (VOR test facility) ±4°
+- Repair Station ±4°
+- VOR ground checkpoint ±4°
+- VOR airborne checkpoint ±6°
+- Dual VOR cross-check ±4°
+- Above a prominent ground landmark on a selected radial at least 20 NM from a VOR, flying at a “reasonable low altitude” ±6°
