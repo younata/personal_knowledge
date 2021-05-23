@@ -111,7 +111,7 @@ Service volume depends on the VOR. For all VOR types, from 0 ft AGL up to 1000 f
 |----------|-----------------|--------------------|
 | Terminal | 1,000 ft to 12,000 ft: Radius 25 NM | n/a |
 | Low      | 1,000 ft to 18,000 ft: Radius 40 NM | 5,000 ft to 18,000 ft: Radius 70 NM |
-| High     | 1,000 ft to 14,500 ft: Radius 40 NM. 14.5k to 18k ft: Radius 100 NM. 18k to 45k ft: Radius 130 NM. 45k to 60k ft: Radius 100 NM | 5,000 ft to 14,500 ft: Radius 70 NM. Rest unchanged. |
+| High     | 1,000 ft to 14,500 ft: Radius 40 NM.<br /> 14.5k to 18k ft: Radius 100 NM.<br /> 18k to 45k ft: Radius 130 NM.<br /> 45k to 60k ft: Radius 100 NM | 5,000 ft to 14,500 ft: Radius 70 NM. Rest unchanged. |
 
 ![[VOR service volumes, thanks to boldmethod.com](https://www.boldmethod.com/learn-to-fly/navigation/how-a-vor-works/)](https://cdn.boldmethod.com/images/learn-to-fly/navigation/how-a-vor-works/vor-service-volumes.jpg)
 
