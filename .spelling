@@ -412,6 +412,9 @@ VORs
 14.5k
 18k
 45k
+minima
+minimas
+unaugmented
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -719,7 +722,7 @@ Kozy
 Source-ish
  - src/flying/flight_systems.md
 Pitot-Static
- - src/flying/ifr.md
+ - src/flying/ifr/README.md
 issed
 eaching
 eaving
@@ -730,3 +733,10 @@ acating
 inal
 adio
 ompulsory
+ - src/flying/ifr/altitudes.md
+Non-RVSM
+ - src/flying/ifr/navigation.md
+GNSS-based
+BARO-VNAV
+VNAV-approved
+IFR-approved
