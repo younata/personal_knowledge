@@ -415,6 +415,8 @@ VORs
 minima
 minimas
 unaugmented
+NOTAMs
+broadcasted
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -739,4 +741,9 @@ Non-RVSM
 GNSS-based
 BARO-VNAV
 VNAV-approved
+GBAS-enabled
+A-RNP
+IIIa
+IIIb
+IIIc
 IFR-approved
