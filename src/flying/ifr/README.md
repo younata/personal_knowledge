@@ -3,7 +3,8 @@
 Operating an aircraft solely by reference to instruments.
 
 - [Altitudes](./altitudes.md) covers IFR altitude names. Also includes the definition of what you must see in order to descend below the DA/MDA.
-- [Navigation](./navigation.md) covers IFR navigation methods. Including approaches.
+- [Approaches](./approaches.md) covers Instrument approaches and related topics.
+- [Navigation](./navigation.md) covers IFR navigation methods.
 
 ## Mandatory Reporting Events
 
