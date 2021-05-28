@@ -4,6 +4,26 @@ The different type of IFR approaches and related information to flying them.
 
 There are two basic kinds of approaches: Precision and Non-Precision. Precision, as the name implies, provide much more accurate navigation. Specifically, they provide more precise lateral and vertical guidance. Precision approaches prescribe a decision altitude or height where the pilot decides to either continue the approach or go missed. Non-precision, on the other hand, prescribe two things: a minimum descent altitude (or height), and a missed approach point. In a non-precision approach, you descend down to the MDA, then hold at or above that altitude until you either have everything needed to continue the approach, or you reach the missed approach point. If you reach the missed approach point, and are unable to continue the approach, you must execute the missed approach procedure.
 
+## Descending below MDA/DA
+
+[Part 91.175](https://ecfr.io/Title-14/Section-91.175).
+
+You can descend below the MDA/DA when all of the following conditions are true:
+
+- The aircraft is continuously in a position from which a descent to a landing on the intended runway can be made at a normal rate of descent using normal maneuvers. i.e. no chop and drop/slipping.
+- The flight visibility is not less than the visibility prescribed in the standard instrument approach being used.
+- At least one of the following visual references for the intended runway is distinctly visible and identifiable to the pilot:
+  - The approach light system, except that the pilot may not descend below 100 feet above the touchdown zone elevation using the approach lights as a reference unless the red terminating bars or the red side row bars are also distinctly visible and identifiable.
+  - The threshold.
+  - The threshold markings.
+  - The threshold lights.
+  - The runway end identifier lights.
+  - The visual glideslope indicator.
+  - The touchdown zone or touchdown zone markings.
+  - The touchdown zone lights.
+  - The runway or runway markings.
+  - The runway lights.
+
 ## Approach Category
 
 See [AIM 5-4-7 (e)](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap5_section_4.html).
