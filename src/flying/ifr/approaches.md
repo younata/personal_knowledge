@@ -83,11 +83,42 @@ Per the AIM, Circling approach protected areas developed after late 2012 use the
 
 Most instrument approach procedures also have a missed procedure. These are described in the top-left box of the approach plate, and then visually depicted as part of the top-down view.
 
-If you choose to, or must, go missed, you follow those instructions. If you were not on the final approach course (that is, if you were circling to land), then you get back on the final approach course as part of going missed.
+If you choose to, must, or are instructed to go missed, you follow those instructions. If you were not on the final approach course (that is, if you were circling to land), then you get back on the final approach course as part of going missed.
 
 [See this article from AOPA on going missed](https://www.aopa.org/news-and-media/all-news/2019/may/pilot/on-instruments-going-missed).
 
 [See this article from BoldMethod on going missed below the MDA/DA](https://www.boldmethod.com/learn-to-fly/maneuvers/late-missed-approach-from-an-instrument-approach/)
+
+## PT - Procedure Turn
+
+Depicted as a line with a barb from a course in an approach plate. The barb indicates the direction to turn. Procedure turns are maneuvers enable the following:
+
+- course reversal
+- descent from an IAF
+- Inbound course interception.
+
+Procedure turns or hold-in-lieu-of-PTs are mandatory whenever they are depicted on the approach plate.
+However, they are not permitted when:
+
+- "NoPT" is depicted on the plate
+- Radar vectors to final
+- Conducting a timed approach from a holding fix.
+
+The maximum speed when performing a procedure turn is 200 kts IAS. You must remain within the charted distance (usually 10 NM), and comply with published altitudes for obstacle clearance.
+
+The shape of the maneuver is mandatory if a teardrop or hold-in-lieu-of-PT is published. Otherwise, only the direction.
+
+A teardrop procedure may be be published instead of a procedure turn.
+
+Do not perform a procedure turn when SHARPTT:
+
+- Straight-in approach clearance
+- Holding in lieu of a procedure turn
+- DME Arc
+- Radar vectors to final
+- NoPT shown on chart
+- Timed approach from a holding fix
+- Teardrop course reversal.
 
 ## ILS - Instrument Landing System
 
