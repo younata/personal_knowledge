@@ -4,7 +4,7 @@
 
 ## Weather Forecast and Advisories
 
-Airmets, sigmets, convective sigmets, PIREPs (Pilet reports), METARs, TAFs, etc.
+Airmets, sigmets, convective sigmets, PIREPs (Pilot reports), METARs, TAFs, etc.
 
 ### Airmets
 
@@ -12,7 +12,7 @@ Airmets are advisories of significant weather that may affect all aircraft, but 
 
 - Airmet T (Tango): Moderate turbulence, sustained surface 30+ kts, and/or non-convective low-level wind shear.
 - Airmet Z (Zulu): Moderate icing and provides freezing level heights.
-- Airmet S (Sierra): Describes IFR conditions and/or mountain obscurations.
+- Airmet S (Sierra): Describes IFR conditions and/or mountain obscuration.
 - Airmet G (Graphical): Found at [aviationweather.gov](https://www.aviationweather.gov)
 
 For example, the coastal fog on the west coast usually results in Airmet Sierras being issued.
@@ -23,7 +23,7 @@ Sigmets are more significant airmets and are potentially hazardous to all types 
 
 - Severe icing not associated with thunderstorms
 - Severe or extreme turbulence or clean air turbulence not associated with thunderstorms.
-- Dust storms, sandstarms, and other non-thunderstorm phenomena lowering surface visibility below 3 miles.
+- Dust storms, sandstorms, and other non-thunderstorm phenomena lowering surface visibility below 3 miles.
 
 For example, the ash spewed from an erupting volcano would cause a sigmet to be issued.
 
