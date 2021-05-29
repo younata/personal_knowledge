@@ -19,3 +19,6 @@ edit-url-template = "https://github.com/younata/personal_knowledge/edit/master/{
 [preprocessor.section-validator]
 hide_invalid = false
 invalid_message = "🚨 Warning, this content is out of date and is included for historical reasons."
+
+[preprocessor.chapter-path]
+strict = true

@@ -1,6 +1,6 @@
 # Fastlane
 
-[Fastlane](https://fastlane.tools) is a set of ruby tooling to make mobile development suck a lot less. I use it to automate a lot of the shitty parts of [iOS development](../programming/apple/ios/index.md).
+[Fastlane](https://fastlane.tools) is a set of ruby tooling to make mobile development suck a lot less. I use it to automate a lot of the shitty parts of [iOS development]({{#path_for iOS Development}}).
 
 ## Scan
 

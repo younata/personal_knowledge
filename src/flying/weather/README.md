@@ -1,6 +1,7 @@
 # Weather
 
-- [Briefings](./briefings.md) covers receiving weather briefings. It could use a lot of fleshing out.
+- [Briefings]({{#path_for Briefings}}) covers receiving weather briefings. It could use a lot of fleshing out.
+- [Icing]({{#path_for Icing}}) covers icing specifically.
 
 ## Weather Forecast and Advisories
 

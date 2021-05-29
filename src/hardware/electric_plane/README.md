@@ -12,7 +12,7 @@ Currently, I estimate I can get approximately 300 statute miles with no reserves
 
 ## Battery System
 
-[Main page here](./battery_system.md)
+[Main page here]({{#path_for Battery System}})
 
 When I started this project, I thought I might use salvaged Tesla batteries. As I did more research I realized that the Tesla battery packs are severely over engineered for my needs [^battery heating]. I can build a battery system that’ll be not as good as a Tesla system, but it’ll be good enough, and much lighter than a Tesla system.
 
@@ -74,7 +74,7 @@ I still might build motors into the wheels, but not hook them up to anything, th
 
 ### Solar Wings
 
-TL;DR: It’s not worth it. Yet.
+TL;DR: It’s not worth it.
 
 For the planes I’m considering, I have about 130 square feet total wing area. With the most efficient solar cells available on the market, I expect to get approximately 25 watts per square foot, or about 3 kilowatts for the entire wing. For reasons, I expect to only be able to utilize at most 2/3rds of the total wing area. Reducing this down to 2 kilowatts at most (realistically, closer to only 1). This is not useful whatsoever for extending the duration of flight (It would add on the order of 10 minutes total duration), which means that it’s only useful for charging, either to supplement grid power (that’ll be a fun challenge), or when grid power is not available.
 

@@ -8,7 +8,7 @@ The current thought involves 27 12s13p modules, 9 modules in series, and 3 in pa
 
 ## BMS
 
-[Has it's own page](./bms.md)
+[Has it's own page]({{#path_for Battery Monitoring System}})
 
 ## Charger
 

@@ -1,16 +1,8 @@
-# Maneuvers
+# Flight Maneuvers
 
 Basic flight maneuvers. Mostly notes from Chapter 4 of the [Airplane Flying Handbook](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook/).
 
 Standard disclaimer for my other flying notes: I’m not a CFI. Hell, as of this writing, I’m not even a private pilot. Don’t take this as flight instruction.
-
-## Defined Minimum Maneuvering Speed
-
-After speaking with my CFI on this: Yes, don't let the airplane get too slow, but also don't put in that 30 degree bank. Also, there's not much need to get "light in your seat" on an engine failure: pitch for best glide.
-
-[This FlightChops video](https://www.youtube.com/watch?v=m_tKShlf_gU) is... perhaps the most valuable FlightChops video I've ever seen. In it, Dan Gryder talks about applying a Defined Minimum Maneuvering Speed as the minimum airspeed to maintain in every phase of flight except for short final. He defines it as 1.404 * V<sub>s1</sub>. For example, on a [sportcruiser](https://en.wikipedia.org/wiki/CZAW_SportCruiser) V<sub>s1</sub> is 39 kts. 39 knots * 1.404 = 54.756, or 55 kts. So, don't fly slower than 55 kts in a clean condition.
-
-The 1.404 number comes from applying a 1.3 buffer on top of V<sub>s1</sub>, plus an additional 8% on top of that, to account for a potential 30 degree bank.
 
 ## Stalls
 

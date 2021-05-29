@@ -14,7 +14,7 @@ No. Tests provide automated and repeatable use cases for the code. Without them,
 
 With automated, repeatable tests, the only difference is that the verification procedure is written in code. This allows your computer to follow those steps, which it can do in orders of magnitude less time than you can, with much higher attention to detail than you can continuously give it. Additionally, it allows you to more tightly control all the inputs and outputs, so you know precisely what caused a bit of code to go wrong.
 
-Additionally, anyone else who works with you now has a simple script they can run to verify that your changes work, instead of having to look up and follow your documentation to try to figure out what you did to test it. This can even be generalized into an external environment that automatically runs the test script to determine whether or not your changes are good - something which is called [continuous integration](../ci/index.md)
+Additionally, anyone else who works with you now has a simple script they can run to verify that your changes work, instead of having to look up and follow your documentation to try to figure out what you did to test it. This can even be generalized into an external environment that automatically runs the test script to determine whether or not your changes are good - something which is called [continuous integration]({{#path_for Continuous Integration}})
 
 ## Why TDD
 

@@ -4,7 +4,21 @@
 
 You shouldn't make a habit of doing this, but here's a [link to a script that'll inline task definitions](https://github.com/krishicks/concourse-pipeline-steamroller), for the rare case when you want a one-off task definition.
 
-## Concourse on Linode
+## The `fly` CLI
+
+### Examining a build container
+
+`fly` gives you shell access to a build container via the unfortunately named `hijack`, `intercept` or `i` subcommands.
+
+There are several ways to do this:
+
+- If you know the pipeline/job Id, and can guess which build type to examine, you can run `fly intercept -j $JOB_ID`, which will check for containers with that job id, and if there's any confusion about the exact container, it'll prompt you to pick a container.
+- You can get the list of containers via the `containers` or `cs` subcommands (`fly cs`). This'll output table of available containers. Find the container you want, and pass the handle UUID to `fly intercept` with the `--handle=` (e.g. `fly intercept --handle=12345678-90ab-cdef-1234-567890abcdef`).
+- From the table `fly cs` gives you, you can also pass in the build id for the container you want (`fly intercept -b $BUILD_ID`). This is less accurate than the handle UUID, so for any confusion, it'll prompt you for the exact container.
+
+## Operating
+
+### Concourse on Linode
 
 Some notes on running Concourse from a linode box:
 
@@ -14,17 +28,17 @@ Some notes on running Concourse from a linode box:
 
 As with the other services I maintain, the setup is managed inside of an ansible playbook.
 
-### Issues
+#### Issues
 
 I discovered the hard way that using the 1GB "nanode" plan was not a good plan. The disk very quickly filled up, in addition to everything being slow as molasses. Once I migrated the machine to the 2GB plan, I ran into issues with the volume space not being resized (concourse creates a worker volume logical volume with `$TOTAL_DISK_SPACE - 10GB` of space), then further issues with the system thinking that a volumes which were deleted in fact weren't, etc.
 
-#### Worker.beacon.forward-conn.failed-to-dial
+##### Worker.beacon.forward-conn.failed-to-dial
 
 See [this issue](https://github.com/concourse/concourse/issues/3493)
 
 Remove `$CONCOURSE_WORK_DIR/garden-properties.json` before each time a worker starts.
 
-#### Unable to resolve host error
+##### Unable to resolve host error
 
 I ran in to this issue when "upgrading" the host my concourse installation used from ubuntu 19.10 to 20.04. (Linode recommends you "upgrade" by creating a new instance at the desired OS, and copying over the necessary files - I just set everything up again because it was faster/easier to do it that way).
 
@@ -33,7 +47,7 @@ Sometimes, firewall or dns rules interfere with your workers. I resolved this by
 - Specifying the `CONCOURSE_GARDEN_DNS_SERVER` variable to a specific dns server (I use 1.1.1.1 so I don't have to rely on Google).
 - If that doesn't work, then it's usually a firewall rule. If you use `fly intercept` on any of the offending gets, and you can't ping ANY IPs, then it's usually an overly restrictive firewall rule. You can adjust these with `ufw` on ubuntu (or `iptables` elsewhere).
 
-#### Resizing the Worker Volume
+##### Resizing the Worker Volume
 
 See [this issue](https://github.com/concourse/concourse/issues/1751#issuecomment-371944140).
 
@@ -57,7 +71,7 @@ sudo reboot
 
 Pruning the worker (which really only needs to happen before the reboot) tells concourse to ignore any volumes that may or may not exist. Invoking `land-worker` may or may not actually do things.
 
-## Darwin Worker
+### Darwin Worker
 
 I wrote something on this [a few years back](https://blog.rachelbrindle.com/2016/11/08/concourse-mac-worker/). Which is, of course, out of date (at least, in regard to houdini).
 
