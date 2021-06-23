@@ -22,3 +22,6 @@ invalid_message = "🚨 Warning, this content is out of date and is included for
 
 [preprocessor.chapter-path]
 strict = true
+
+[preprocessor.git-atom]
+base_url = "https://knowledge.rachelbrindle.com"

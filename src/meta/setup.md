@@ -44,7 +44,7 @@ I do this for my work repository, which I want to keep separate from my personal
 
 After noticing an embarrassing amount of spelling errors on this (one of the drawbacks to editing this mostly in vim), I spent time looking into how to spellcheck markdown files.
 
-Regardless, I've used [markdown-spellchecker](https://www.npmjs.com/package/markdown-spellcheck) (which I discovered via [this article](https://pawel.krupa.net.pl/2018/07/automate-your-grammar-checks/)) to locally spellcheck this, using this command:
+Regardless, I've used [markdown-spellchecker](https://www.npmjs.com/package/markdown-spellcheck) (which I discovered via [this article](http://web.archive.org/web/20201109041611/https://pawel.krupa.net.pl/2018/07/automate-your-grammar-checks/)) to locally spellcheck this, using this command:
 
 ```bash
 mdspell --ignore-acronyms --ignore-numbers --en-us "**/*.md"
