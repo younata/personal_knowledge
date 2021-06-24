@@ -1,7 +1,7 @@
 [book]
 title = "Knowledge Repository"
 authors = ["Rachel Brindle"]
-description = "Rachel's second brain"
+description = "Rachel's Digital Garden"
 
 [build]
 preprocess = ["links", "index"]
@@ -11,8 +11,8 @@ curly-quotes = true
 no-section-label = true
 mathjax-support = true
 additional-css = ["css/custom.css"]
-git-repository-url = "https://github.com/younata/personal_knowledge/tree/master"
-edit-url-template = "https://github.com/younata/personal_knowledge/edit/master/{path}"
+git-repository-url = "https://github.com/younata/personal_knowledge/tree/main"
+edit-url-template = "https://github.com/younata/personal_knowledge/edit/main/{path}"
 
 [output.api]
 
