@@ -21,8 +21,10 @@ hide_invalid = false
 invalid_message = "🚨 Warning, this content is out of date and is included for historical reasons."
 
 [preprocessor.chapter-path]
+after = ["section-validator"]
 strict = true
 
 [preprocessor.git-atom]
+after = ["chapter-path"]
 base_url = "https://knowledge.rachelbrindle.com"
 article_preview_lines = 10
