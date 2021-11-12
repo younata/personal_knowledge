@@ -1,6 +1,6 @@
 # Minimum Required Equipment
 
-[FAR 91.205](https://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1205) lists the required equipment for all flights.
+[FAR 91.205](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91#91.205) lists the required equipment for all flights.
 
 ## VFR Day
 
@@ -19,7 +19,7 @@
 - Approved safety belt for everyone > 2
 - If made after 1978-07-18, shoulder harness or restraint for each front seat.
   - If made after 1986-12-12, shoulder harness or restraint for all seats.
-- An ELT, as required for [91.207](https://www.ecfr.gov/cgi-bin/text-idx?node=14:2.0.1.3.10#se14.2.91_1207)
+- An ELT, as required for [91.207](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91#91.207)
 
 Or, as a mnemonic (retrieved from [Ask A CFI](https://www.askacfi.com/1647/vfr-required-equipment.htm)), TOMATOE A FLAMES:
 
