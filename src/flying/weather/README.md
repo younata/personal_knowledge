@@ -3,6 +3,32 @@
 - [Briefings]({{#path_for Briefings}}) covers receiving weather briefings. It could use a lot of fleshing out.
 - [Icing]({{#path_for Icing}}) covers icing specifically.
 
+All weather events are the result of unequal heating and cooling of the Earth's surface and atmosphere.
+
+## Standard Values
+
+Standard temperature and pressure at sea level is considered 15℃ and 29.92" Hg (inches of Mercury). This is part of the "Standard Atmosphere".
+
+Atmospheric Pressure decreases approximately 1" Hg per 1,000 ft.
+
+Up to approximately 35,000 feet MSL, on average, the outside air temperature will decrease by 2 ℃ for every 1,000 feet gained. This is the standard lapse rate. This is obviously not true always - inversion layers are things after all - but it is very useful for calculating freezing levels and the like.
+
+## Humidity and Dewpoint
+
+Relative humidity is the is the ratio of actual water vapor in a volume of air compared to the amount of water vapor that volume of air could hold at a particular temperature and pressure. With constant pressure, the total amount of water vapor a volume of air can hold depends on its temperature - warmer air can hold more total water. Or put another way: if you take a volume of air and only increase its temperature, the relative humidity will go down.
+
+When the relative humidity is 100% - that is, the amount of water vapor in that air is the maximum it can hold - then we say the air volume is saturated.
+
+The dewpoint is the temperature a volume of air (at constant pressure) must be cooled to to allow the water vapor to condense into dew. Dew is simply water condensed onto a surface. When the dewpoint is below 0 ℃, the dewpoint is sometimes called the frost point.
+
+Given only the dewpoint and the current air temperature, you can calculate the relative humidity by dividing the air temperature (in celsius) by the dewpoint (in celsius).
+
+For example, if the dewpoint is 10 ℃ and the air temperature is 20 ℃, then the relative humidity is 100%.
+
+You can also use this (combined with the standard lapse rate) to calculate where you should expect clouds at. If the air is already saturated, then you can expect fog at or near the ground.
+
+## Weather Systems
+
 ## Weather Forecast and Advisories
 
 Airmets, sigmets, convective sigmets, PIREPs (Pilot reports), METARs, TAFs, etc.

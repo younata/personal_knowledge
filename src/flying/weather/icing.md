@@ -26,6 +26,11 @@ There are a few types of icing:
 - Carburetor Ice
   - Forms in the venturi of carbureted engines.
   - Causes engine roughness and loss of power, as this prevents fuel from mixing with the air. Turn on carb heat to clear and prevent this.
-- Frost
-  - Ice crystals caused by sublimation (water in the air freezing to the surface without transitioning to a liquid form) when both the temperature and dew point are below freezing.
-  - Frost accumulates on the ground and should be swept off prior to flight.
+
+## Frost
+
+Ice crystals caused by sublimation (water in the air freezing to the surface without transitioning to a liquid form) when both the temperature and dew point are below freezing.
+
+Frost accumulates on the ground and should be swept off prior to flight.
+
+If in doubt, just put the aircraft in a heated hanger until the frost melts off.
