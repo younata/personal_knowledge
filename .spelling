@@ -801,3 +801,5 @@ ShowTitle
  - src/meta/tooling.md
 mdbook-section-validator
 README.md
+ - src/programming/python/README.md
+rspec-like
