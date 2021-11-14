@@ -439,6 +439,8 @@ microaggression
 U.S.
 dewpoint
 celsius
+backends
+postprocessor
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -796,3 +798,6 @@ MusicArtistName
 AudiobookTitle
 AudiobookAuthor
 ShowTitle
+ - src/meta/tooling.md
+mdbook-section-validator
+README.md
