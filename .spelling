@@ -441,6 +441,7 @@ dewpoint
 celsius
 backends
 postprocessor
+viewcontroller
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr

@@ -1,4 +1,4 @@
-# UI Testing with iOS Devices.
+# UI Testing
 
 XCUITest, introduced in iOS 9, is a technology for automating acceptance tests. It works by running your app in a separate process from the test, with the test communicating to the app using a form of IPC (Inter-Process-Communication). Elements are identified via accessibility IDs/values.
 
