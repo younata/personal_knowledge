@@ -2,6 +2,8 @@
 
 Setting up a mac from scratch, how I do it.
 
+This is mostly used when setting up a work computer. I've been using migration assistant with great success for the past several personal computers.
+
 ## System Settings
 
 Open System Preferences.
@@ -62,12 +64,12 @@ Install `mdbook-generate-summary` with `cargo install mdbook-generate-summary` o
 Open Xcode, open Settings. (cmd+,)
 Go to the 'Text Editing' section.
 
-- UNder the "Show" section, make sure "Code folding ribbon" is checked.
+- Under the "Show" section, make sure "Code folding ribbon" is checked.
 - Under the "While Editing" section, make sure both "Automatically trim trailing whitespace" and "Including whitespace-only lines" are checked.
 
 #### Quick Snippets
 
-adding `desc`, `qit`, etc. to xcode.
+Adding `desc`, `qit`, etc. to xcode.
 
 Clone the [Quick Snippets repository], run `install.sh`, then restart xcode.
 

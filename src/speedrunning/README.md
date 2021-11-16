@@ -2,7 +2,7 @@
 
 Completing a game in as little time as possible.
 
-I am not cool enough to engage in speedrunning. I do enjoy watching other people run games, however.
+Actually engaging in speedrunning is not really for me. But watching other people speedrun games is entertaining.
 
 ## Games Done Quick
 

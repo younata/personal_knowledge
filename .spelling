@@ -442,6 +442,8 @@ celsius
 backends
 postprocessor
 viewcontroller
+speedrun
+submodules
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -814,3 +816,37 @@ ACACx
 nfor
 ly
 GGyG
+ - src/macos/setting_up.md
+iterm2
+shiftit
+alfred
+flycut
+macdown
+rbenv
+tig
+ag
+ - src/math/README.md
+bmatrix
+ - src/unix_tooling/ag.md
+ack
+ - src/unix_tooling/aircrack.md
+aircrack-ng
+Wifi-sampling
+aircrack
+ - src/unix_tooling/pandoc.md
+Pandoc
+pandoc
+ - src/unix_tooling/shell.md
+aaaa
+aaab
+woohoo
+stdout
+ - src/unix_tooling/youtube-dl.md
+youtube-dl
+1280x720
+ - src/unix_tooling/znc.md
+irc
+concat
+privkey.pem
+fullkey.pem
+znc
