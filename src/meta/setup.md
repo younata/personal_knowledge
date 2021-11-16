@@ -2,7 +2,7 @@
 
 This is setup using [mdBook](https://github.com/rust-lang-nursery/mdBook). It's hosted as a [repository on github](https://github.com/younata/personal_knowledge). I set up a pipeline in [concourse](https://concourse-ci.org) to build, check that things work, and then push new versions once things are set up.
 
-[TL;DR, check out these instructions](duplicating.md)
+[TL;DR, check out these instructions at the bottom](#duplicating)
 
 ## Repository Layout
 
@@ -53,7 +53,49 @@ mdspell --ignore-acronyms --ignore-numbers --en-us "**/*.md"
 ## Future Work
 
 - On a per-section basis, add other lines to show up for all pages in that section (e.g. I want everything in my [flying](../flying/) section to have the "This is for my own use and is not flight instruction" disclaimer).
-- Figure out a way to actually support checkboxes and such, as how github does. This could be done as a custom preprocessor.
+
+## Duplicating
+
+Here's what I did to stand up additional versions of this repository (e.g. a separate one for work, the [coz-e build](https://coz-e.rachelbrindle.com)).
+
+### Machine Setup
+
+[mdBook](https://github.com/rust-lang-nursery/mdBook) requires rust to use, so we first install rust. This is done via [rustup](https://rustup.rs).
+
+- `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
+Next, we install mdbook itself: `cargo install mdbook`.
+
+Additionally, there's a bunch of [extra tooling I use]({{#path_for tooling}}). I won't go through them in detail, but here's the following commands to install everything:
+
+```bash
+cargo install mdbook-generate-summary mdbook-api mdbook-chapter-path mdbook-git-atom mdbook-section-validator
+```
+
+This is all that's required to setup the machine.
+
+You can optionally install the validation tooling (markdown-spellcheck, html-proofer) with the following commands:
+
+```bash
+npm i -g markdown-spellcheck
+gem install html-proofer
+```
+
+### Setting up the Repository
+
+To set up the repository itself, you need to create a `book.toml` file, an initial `src/README.md` file, and (if not using `mdbook-generate-summary`) a `src/SUMMARY.md` file.
+
+For reference, this repository's book.toml file is:
+
+```toml
+{{#include ../../book.toml}}
+```
+
+### Building the Repository
+
+If you want to view the repository locally, you can use `mdbook build`, and open `book/index.html` in your web browser. If you're doing interactive work, then you can use `mdbook watch`.
+
+Note that if you're using `mdbook-generate-summary`, you should run that every time you create, delete, or move a page.
 
 [^pipeline]: The pipeline definition looks like this:
 

@@ -508,6 +508,8 @@ book.toml
  - src/meta/setup.md
 html-proofer
 rsync
+SUMMARY.md
+book.toml
  - src/programming/ci/concourse.md
 Worker.beacon.forward
 worker.sh
@@ -804,3 +806,11 @@ mdbook-section-validator
 README.md
  - src/programming/python/README.md
 rspec-like
+ - src/bae/README.md
+there'd
+Cy
+2y
+ACACx
+nfor
+ly
+GGyG

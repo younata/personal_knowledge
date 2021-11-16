@@ -34,3 +34,37 @@ Because this is written as an mdbook postprocessor, it does mean that this check
 
 It has some rough edges. For example, if you don't give each directory a README.md file (with the name of the section), then the generated `SUMMARY.md` file will not be correctly organized. But, it works well enough for my use case, so long as I keep that limitation in mind.
 !!!
+
+### Last-updated Annotations
+
+This is simply a script that runs in CI which appends the date of the commit that last updated the file, which has the following contents:
+
+```bash
+{{#include ../../scripts/annotate_dates.sh}}
+```
+
+### Spellcheck
+
+I use the [markdown-spellcheck](https://www.npmjs.com/package/markdown-spellcheck?activeTab=readme) package to spellcheck all the markdown files.
+
+### HTML-Proofer
+
+In CI, I use the [html-proofer](https://github.com/gjtorikian/html-proofer) gem to validate the generated html of this project. The command looks like:
+
+```bash
+DOMAIN="https://knowledge.rachelbrindle.com"
+FILE_IGNORES="./print.html,./404.html" # Ignore the 404 page and especially the print page. Print page is simply a all pages consolidated, and it's better to catch broken links as close to the original file as possible
+URL_IGNORES: "/github.com\\/younata\\/personal_knowledge/" # Don't error if a link to a not-yet-there file is published.
+
+/usr/local/bundle/bin/htmlproofer \
+    --assume-extension \
+    --check-img-http \
+    --enforce-https \
+    --only_4xx \
+    --http-status-ignore "401,402,403,415" \
+    --file-ignore "$FILE_IGNORES" \
+    --url-ignore "$URL_IGNORES" \
+    --internal-domains "$DOMAIN" "./book/html"
+```
+
+Which is why, if you view source, all of the links to `http` sites have the `data-proofer-ignore` attribute in their anchor tag.
