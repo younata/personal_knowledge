@@ -38,7 +38,7 @@ The [`<colgroup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col
 
 See [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Remember that you can still inline [html]({{#path_for HTML}}) inside markdown, as markdown, generally, is compiled down to html anyway.
+Remember that you can still inline [html](#html) inside markdown, as markdown, generally, is compiled down to html anyway.
 
 ## svg
 
