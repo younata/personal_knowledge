@@ -28,7 +28,7 @@ Switching to an alternate static port (which is usually located in the cabin, so
 
 Uses just the static port.
 
-Standard lapse rate: 1000 feet per inch of mercury.
+Standard lapse rate: 1000 feet per inch of mercury. (which means that increasing the altimeter setting by 0.01 (from 29.92 to 29.93) increases the indicated altitude by 10 feet. Similarly, decreasing will reduce the indicated altitude by 10 feet.)
 
 In the US, when operating below 18,000 MSL, regularly set the altimeter to a station within 100 nautical miles. Above 18,000 MSL, set it to 29.92 inches of mercury. This is to allow for better aircraft separation.
 

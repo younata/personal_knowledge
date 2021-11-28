@@ -29,6 +29,30 @@ You can also use this (combined with the standard lapse rate) to calculate where
 
 ## Weather Systems
 
+### Pressure Systems
+
+Flow of air in high pressure and low pressure systems:
+
+| High Pressure | Low Pressure     |
+|---------------|------------------|
+| Outward Flow  | Inward Flow      |
+| Downward      | Upward           |
+| Clockwise     | Counterclockwise |
+
+High pressure systems are characterized by descending air, which which tends to cause cloud dissipation and good weather.
+Low pressure systems are characterized by rising air, which tends to bring clouds, precipitation, and bad weather.
+
+### Fronts
+
+4 types of fronts
+
+1. Cold Front
+  - Cold, dense, stable air replaces a warm mass. Typically moves faster than a warm front.
+  - As the front passes, expected weather can include towering cumulus or cumulonimbus, heavy rain accompanied by lightning, thunder and/or hail; tornadoes possible; during passage, poor visibility, winds variable and gusting; temperature/dew point and barometric pressure drop rapidly.
+2. Warm Front - Area when a warm air mass contacts and flows over a colder air mass.
+3. Occluded Front - When a fast-moving cold front "catches up" with a slow-moving warm front. Has two subtypes: cold front occlusion and warm front occlusion.
+4. Stationary Front - When the forces of two air masses are relatively equal, the boundary or front that separates them remains stationary and remains for a few days. Weather is mixture of both.
+
 ## Weather Forecast and Advisories
 
 Airmets, sigmets, convective sigmets, PIREPs (Pilot reports), METARs, TAFs, etc.

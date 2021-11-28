@@ -1,7 +1,7 @@
-# Unit Tooling
+# Unix Tooling
 
 Doing things in the shell.
 
 ## Network Monitoring
 
-- [what](https://github.com/imsnif/what) is a poorly-named network monitor tool written in rust.
+- [`bandwhich`](https://github.com/imsnif/bandwhich) is a network monitor tool written in rust. It displays current network utilization by process, connection and remote IP/hostname.
