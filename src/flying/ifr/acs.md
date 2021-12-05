@@ -88,9 +88,9 @@ re-route.
   - flight in conditions you do
 not have skills for
 - Assess:
-  - [PAVE]({{#path_for Preflight checklists#PAVE}})
+  - [PAVE]({{#path_for Preflight checklists#pave}})
     - Pilot
-      - [IMSAFE]({{#path_for Preflight checklists#IMSAFE}})
+      - [IMSAFE]({{#path_for Preflight checklists#imsafe}})
     - Aircraft
     - enVironment
     - exTernal pressures
@@ -117,7 +117,7 @@ not have skills for
 ### Aviation Weather Sources
 
 - [aviationweather.gov](https://aviationweather.gov)
-- [1-800-WX-BRIEF](tel://1-800-WX-BRIEF)
+- [1-800-WX-BRIEF](tel:+18009927433)
 - ForeFlight/Other EFBs (Electronic Flight Bag)
 
 ### Products And Resources:
