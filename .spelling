@@ -444,6 +444,11 @@ postprocessor
 viewcontroller
 speedrun
 submodules
+throwover
+mitigations
+microbursts
+upslope
+FIS-B
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -850,3 +855,13 @@ concat
 privkey.pem
 fullkey.pem
 znc
+ - src/flying/ifr/acs.md
+ACSs
+1.A.K
+1.A.R
+1.B.K.
+EFBs
+Castellanus
+Fracto
+5k
+20k
