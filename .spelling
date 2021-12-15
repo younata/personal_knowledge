@@ -468,6 +468,8 @@ esque
 pdf
 systemd
 znc
+subcommand
+yaml
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr

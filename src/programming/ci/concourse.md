@@ -1,10 +1,67 @@
 # Concourse
 
-## Inline task definition
-
-You shouldn't make a habit of doing this, but here's a [link to a script that'll inline task definitions](https://github.com/krishicks/concourse-pipeline-steamroller), for the rare case when you want a one-off task definition.
+My preferred CI. Almost primarily for `fly execute`.
 
 ## The `fly` CLI
+
+### Using `fly execute`
+
+You can run a one-off job in concourse using the `execute` subcommand. You need to provide it with the task to run, and inputs for the task (as specified by the task yaml).
+
+At the simplest, you could write a task that reads:
+
+```yaml
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: alpine
+    tag: latest
+
+run:
+  path: /bin/sh
+  args:
+    - -c
+    - echo "hello world"
+```
+
+Save it to disk, and use it via `fly execute -c $SAVED_TASK_FILENAME`. This'll run the task in your concourse environment.
+
+Of course, this type of example is only really useful for showing that this is possible. You can also pass any input to (and receive any output from) `fly execute` that a normal job in a pipeline would take. I commonly use this to verify that code works in CI without having to make WIP commits for CI to pick up on and test. I've also used it to hand off testing to a machine that's dedicated to testing (instead of bogging down my development machine, send a build off to CI to run and wait for the results).
+
+To pass in additional inputs to `fly execute`, you can use `-i` flags to the command, with `$INPUT=$PATH` for all listed `$INPUTs` to the task. For example, the [cargo task, as listed in my `concourse_tasks` repository](https://github.com/younata/concourse_tasks/blob/master/tasks/cargo.yml), has 2 inputs: The list of concourse tasks (which, relevant to this task, contains the `cargo.sh` script that is specified in the task's `run.path` variable), and the code to operate on. To use this task on a bit of rust code, I'd run the command `fly execute -c path/to/concourse_tasks/cargo.yml -i concourse=path/to/concourse_tasks -i code=path/to/code`.
+
+To simplify this process, I've written a shell script to handle this:
+
+```zsh
+#!/usr/bin/zsh
+# Save file as `fly-run_task`
+
+set -e
+
+if [ $# -ne 2 ];
+    echo "Usage: $0 task_name"
+    echo "task_name should be the suffix-less name of the concourse task to run"
+    exit 1
+fi
+
+TASK_NAME="$1"
+
+CONCOURSE_TASKS_DIR=# path to my concourse_tasks checkout on disk
+
+TASK_PATH="${CONCOURSE_TASKS_DIR}/tasks/${TASK_NAME}.yml"
+
+if [ ! -f "${TASK_PATH}" ]; then
+    echo "Error: ${TASK_PATH} is not a file.""
+    echo "Usage: $0 task_name"
+    echo "task_name should be the suffix-less name of the concourse task to run"
+    exit 1
+fi
+
+fly execute -c "${TASK_PATH}" -i concourse="${CONCOURSE_TASKS_DIR}/tasks/" -i code=.
+```
 
 ### Examining a build container
 
