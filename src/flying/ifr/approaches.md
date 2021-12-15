@@ -40,9 +40,7 @@ See [AIM 5-4-20](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/ch
 
 Circling is a maneuver conducted after an approach, but is not a type of approach itself. Circling is performed whenever the final approach course is not aligned with the runway (within 30°), when landing on a different runway from the approach flown, or when the runway is not specified in the approach (e.g. flying a VOR-A).
 
-Circling may be done if the winds do not favor the runway the chosen approach is for - e.g. if winds favor runway 15, but the approach is for runway 25, then you might fly the approach for runway 25, circle to land runway 15.
-
-[See this article from CFI Notebook on circling.](https://www.cfinotebook.net/notebook/aircraft-operations/approaches/circling-maneuver)
+Circling may be done if the winds do not favor the runway the chosen approach is for - e.g. if winds favor runway 15, but the approach is for runway 25, then you might fly the approach for runway 25, circle to land runway 15. It can also be done for other reasons - if there is VFR aircraft primarily using a different runway from the one specified for the approach you're using, for example. Some approaches (commonly, VOR approaches) only specify circling.
 
 ### Circling Minimums
 
