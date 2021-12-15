@@ -20,7 +20,7 @@ Where `/mnt/backup_drive` is the path to your mounted backup drive. This'll back
 
 ### Backing up Xbox Game Saves
 
-Per [this thread](https://answers.microsoft.com/en-us/xbox/forum/all/backing-up-saved-game-files-on-xbox-one/5c623320-1332-4fab-918d-ff0494c8a7b2), you can apparently back up xbox game saves by plugging in an external drive to the USB port, and go to Settings -> System -> Kinect & Devices -> Storage. Only just learned this while writing this article, so I haven't tried it myself.
+Per <a href="https://answers.microsoft.com/en-us/xbox/forum/all/backing-up-saved-game-files-on-xbox-one/5c623320-1332-4fab-918d-ff0494c8a7b2" data-proofer-ignore>this thread</a> (note: requires login), you can apparently back up xbox game saves by plugging in an external drive to the USB port, and go to Settings -> System -> Kinect & Devices -> Storage. Only just learned this while writing this article, so I haven't tried it myself.
 
 ## Cloud Backup
 
