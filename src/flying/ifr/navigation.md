@@ -73,7 +73,16 @@ Most of the time, in the US, you'll be using GPS-based RNAV.
 
 In an approach, you can also get RNAV VNAV, which provides Vertical NAVigation guidance (using GPS?), and BARO-VNAV, which uses barometric altitude to provide vertical guidance.
 
-Published RNAV routes are Q (above 18,000 MSL) and T (up to 18,000 MSL) routes. Designated RNAV 1, unless otherwise charted.
+Published RNAV routes are Q (above 18,000 MSL/FL180) and T (up to 18,000 MSL) routes. Designated RNAV 1, unless otherwise charted.
+
+Note that, per [AIM 1-2-3 (c)](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap1_section_2.html#OAOK815dchri), you can use an RNAV system instead of ground-based navigation for the following instances:
+
+- Determining your position relative to/distance from a VOR, TACAN, NDB, compass locator, DME fix; or a named fix defined by a VOR radial, TACAN course, NDB bearing, or compass locator bearing intersecting a VOR or localizer course.
+- Navigate to or from a VOR, TACAN, NDB, or compass locator.
+- Hold over a VOR, TACAN, NDB, compass locator, or DME fix.
+- Fly an arc based upon DME.
+
+Or basically, for most en-route navigation, up to the final approach segment of an approach. You cannot use an RNAV system when the procedure specifically states that it is Not Available (NA). You also cannot use an RNAV system for "lateral navigation on localizer-based courses", i.e. not for an ILS, Localizer, or Localizer back course. You can still use an RNAV system for identifying a waypoint defined by a VOR and localizer course intersection.
 
 ### RNP - Required Navigation Performance
 
