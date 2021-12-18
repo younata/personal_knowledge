@@ -470,6 +470,9 @@ systemd
 znc
 subcommand
 yaml
+untowered
+ODPs
+SIDs
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -886,3 +889,7 @@ Castellanus
 Fracto
 5k
 20k
+ - src/flying/ifr/departures.md
+MY_CALL_SIGN
+APPROXIMATE_LOCATION
+fpm
