@@ -12,7 +12,7 @@ You can descend below the MDA/DA when all of the following conditions are true:
 
 - The aircraft is continuously in a position from which a descent to a landing on the intended runway can be made at a normal rate of descent using normal maneuvers. i.e. no chop and drop/slipping.
 - The flight visibility is not less than the visibility prescribed in the standard instrument approach being used.
-- At least one of the following visual references for the intended runway is distinctly visible and identifiable to the pilot:
+- At least one of the following visual references for the intended runway (the runway environment) is distinctly visible and identifiable to the pilot:
   - The approach light system, except that the pilot may not descend below 100 feet above the touchdown zone elevation using the approach lights as a reference unless the red terminating bars or the red side row bars are also distinctly visible and identifiable.
   - The threshold.
   - The threshold markings.
@@ -180,3 +180,25 @@ See this chart:
 | CAT IIIa | > 700 feet | < 100 feet or no decision height |
 | CAT IIIb | 150 to 700 feet | < 50 feet or no decision height |
 | CAT IIIc | 0 feet | No decision height |
+
+## VOR Approaches
+
+VOR approaches are useful for when there's basically no other approach type available. They are non-precision approaches, which means they provide lateral guidance only.
+
+You can use GPS on a VOR approach, but you legally must switch over to the VOR for the final approach segment.
+
+For example, on the [Corvallis VOR-A approach](https://aeronav.faa.gov/d-tpp/2112/00782VA.PDF), you can use the GPS outbound from CVO, all the way through the procedure turn, until you turn onto the CVO R-252 course inbound. Once you turn onto the CVO R-252 inbound course (which this defines as the final approach segment), you must switch over to using the VOR to navigate.
+
+In another example, on the [Corvallis VOR RWY-17 approach](https://aeronav.faa.gov/d-tpp/2112/00782V17.PDF), you are welcome to use the GPS through the entire DME arc, up until you turn onto the CVO R-177 course inbound.
+
+This same concept applies also to ILS and other ground-based-navigation approaches.
+
+## DME Arcs
+
+DME Arcs are arcing paths flown at a certain distance (measured using DME - hence the name), from a VOR. They provide a way to transfer to another radial on the VOR without using GPS or radar vectors. They're mostly used as parts of approaches, but can be specified elsewhere.
+
+To fly one, first start turning onto the arc when you are groundspeed * 0.01 nm from the arc (e.g. groundspeed == 100 nm/hr, then start turn when you are 1 nm from the arc). Then, follow the "twist 10, turn 10" pneumonic - for every degrees you turn, twist the desired course 10 degrees in the direction of the arc. Repeat until you reach the desired radial.
+
+In the example of the [KCVO VOR RWY-17 approach](https://aeronav.faa.gov/d-tpp/2112/00782V17.PDF), if you are approach `MAGOT` from `SHEDD`, you are approaching the CVO R-031 radial from the south. Once you are 1 nm from that waypoint, you'll start your turn: Switch the CDI to show the CVO R-031, and twist it 10° left (counterclockwise, in this case), to 031. Once this is done, start the turn. Be sure to also be monitoring your DME to ensure you're maintaining 16 nm from CVO. When the needle centers, twist give it another 10° counterclockwise twist. Repeat until your next twist would take you past the CVO R-357, at which point you simply set it to R-357. As you approach that radial, start your inbound turn. Be cognizant of the reversal of the VOR (unless your avionics has reverse sensing!) until you get around to resetting your CDI to 177°, which you should do as soon as you are on the final approach course.
+
+Note that as per above, you can also fly this arc using the GPS indicator, as the DME arc is not part of the final approach segment.

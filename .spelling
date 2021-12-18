@@ -473,6 +473,7 @@ yaml
 untowered
 ODPs
 SIDs
+waypoint
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -812,6 +813,11 @@ IIIa
 IIIb
 NoPT
 IIIc
+R-252
+RWY-17
+R-031
+R-357
+R-177
  - src/programming/apple/sirikit.md
 SONG_NAME
 SEARCH_TERM
