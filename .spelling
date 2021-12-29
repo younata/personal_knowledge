@@ -474,6 +474,9 @@ untowered
 ODPs
 SIDs
 waypoint
+weather.gov
+jetstream
+850mb
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -899,3 +902,7 @@ Fracto
 MY_CALL_SIGN
 APPROXIMATE_LOCATION
 fpm
+ - src/flying/weather/README.md
+gfa
+progchart
+sfc
