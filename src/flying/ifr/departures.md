@@ -32,7 +32,7 @@ Unless stated otherwise, the criteria for DPs are:
 - The aircraft is performing nominally, with all engines operating.
 - Maintain a climb gradient of 200 feet per nautical mile.
 
-DPs are created when either
+When a procedure uses non-standard minimums, the procedure will have the "Triangle T" (black triangle with a T inside it - looks like a solid [Nabla](https://en.wikipedia.org/wiki/Nabla_symbol) (∇) with a T inscribed) in the notes section of the instrument procedure chart.
 
 You can convert your ground speed (in nm/hr) and climb rate (in ft/min) to climb gradient ft/nm using the following formula:
 
@@ -41,6 +41,10 @@ You can convert your ground speed (in nm/hr) and climb rate (in ft/min) to climb
 So, if your ground speed is 90 knots, and you're climbing at 500 fpm, then your climb gradient is \\(90 / 60 * 500 = 1.5 * 500 = 750 ft/nm\\).
 
 There are two subtypes of departure procedures: Obstacle Departure Procedures (ODPs) and Standard Instrument Departures (SIDs).
+
+DPs can be found in the IFR Takeoff Minimums and (Obstacle) Departure Procedures section, Section L, of the Terminal Procedure Publications (TPPs). SIDs and complex ODPs are published graphically and given titles.
+
+All public performance-based navigation (PBN) DPs are normally designated using RNAV 1, RNP 1, or A-RNP. RNAV 1 and RNP 1 means the total system error must not be more than 1 NM for 95% of the total flight time. A-RNP will be charted in the PBN box. You are expected to maintain route centerlines, as depicted by the CDI unless authorized to deviate by ATC or under emergency conditions.
 
 ### Obstacle Departure Procedures
 
@@ -59,6 +63,10 @@ SIDs are printed graphically, and perform similarly as ODPs, with the additional
 > A Diverse Vector Area (DVA) is an area in which ATC may provide random radar vectors during an uninterrupted climb from the departure runway until above the MVA/MIA, established in accordance with the TERPS criteria for diverse departures. The DVA provides obstacle and terrain avoidance in lieu of taking off from the runway under IFR using an ODP or SID.
 
 Or, essentially, a DVA allows ATC to assign you radar vectors while you climb up to the Minimum Vectoring Altitude (MVA) or Minimum IFR Altitude (MIA).
+
+### Visual Climb over Airport
+
+Another departure option for IFR. Where you essentially do a box climb in VMC to the published climb-to altitude. Note that the weather conditions must be VMC up to (or above) the specified visibility/ceiling in the procedure. VCOAs are a kind of a DP, though you must specifically request to fly the VCOA.
 
 ### Without a DP, or  No Instrument Departure Available
 

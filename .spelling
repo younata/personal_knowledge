@@ -480,6 +480,13 @@ jetstream
 BARO-VNAV
 glidepath
 12-hour
+nabla
+TPPs
+A-RNP
+centerlines
+VCOAs
+ATCs
+ALSF-1
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr

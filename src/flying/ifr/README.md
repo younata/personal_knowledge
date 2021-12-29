@@ -8,6 +8,14 @@ Operating an aircraft solely by reference to instruments.
 - [IFR Flight Plans]({{#path_for IFR Flight Plans}}) covers contents of an IFR flight plan.
 - [Navigation]({{#path_for Navigation Systems}}) covers IFR navigation methods.
 
+- [Required Equipment]({{#path_for Minimum Required Equipment}}) covers minimum equipment and maintenance checks for VFR as well as IFR.
+
+## Right-Of-Way rules
+
+[91.113](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-91/subpart-B/subject-group-ECFRe4c59b5f5506932/section-91.113)
+
+When in VMC, it's your responsibility to follow See and Avoid, when in IMC, it's ATCs responsibility.
+
 ## Mandatory Reporting Events
 
 `MARVELOUS VFR C500`
@@ -39,3 +47,14 @@ Operating an aircraft solely by reference to instruments.
 - ETA and name of next reporting fix
 - Name only of the next succeeding point along the route of flight (Point after next reporting fix)
 - Any relevant remarks
+
+## Airport Lighting
+
+- ALSF-1: Approach Light System with Sequenced Flashing lights (ILS Cat-I configuration)
+- SSALF: Simplified Short Approach Light System with Sequenced Flashing Lights
+- MALSR: Medium Intensity Approach Light System with Runway Alignment Indicator Lights
+- REIL: Runway End Identifier Lights
+- MIRL: Medium Intensity Runway Lighting
+- PAPI: Precision Approach Path Indicator
+
+The legend for these is found in the Terminal Procedures Publication.
