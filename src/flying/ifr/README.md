@@ -4,6 +4,8 @@ Operating an aircraft solely by reference to instruments.
 
 - [Altitudes]({{#path_for Altitudes}}) covers IFR altitude names. Also includes the definition of what you must see in order to descend below the DA/MDA.
 - [Approaches]({{#path_for Approaches}}) covers Instrument approaches and related topics.
+- [Departures]({{#path_for Departures}}) covers Instrument departures and departing under IFR/Picking up IFR in flight.
+- [IFR Flight Plans]({{#path_for IFR Flight Plans}}) covers contents of an IFR flight plan.
 - [Navigation]({{#path_for Navigation Systems}}) covers IFR navigation methods.
 
 ## Mandatory Reporting Events

@@ -202,3 +202,7 @@ To fly one, first start turning onto the arc when you are groundspeed * 0.01 nm 
 In the example of the [KCVO VOR RWY-17 approach](https://aeronav.faa.gov/d-tpp/2112/00782V17.PDF), if you are approach `MAGOT` from `SHEDD`, you are approaching the CVO R-031 radial from the south. Once you are 1 nm from that waypoint, you'll start your turn: Switch the CDI to show the CVO R-031, and twist it 10° left (counterclockwise, in this case), to 031. Once this is done, start the turn. Be sure to also be monitoring your DME to ensure you're maintaining 16 nm from CVO. When the needle centers, twist give it another 10° counterclockwise twist. Repeat until your next twist would take you past the CVO R-357, at which point you simply set it to R-357. As you approach that radial, start your inbound turn. Be cognizant of the reversal of the VOR (unless your avionics has reverse sensing!) until you get around to resetting your CDI to 177°, which you should do as soon as you are on the final approach course.
 
 Note that as per above, you can also fly this arc using the GPS indicator, as the DME arc is not part of the final approach segment.
+
+## RNAV Approaches
+
+LPV means "Localizer Performance with Vertical Guidance", and it is not a precision approach (it's an "Approach with Vertical Guidance (APV)", along with BARO-VNAV, LNAV/VNAV and other types that are not required to meet precision approach standards, but do provide course and glidepath deviation.

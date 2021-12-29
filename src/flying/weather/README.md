@@ -158,7 +158,7 @@ Depicts surface weather observations - pressure, highs/lows/ridges/troughs, loca
 
 [Low-Level SIGWX chart](https://www.aviationweather.gov/progchart/low)
 
-Forecast of significant weather at FL 240 and below. Updated 4 times per day, in either 12 hour or 24 hour prognostics.
+Forecast of significant weather at FL 240 and below. Updated 4 times per day, in either 12-hour or 24 hour prognostics.
 
 #### Mid-Level
 
@@ -190,6 +190,12 @@ Based on probability percentage, varying for time periods and how far out it is.
 
 [weather.gov/jetstream/850mb, provides an 850 millibar constant pressure level chart](https://www.weather.gov/jetstream/850mb)
 
-Computer model depicting select weather at a specified constant pressure level (e.g. 850 MB), along with altitudes (in meters). Provide an overview of weather patterns at specified times & pressure altitudes. Provide source for wind/temperature aloft forecasts. In general, pressure patterns cause/characterize much of the weather. Note that these charts show pressure near the depicted pressure level (i.e. for a general range of pressure, it'll show lines of constant pressure there). In the weather.gov links, you'll see the option to view other weather patterns.
+Computer model depicting select weather at a specified constant pressure level (e.g. 850 MB), along with altitudes (in meters). Provide an overview of weather patterns at specified times & pressure altitudes. Provide source for wind/temperature aloft forecasts. In general, pressure patterns cause/characterize much of the weather. Note that these charts show pressure near the depicted pressure level (i.e. for a general range of pressure, it'll show lines of constant pressure there). In the weather.gov links, you'll see the option to view other weather alongside these lines of constant pressure, which helps to understand what's going on and what to expect in the air.
 
 You can generally see the jet stream at [300 MB](https://www.weather.gov/jetstream/300mb), 250 MB, and [200 MB](https://www.weather.gov/jetstream/200mb).
+
+### Freezing Level Chart
+
+[aviationweather.gov/icing/frzlvl](https://www.aviationweather.gov/icing/frzlvl)
+
+Gives a visual depiction of where you can expect the freezing level to be at. Current and 3 hour forecast are updated hourly, the 6, 9, and 12 hour forecasts are updated every 3 hours. These are supplementary products meant to provide "enhanced situational awareness only" (as in, you should definitely cross-reference this with TAFs, METARs, AIRMETs, SIGMETs, and similar).

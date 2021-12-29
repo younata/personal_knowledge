@@ -477,6 +477,9 @@ waypoint
 weather.gov
 jetstream
 850mb
+BARO-VNAV
+glidepath
+12-hour
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -905,4 +908,5 @@ fpm
  - src/flying/weather/README.md
 gfa
 progchart
+frzlvl
 sfc
