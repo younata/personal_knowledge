@@ -24,7 +24,7 @@ Part 61.65.
     - At least 15 hours with an instructor.
   - 3 hours instrument training within the preceding 2 calendar months.
   - Cross-country IFR flight
-    - >= 250 nm total distance
+    - ≥ 250 nm total distance
     - Along airways or GPS direct
     - to at least 3 different airports
     - An instrument approach at each airport
