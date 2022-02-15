@@ -62,6 +62,12 @@ These install [iterm2](https://iterm2.com) (terminal emulator), [rectangle](http
 
 They also install and set up rbenv (ruby environment), node, tig (git tree viewer), ag (Very fast file searcher), jq (json processor), `wget` (url downloader), <a href="http://mama.indstate.edu/users/ice/tree/" data-proofer-ignore>`tree`</a> (recursive directory listing command)
 
+### Rectangle
+
+Download my [rectangle config file](./RectangleConfig.json).
+
+Open Rectangle, go to Preferences, select the gear icon. Near the bottom-right, select "import". Import the rectangle config you just downloaded.
+
 ### Rust
 
 This is an interactive script. Go to [`rustup.rs`](https://rustup.rs), and copy the command they give and run it.

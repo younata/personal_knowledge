@@ -189,7 +189,7 @@ Per [AIM 1-2-3 (c)](https://www.faa.gov/air_traffic/publications/atpubs/aim_html
 
 For example, on the [Corvallis VOR-A approach](https://aeronav.faa.gov/d-tpp/2112/00782VA.PDF), you can use the GPS outbound from CVO, all the way through the procedure turn, until you turn onto the CVO R-252 course inbound. Once you turn onto the CVO R-252 inbound course (which this defines as the final approach segment), you then switch over to using the VOR to navigate.
 
-In another example, on the [Corvallis VOR RWY-17 approach](https://aeronav.faa.gov/d-tpp/2112/00782V17.PDF), you are welcome to use the GPS through the entire DME arc, up until you turn onto the CVO R-177 course inbound.
+In another example, on the Corvallis VOR RWY-17 approach, you are welcome to use the GPS through the entire DME arc, up until you turn onto the CVO R-177 course inbound.
 
 This same concept applies also to ILS and other ground-based-navigation approaches.
 
@@ -199,7 +199,7 @@ DME Arcs are arcing paths flown at a certain distance (measured using DME - henc
 
 To fly one, first start turning onto the arc when you are groundspeed * 0.01 nm from the arc (e.g. groundspeed == 100 nm/hr, then start turn when you are 1 nm from the arc). Then, follow the "twist 10, turn 10" pneumonic - for every degrees you turn, twist the desired course 10 degrees in the direction of the arc. Repeat until you reach the desired radial.
 
-In the example of the [KCVO VOR RWY-17 approach](https://aeronav.faa.gov/d-tpp/2112/00782V17.PDF), if you are approach `MAGOT` from `SHEDD`, you are approaching the CVO R-031 radial from the south. Once you are 1 nm from that waypoint, you'll start your turn: Switch the CDI to show the CVO R-031, and twist it 10° left (counterclockwise, in this case), to 031. Once this is done, start the turn. Be sure to also be monitoring your DME to ensure you're maintaining 16 nm from CVO. When the needle centers, twist give it another 10° counterclockwise twist. Repeat until your next twist would take you past the CVO R-357, at which point you simply set it to R-357. As you approach that radial, start your inbound turn. Be cognizant of the reversal of the VOR (unless your avionics has reverse sensing!) until you get around to resetting your CDI to 177°, which you should do as soon as you are on the final approach course.
+In the example of the KCVO VOR RWY-17 approach, if you are approach `MAGOT` from `SHEDD`, you are approaching the CVO R-031 radial from the south. Once you are 1 nm from that waypoint, you'll start your turn: Switch the CDI to show the CVO R-031, and twist it 10° left (counterclockwise, in this case), to 031. Once this is done, start the turn. Be sure to also be monitoring your DME to ensure you're maintaining 16 nm from CVO. When the needle centers, twist give it another 10° counterclockwise twist. Repeat until your next twist would take you past the CVO R-357, at which point you simply set it to R-357. As you approach that radial, start your inbound turn. Be cognizant of the reversal of the VOR (unless your avionics has reverse sensing!) until you get around to resetting your CDI to 177°, which you should do as soon as you are on the final approach course.
 
 Note that as per above, you can also fly this arc using the GPS indicator, as the DME arc is not part of the final approach segment.
 
