@@ -187,7 +187,7 @@ VOR approaches are useful for when there's basically no other approach type avai
 
 Per [AIM 1-2-3 (c)](https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap1_section_2.html#aim0102.html.9), while you can fly the final approach segment for a VOR approach that does not specify "or GPS" using GPS, you must be monitoring the VOR on another radio. For avionics like the G1000 where you don't have two deflecting needles, this means that you must switch the HSI from GPS to VLOC for the final approach segment.
 
-For example, on the [Corvallis VOR-A approach](https://aeronav.faa.gov/d-tpp/2112/00782VA.PDF), you can use the GPS outbound from CVO, all the way through the procedure turn, until you turn onto the CVO R-252 course inbound. Once you turn onto the CVO R-252 inbound course (which this defines as the final approach segment), you then switch over to using the VOR to navigate.
+For example, on the Corvallis VOR-A approach, you can use the GPS outbound from CVO, all the way through the procedure turn, until you turn onto the CVO R-252 course inbound. Once you turn onto the CVO R-252 inbound course (which this defines as the final approach segment), you then switch over to using the VOR to navigate.
 
 In another example, on the Corvallis VOR RWY-17 approach, you are welcome to use the GPS through the entire DME arc, up until you turn onto the CVO R-177 course inbound.
 
