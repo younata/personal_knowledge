@@ -492,6 +492,7 @@ trackpad
 Exposé
 dropdown
 config
+notationally
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -922,3 +923,6 @@ gfa
 progchart
 frzlvl
 sfc
+ - src/math/calculus/limits.md
+frac
+lim_

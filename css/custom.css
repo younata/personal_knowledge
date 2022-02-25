@@ -19,3 +19,8 @@ table .green {
     border: 1px solid var(--quote-border);
     padding: 0 16px;
 }
+
+canvas.responsive {
+    width: 100%;
+    object-fit: contain;
+}
