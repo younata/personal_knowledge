@@ -4,7 +4,7 @@ I should leave reviews on [goodreads](https://goodreads.com), but I don't.
 
 Some definition on genre:
 
-I vastly prefer to read sci-fi and/or fantasy. Of that, I really enjoy [hard sci-fi](https://tvtropes.org/pmwiki/pmwiki.php/Main/MohsScaleOfScienceFictionHardness), but that's not a requirement.
+I vastly prefer to read sci-fi and/or fantasy. Of that, I really enjoy [hard sci-fi](https://tvtropes.org/pmwiki/pmwiki.php/SlidingScale/MohsScaleOfScienceFictionHardness), but that's not a requirement.
 
 Here's a list of books and other readings I enjoy:
 
