@@ -12,7 +12,7 @@ Some tools I wrote to help make my usage of this repo easier.
 
 ### mdbook-chapter-path
 
-[mdbook-chapter-path](https://github.com/younata/mdbook-chapter-path) is an mdbook postprocessor I wrote to better facilitate linking within this repository. This avoids the issue of breaking links whenever I reorganize the pages here. For example, when linking to the astronomy page, instead of writing `[Astronomy]({{#path_for astronomy}})`, I can write `[Astronomy]({{#path_for astronomy}})`. This way, the mdbook-chapter-path will search for and insert the `{{#path_for astronomy}}` text as the target for me. This even supports linking to anchor tags in the target document as well.
+[mdbook-chapter-path](https://github.com/younata/mdbook-chapter-path) is an mdbook postprocessor I wrote to better facilitate linking within this repository. This avoids the issue of breaking links whenever I reorganize the pages here. For example, when linking to the astronomy page, instead of writing `[Astronomy]({{#path_for astronomy}})`, I can write `[Astronomy]({ {#path_for astronomy} })` (note: spaces between the two `{` is deliberate to illustrate what the raw text is). This way, the mdbook-chapter-path will search for and insert the `{{#path_for astronomy}}` text as the target for me. This even supports linking to anchor tags in the target document as well.
 
 ### mdbook-git-atom
 

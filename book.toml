@@ -15,6 +15,10 @@ additional-js = ["js/canvas-graph.js"]
 git-repository-url = "https://github.com/younata/personal_knowledge/tree/main"
 edit-url-template = "https://github.com/younata/personal_knowledge/edit/main/{path}"
 
+[output.html.fold]
+enable = true
+level = 0
+
 [output.api]
 
 [preprocessor.section-validator]

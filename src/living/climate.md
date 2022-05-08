@@ -2,7 +2,7 @@
 
 Personal actions you/I can take.
 
-Kinda rich coming from someone who flies airplanes, though. :/
+Kinda rich coming from someone who flies airplanes. [Working on it, though!](https://coz-e.rachelbrindle.com/)
 
 ## Links
 
