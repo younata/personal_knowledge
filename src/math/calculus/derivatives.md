@@ -26,11 +26,43 @@ The easiest rule to examine is the power rule. This is the rule used for calcula
 \frac{\mathrm{d}}{\mathrm{d}x} x^n = n*x^{n - 1}
 \\]
 
+This even extends to functions like \\(f(x) = sqrt(x)\\), which can also be represented as \\(f(x) = x^{\frac{1}{2}}\\). Additionally, this works for inverse functions, such as \\(f(x) = \frac{1}{x}\\), which also can be represented as \\(f(x) = x^{-1}\\).
+
 ## Sine and Cosine
 
 [3Blue1Brown video covering Sine and Cosine](https://www.youtube.com/watch?v=S0_qX4VJhMQ&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=3&t=756s).
 
 Next up is Sine and Cosine. The derivative of the Sine function is the Cosine function, and the derivative of the Cosine function is the negative Sine function. So, these function create a loop of derivatives.
+
+\\[
+\frac{\mathrm{d}}{\mathrm{d}x} \sin{(x)} = \cos{(x)}
+\\\\
+\frac{\mathrm{d}}{\mathrm{d}x} \cos{(x)} = -\sin{(x)}
+\\\\
+\frac{\mathrm{d}}{\mathrm{d}x} -\sin{(x)} = -\cos{(x)}
+\\\\
+\frac{\mathrm{d}}{\mathrm{d}x} -\cos{(x)} = \sin{(x)}
+\\]
+
+## Exponentials and Logarithms
+
+[3Blue1Brown video on derivative of exponentials](https://www.youtube.com/watch?v=m2MIpDrF7Es&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=5)
+
+Exponentials, or \\(f(x) = n^x\\), use the following rule:
+
+\\[
+\frac{\mathrm{d}}{\mathrm{d}x} n^x = n^x * \ln{(x)}
+\\\\
+\frac{\mathrm{d}}{\mathrm{d}x} e^x = e^x
+\\\\
+\frac{\mathrm{d}}{\mathrm{d}x} \ln{(x)} = \frac{1}{x}
+\\\\
+\frac{\mathrm{d}}{\mathrm{d}x} \log_n{(x)} = \frac{1}{x * \ln{(n)}}
+\\]
+
+The constant \\(e\\), known as [Euler's number](https://en.wikipedia.org/wiki/E_(mathematical_constant)), is a transcendental number. It deals a lot with exponential rates of change, is defined as the base of an exponential function with a derivative equal to itself.
+
+The natural log, \\(\ln\{(x)}\\), is the logarithm with base \\(e\\). Which is also part of why the derivative of logarithms with other bases include the natural logarithm in some way.
 
 ## Derivatives of Composite Functions
 
@@ -49,7 +81,7 @@ The derivative of a function of form \\(f(x) = g(x) + h(x)\\) is equal to the su
 Which might be used like this:
 
 \\[
-\frac{\mathrm{d}}{\mathrm{d}x} {3x^3 + sin(x)} = 9x^2 + cos(x)
+\frac{\mathrm{d}}{\mathrm{d}x} {3x^3 + \sin{(x)}} = 9x^2 + \cos{(x)}
 \\]
 
 ### Multiplied functions (Product Rule)
@@ -60,10 +92,10 @@ The derivative of a function of form \\(f(x) = g(x) * h(x)\\) follows the produc
 \frac{\mathrm{d}}{\mathrm{d}x} {g(x) * h(x)} = \frac{\mathrm{d}}{\mathrm{d}x} g(x) * h(x) + \frac{\mathrm{d}}{\mathrm{d}x} h(x) * g(x)
 \\]
 
-Or, for the function \\(f(x) = 3x^3 * sin(x)\\):
+Or, for the function \\(f(x) = 3x^3 * \sin{(x)}\\):
 
 \\[
-\frac{\mathrm{d}}{\mathrm{d}x} {3x^3 * sin(x)} = 9x^2 * sin(x) + 3x^3 * cos(x)
+\frac{\mathrm{d}}{\mathrm{d}x} {3x^3 * \sin{(x)}} = 9x^2 * \sin{(x)} + 3x^3 * \cos{(x)}
 \\]
 
 ### Composed functions
@@ -77,5 +109,5 @@ Finally, for composed functions, or functions of form \\(f(x) = g(h(x))\\), thes
 Or, for the function \\(f(x) = sin(3x^3)\\):
 
 \\[
-\frac{\mathrm{d}}{\mathrm{d}x} {sin(3x^3)} = 9x^2 * cos(3x^3)
+\frac{\mathrm{d}}{\mathrm{d}x} {\sin{(3x^3)}} = 9x^2 * \cos{(3x^3)}
 \\]
