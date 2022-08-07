@@ -511,6 +511,10 @@ sqrt
 exponentials
 log_n
 metaprogramming
+facemask
+SCD-30
+ad-hoc
+homekit
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
