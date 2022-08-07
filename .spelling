@@ -515,6 +515,8 @@ facemask
 SCD-30
 ad-hoc
 homekit
+ebikes
+powerwall
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
