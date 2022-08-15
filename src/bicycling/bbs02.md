@@ -2,8 +2,6 @@
 
 One of the most popular electric bicycle conversion motors, the Bafang bbs02 is a 750 watt mid-drive motor and the Bafang bbsHD is a 1000 watt mid-drive motor. They are similar in design and are commonly referred to interchangeably as a BBSXX.
 
-## Using
-
 ## Installing
 
 Notes while installing one of my bbs02 units

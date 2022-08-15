@@ -517,6 +517,13 @@ ad-hoc
 homekit
 ebikes
 powerwall
+rpms
+ebiking
+specced
+no-brainer
+Yuba
+Mundo
+longtail
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -1059,3 +1066,7 @@ weit
 kochst
  - src/hardware/miter_saw_station.md
 dustbox
+ - src/bicycling/ebikes.md
+gearsensor
+ - src/bicycling/README.md
+Subpages

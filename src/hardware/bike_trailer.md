@@ -1,6 +1,6 @@
 # Bicycle Trailer
 
-This is a design for a cargo bicycle trailer, similar to the [Bikes At Work](https://www.bikesatwork.com) trailer, but without the 7 month lead time. If you're looking for a cargo bike trailer, you really should just get a bikes at work trailer.
+This is a design for a cargo bicycle trailer, similar to the [Bikes At Work](https://www.bikesatwork.com) trailer, but without the 7 month lead time. That said, if you're looking for a cargo bike trailer, you really should just get a bikes at work trailer.
 
 Instead of an aluminum trailer, this will be made out of wood. This is designed mostly for ease of construction, with not as much of a regard for weight. I'll be attaching this to an electric bicycle, which'll be more than powerful enough to pull what I put on this.
 
