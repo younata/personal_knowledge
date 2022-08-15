@@ -53,6 +53,7 @@ mdspell --ignore-acronyms --ignore-numbers --en-us "**/*.md"
 ## Future Work
 
 - On a per-section basis, add other lines to show up for all pages in that section (e.g. I want everything in my [flying](../flying/) section to have the "This is for my own use and is not flight instruction" disclaimer).
+- The main page should essentially have a list of what articles changed most recently. Essentially, an rss feed of just the titles of the 10 most articles that have changed.
 
 ## Duplicating
 
