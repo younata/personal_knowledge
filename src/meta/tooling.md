@@ -16,7 +16,7 @@ Some tools I wrote to help make my usage of this repo easier.
 
 ### mdbook-git-atom
 
-[mdbook-git-atom](https://github.com/younata/mdbook-git-atom) is an mdbook postprocessor to automatically generate an atom feed from an mdbook repository, using the git log to note when posts were updated. I wrote this initially for the [Coz-E](https://coz-e.rachelbrindle.com/) build, which, due to the linear nature of the build, follows a more chronological style, but it's still used here.
+[mdbook-git-atom](https://github.com/younata/mdbook-git-atom) is an mdbook postprocessor to automatically generate an atom feed from an mdbook repository, using the git log to note when posts were updated. I wrote this initially for the [Coz-E](https://coz-e.rachelbrindle.com/) build, which, due to the linear nature of the build, follows a more chronological style, but it's also used here.
 
 ### mdbook-section-validator
 
@@ -42,6 +42,10 @@ This is simply a script that runs in CI which appends the date of the commit tha
 ```bash
 {{#include ../../scripts/annotate_dates.sh}}
 ```
+
+## Third-party Tooling
+
+The third-party tooling used to enhance this.
 
 ### Spellcheck
 

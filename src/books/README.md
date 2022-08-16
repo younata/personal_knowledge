@@ -19,7 +19,7 @@ Sorted by Author
 
 ### Fletcher DeLancey
 
-My partner turned me on to her. Her [Chronicles of Alsea series](https://www.goodreads.com/book/show/39333098-the-caphenon) is pretty great, though at times it reads like the fan fiction it grew out of. They're still highly worth reading.
+My partner turned me on to her. Her [Chronicles of Alsea series](https://www.goodreads.com/book/show/39333098-the-caphenon) is pretty great, though at times it reads like the fan fiction it grew out of. They're still highly entertaining and worth reading.
 
 ### Scott Meyer
 
