@@ -30,7 +30,6 @@ Any money you invest, treat it as if it no longer exists. Especially for 401k or
 Always contribute at least the minimum to get your company to max out their matching.
 For example, if your company does matching up to 4%, then at least put in that 4%.
 
-- [For 2019, the 401k contribution limit is $19,000](https://www.investopedia.com/retirement/401k-contribution-limits/).
 - If your company offers both [401k and Roth 401k](https://www.nerdwallet.com/blog/investing/roth-401k-vs-401k/), then do a pre-tax contribution and invest the tax savings.
     - If you don't think you'll invest the tax savings, then contribute to the post-tax 401k.
     - On the other hand, if you're currently in a high tax bracket (and have low expenses), then put the money in the pre-tax 401k.
@@ -44,7 +43,7 @@ For example, if your company does matching up to 4%, then at least put in that 4
 - The S&P 500 environmental and socially responsible index has outperformed the S&P 500 since it was launched.
     - Which means that doing the right thing **is** financially responsible.
     - The vanguard [ESGV](https://investor.vanguard.com/etf/profile/ESGV) and [VSGX](https://investor.vanguard.com/etf/profile/VSGX) funds are their US and International socially responsible index funds.
-    
+
 ## Taxes
 
 [Federal Income Tax Brackets](https://www.nerdwallet.com/blog/taxes/federal-income-tax-brackets/)
