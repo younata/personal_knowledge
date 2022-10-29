@@ -1,6 +1,6 @@
 # Introduction
 
-Going to store stuff here.
+Hello! I'm Rachel Brindle. I maintain this digital garden (or knowledge repository) here. Amongst other things, I'm a pilot, I'm building my [own (electric) airplane](https://coz-e.rachelbrindle.com), I'm a software engineer by trade, and I help maintain the [Quick](https://github.com/Quick/Quick) & [Nimble](https://github.com/Quick/Nimble) testing frameworks for iOS.
 
 This is inspired by [Nikita's](https://wiki.nikitavoloboev.xyz) knowledge repository.
 
