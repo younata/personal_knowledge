@@ -4,7 +4,7 @@
 
 While working on the epoxy dispenser for the coz-e, I also came across parts that could be used for a soap dispenser.
 
-The basic idea is to combine a proximity contactless button ([Sparkfun](https://www.sparkfun.com/products/18582)), with a pump of some kind. Probably a peristaltic one because that has 0 chance of becoming gumming up the pump ([Sparkfun](https://www.sparkfun.com/products/16898), [adafruit](https://www.adafruit.com/product/3910)).
+The basic idea is to combine a proximity contactless button, with a pump of some kind. Probably a peristaltic one because that has 0 chance of becoming gumming up the pump.
 
 The code should be fairly simple, and could easily run on an ATTiny using only an interrupt, with something like this:
 
@@ -32,6 +32,7 @@ void sleep() {
 void dispense() {
     sleep_disable();
     analogWrite(motor_controller_pin, 255);
+    delay(1000);
 }
 
 void stop_dispense() {
