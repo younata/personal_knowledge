@@ -528,6 +528,10 @@ HomeAssistant
 HomeBridge
 natively
 Melvill's
+Johanson's
+McMurdo
+Johanson
+Wendover
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -1074,3 +1078,5 @@ dustbox
 gearsensor
  - src/bicycling/README.md
 Subpages
+ - src/antarctica.md
+SouthPoleStation.com
