@@ -34,7 +34,7 @@ So, testing has it's values, sure. Why test first? Why is that so much better th
 
 ## Tools
 
-For iOS, I'm a big fan of [Quick](https://github.com/quick/Quick/) and [Nimble](https://github.com/quick/Nimble/).
+For iOS, I'm a big fan of [Quick](https://github.com/quick/Quick/) and [Nimble](https://github.com/quick/Nimble/). As of May 2022, I even took over maintainership of the projects.
 
 This generalizes to me being a big fan of [rspec-based](https://rspec.info) testing frameworks. I find that this better allows me to express the branching behavior of tests, as well as makes it more obvious the different effects a given action (method or function) can have.
 

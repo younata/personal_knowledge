@@ -1,2 +1,5 @@
 User-agent: *
-print.html
+Disallow: print.html
+
+User-agent: GPTBot
+Disallow: /

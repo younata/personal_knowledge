@@ -2,7 +2,7 @@
 
 Rust is a language that I've been in love with for ages.
 
-It's also one of the most frustrating languages I've ever used. This is because I've never written enough rust to actually be good at it.
+It's also one of the most frustrating languages I've ever used. This is both because it has a very steep learning curve, and I've never written enough rust to actually be good at it.
 
 It also has the best documentation of any language.
 
