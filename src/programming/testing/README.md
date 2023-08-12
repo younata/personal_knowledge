@@ -2,7 +2,7 @@
 
 Theory behind testing. For practical information, look in each language's pages.
 
-If you're not practicing [TDD](https://en.wikipedia.org/wiki/Test-driven_development), your code is wrong. If your code happens to work without tests, then you're practicing [voodoo programming](https://en.wikipedia.org/wiki/Voodoo_programming), and that's worse than not having tests at all..
+If you're not practicing [TDD](https://en.wikipedia.org/wiki/Test-driven_development), your code is wrong. If your code happens to work without tests, then you're practicing voodoo programming[^voodoo_programming], and that's worse than not having tests at all.
 
 What is TDD? At it's simplest, it's test-first. That is, write down what you expect the code to do, then write the code to get the test to pass.
 
@@ -41,3 +41,5 @@ This generalizes to me being a big fan of [rspec-based](https://rspec.info) test
 ## Videos
 
 [Bryan Lile's TATFT lightning talk](https://www.youtube.com/watch?v=LfmAzLAKKoc) expresses a lot of the same philosophy that I do.
+
+[^voodoo_programming]: Programming without knowing/understanding what the code you're writing actually does.

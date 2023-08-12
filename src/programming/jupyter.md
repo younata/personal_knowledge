@@ -6,7 +6,7 @@ Setting up a single-user jupyter notebook server.
    `python3 -m venv jupyter && . jupyter/bin/activate`
 2. Install jupyter.
    `pip3 install jupyter`
-3. Setup for creating a [public server](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html).
+3. Setup for creating a [public server](https://jupyter-server.readthedocs.io/en/latest/operators/public-server.html).
    `jupyter notebook --generate-config`
 4. Set the password for the notebook:
    `jupyter notebook --generate-config`

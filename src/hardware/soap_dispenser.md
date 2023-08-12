@@ -56,7 +56,3 @@ I'd like to 3d print a case, which would be a small thing designed with the foll
   - pump should have tubing that exists as close to the button as possible.
 
 I'd also like to build a small base, which could hold the soap jug at a slight angle, so that as the soap gets used, it'll start to gather at a single spot, instead of being in a shallow pool on the bottom. Which serves to try to use as much soap as possible before switching jugs.
-
-## References
-
-- [How to sleep an Arduino](https://thekurks.net/blog/2018/1/24/guide-to-arduino-sleep-mode)
