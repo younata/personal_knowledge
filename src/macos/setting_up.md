@@ -13,8 +13,9 @@ Open System Preferences.
 - Key Repeat: Fastest
 - Delay Until Repeat: Shortest
 
-Check "Use F1, F2, etc. keys as standard function keys"
-Click "Modifier Keys", remap Caps Lock to escape on all keyboards.
+In macOS Ventura and later, these options are under "Keyboard shortcuts".
+- Check "Use F1, F2, etc. keys as standard function keys" (Function Keys submenu)
+- Click "Modifier Keys", remap Caps Lock to escape on all keyboards. (Modifier Keys submenu)
 
 ### Trackpad Settings
 
@@ -42,7 +43,7 @@ Open Safari, go to [`brew.sh`](https://brew.sh), and follow it's instructions to
 Once that's done, run the following commands:
 
 ```sh
-brew cask install iterm2 rectangle alfred macdown
+brew install --cask iterm2 rectangle alfred macdown
 brew install rbenv node tig the_silver_searcher jq wget tree
 
 # Set up rbenv
