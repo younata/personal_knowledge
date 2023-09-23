@@ -12,7 +12,7 @@ Look like an 80s computer geek! Inspired by [this project on adafruit](https://l
 
 ## DIY Smartwatch
 
-[Imgur gallery describing the project](https://imgur.com/a/FSBwD3g), with a [reddit post](https://old.reddit.com/r/DIY/comments/bivyok/i_made_a_smartwatch_from_scratch/), which links to this [Github repository](https://github.com/S-March/smarchWatch_PUBLIC).
+<a href="https://imgur.com/a/FSBwD3g" data-proofer-ignore>Imgur gallery describing the project</a>, with a [reddit post](https://old.reddit.com/r/DIY/comments/bivyok/i_made_a_smartwatch_from_scratch/), which links to this [Github repository](https://github.com/S-March/smarchWatch_PUBLIC).
 
 ## DIY Ebook Reader
 
