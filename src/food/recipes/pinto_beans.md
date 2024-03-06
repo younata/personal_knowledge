@@ -4,7 +4,7 @@ Dried pinto beans are very nutritious and are significantly cheaper than canned 
 
 3 parts water to 1 part beans. (e.g. 3 cups water for every cup of beans).
 
-Combine in a slow cooker. Heat on low until the water level is where the beans are (4-8 hours depending on how powerful "low" is on your slow cooker).
+Combine in a slow cooker. Heat on low for 6-8 hours. Replenish the water if it gets too low.
 
 Strain the beans into a container. It keeps reasonably well in the fridge.
 
