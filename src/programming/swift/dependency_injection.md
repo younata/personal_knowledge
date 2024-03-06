@@ -45,38 +45,49 @@ Sometimes, an instance needs to be able to make another instance. For example, n
 For example:
 
 ```swift
+import SwiftUI
+
 protocol ViewModel {
-    associatedType View: SwiftUI.View
+    associatedtype View: SwiftUI.View
     var view: Self.View { get }
 }
 
-protocol AViewModelProtocol {
-    var bViewModelFactory: (String) -> any ViewModel
+protocol AViewModelProtocol: ViewModel {
+    associatedtype BViewModel: ViewModel
+    var bViewModelFactory: (String) -> BViewModel { get }
+
+    func bView(_ arg: String) -> BViewModel.View
 }
 
-final class AViewModel: ViewModel, AViewModelProtocol {
-    let bViewModelFactory: (String) -> any ViewModel
+final class AViewModel<BViewModel: ViewModel>: ViewModel, AViewModelProtocol {
+    let bViewModelFactory: (String) -> BViewModel
 
-    init(bViewModelFactory: @escaping (String) -> any ViewModel) {
+    init(bViewModelFactory: @escaping (String) -> BViewModel) {
         self.bViewModelFactory = bViewModelFactory
     }
-    
+
     var view: some View { AView(viewModel: self) }
+
+    func bView(_ arg: String) -> BViewModel.View {
+        bViewModelFactory(arg).view
+    }
 }
 
-struct AView: View {
-    @State var viewModel: some ViewModel
+struct AView<ViewModel: AViewModelProtocol>: View {
+    @State var viewModel: ViewModel
     var body: some View {
         VStack {
             NavigationLink("Hello") {
-                viewModel.bViewModelFactory("hello").view
+                viewModel.bView("hello")
             }
             NavigationLink("Goodbye") {
-                viewModel.bViewModelFactory("goodbye").view
+                viewModel.bView("goodbye")
             }
         }
     }
 }
 ```
 
-You might think it might be worth it to wrap this in a type. But, really, you're only saving a small amount of characters, in exchange for the boilerplate of creating yet another type to essentially shuffle a closure around. If Swift had Objective-C's frankly horrific closure syntax, then creating a separate type to wrap that would be worth it. But thankfully, Swift has relatively sane closure syntax.
+This is, admittedly, a lot of boilerplate just to deal with the generics.
+
+You might think it might be worth it to wrap the `(String) -> BViewModel` closure syntax in a type. But, really, you're only saving a small amount of characters, in exchange for the boilerplate of creating yet another type to essentially shuffle a closure around. If Swift had Objective-C's frankly horrific closure syntax, then creating a separate type to wrap that would be worth it. But thankfully, Swift has relatively sane closure syntax.
