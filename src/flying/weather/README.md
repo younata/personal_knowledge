@@ -174,7 +174,7 @@ Forecast depicting significant weather between FL 250 and FL 630 (and associated
 
 ### Convective Outlook Chart
 
-[aviationweather.gov/convection](https://www.aviationweather.gov/convection).
+<!-- [aviationweather.gov/convection](https://www.aviationweather.gov/convection). -->
 
 Graphical and narrative convective outlooks for convective weather, both severe and non-severe weather. Specifies the following risks over at 8 day period:
 
@@ -196,6 +196,6 @@ You can generally see the jet stream at [300 MB](https://www.weather.gov/jetstre
 
 ### Freezing Level Chart
 
-[aviationweather.gov/icing/frzlvl](https://www.aviationweather.gov/icing/frzlvl)
+<!-- [aviationweather.gov/icing/frzlvl](https://www.aviationweather.gov/icing/frzlvl) -->
 
 Gives a visual depiction of where you can expect the freezing level to be at. Current and 3 hour forecast are updated hourly, the 6, 9, and 12 hour forecasts are updated every 3 hours. These are supplementary products meant to provide "enhanced situational awareness only" (as in, you should definitely cross-reference this with TAFs, METARs, AIRMETs, SIGMETs, and similar).
