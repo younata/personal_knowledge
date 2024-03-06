@@ -1,6 +1,6 @@
 # Renting Checklist
 
-Things to check/verify when checking out a place to rent. Borrowed/Combined with [this lifehacker article](https://lifehacker.com/bring-this-checklist-with-you-next-time-youre-apartment-5877079), and [this comment on the article](https://lifehacker.com/466009828), which is much more useful.
+Things to check/verify when checking out a place to rent.
 
 ## HVAC & Utilities
 
@@ -23,7 +23,7 @@ Things to check/verify when checking out a place to rent. Borrowed/Combined with
 ## Kitchen
 
 - Stove/Oven:
-  - Gas or Electric?
+  - Gas or Electric? (old-style spiral electric sucks and gas is superior only to that. Otherwise, prefer electric or even induction)
   - Age?
   - Do burners work?
   - Smell?
