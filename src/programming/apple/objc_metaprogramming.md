@@ -14,4 +14,3 @@ for cls in classes {
 }
 ```
 
-[From the Apple Developer Forums](https://developer.apple.com/forums/thread/700770).

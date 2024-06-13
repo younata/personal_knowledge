@@ -9,7 +9,7 @@ See also the [Mac Observatory site](https://www.macobservatory.com).
 I use the following software:
 
 - <a href="http://www.cloudmakers.eu/astrodslr/" data-proofer-ignore>AstroDSLR</a> for capturing from my DSLR.
-- [Nebulosity](https://www.stark-labs.com/nebulosity.html) for stacking images.
+- Nebulosity (No longer available) for stacking images.
 
 ## Theory and Books
 
