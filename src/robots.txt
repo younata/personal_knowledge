@@ -3,3 +3,6 @@ Disallow: print.html
 
 User-agent: GPTBot
 Disallow: /
+
+User-agent: Applebot
+Disallow: /
