@@ -2,6 +2,8 @@
 
 Theory behind testing. For practical information, look in each language's pages.
 
+- [Kinds of Tests]({{#path_for Kinds of Tests}})
+
 If you're not practicing [TDD](https://en.wikipedia.org/wiki/Test-driven_development), your code is wrong. If your code happens to work without tests, then you're practicing voodoo programming[^voodoo_programming], and that's worse than not having tests at all.
 
 What is TDD? At it's simplest, it's test-first. That is, write down what you expect the code to do, then write the code to get the test to pass.
@@ -14,7 +16,7 @@ No. Tests provide automated and repeatable use cases for the code. Without them,
 
 With automated, repeatable tests, the only difference is that the verification procedure is written in code. This allows your computer to follow those steps, which it can do in orders of magnitude less time than you can, with much higher attention to detail than you can continuously give it. Additionally, it allows you to more tightly control all the inputs and outputs, so you know precisely what caused a bit of code to go wrong.
 
-Additionally, anyone else who works with you now has a simple script they can run to verify that your changes work, instead of having to look up and follow your documentation to try to figure out what you did to test it. This can even be generalized into an external environment that automatically runs the test script to determine whether or not your changes are good - something which is called [continuous integration]({{#path_for Continuous Integration}})
+Additionally, anyone else who works with you now has a simple script they can run to verify that your changes work, instead of having to look up and follow your documentation to try to figure out what you did to test it. This can even be generalized into an external environment that automatically runs the test script to determine whether or not your changes are good - something which is colloquially (and wrongly) called [continuous integration]({{#path_for Continuous Integration}})
 
 ## Why TDD
 
@@ -41,5 +43,12 @@ This generalizes to me being a big fan of [rspec-based](https://rspec.info) test
 ## Videos
 
 [Bryan Lile's TATFT lightning talk](https://www.youtube.com/watch?v=LfmAzLAKKoc) expresses a lot of the same philosophy that I do.
+
+## Links
+
+- [testdouble/test-smells](https://github.com/testdouble/test-smells) is a repository of different testing antipatterns with examples and how to correct them.
+- [testdouble/contributed-tests](https://github.com/testdouble/contributing-tests/wiki) is a wiki defining a bunch of testing concepts.
+- [Quick's Documentation](https://github.com/Quick/Quick/tree/main/Documentation) contains a ton of basic testing information.
+
 
 [^voodoo_programming]: Programming without knowing/understanding what the code you're writing actually does.
