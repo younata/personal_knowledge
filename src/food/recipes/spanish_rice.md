@@ -10,9 +10,9 @@ Reproduced:
 - 2 tablespoons chopped onion
 - 1.5 cups uncooked white rice
 - 2 cups chicken broth
-- 1 cup picante sauce
+- 1 cup salsa
 
 ## Directions
 
 1. Heat oil in a large, heavy skillet over medium heat. Add onion; cook and stir until tender, about 5 minutes.
-2. Add rice; cook and stir until rice begins to turn golden brown. Stir in chicken broth and picante sauce. Reduce heat, cover, and simmer until liquid has been absorbed, about 15 to 20 minutes.
+2. Add rice; cook and stir until rice begins to turn golden brown. Stir in chicken broth and salsa. Reduce heat, cover, and simmer until liquid has been absorbed, about 15 to 20 minutes.
