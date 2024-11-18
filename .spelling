@@ -572,6 +572,9 @@ subclassable
 subclassed
 cajun
 andouille
+ArgumentParser
+initializer
+failable
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
