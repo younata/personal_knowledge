@@ -17,4 +17,4 @@ In cocoa, controllers are super powerful because they allow you to bypass implem
 
 ### Tooltips
 
-Implement [`outlineView(_:tooltipFor:rect:tableColumn:item:mouseLocation)`](https://developer.apple.com/documentation/appkit/nsoutlineviewdelegate/1527695-outlineview).
+Implement [`outlineView(_:tooltipFor:rect:tableColumn:item:mouseLocation)`](https://developer.apple.com/documentation/appkit/nsoutlineviewdelegate/outlineview(_:tooltipfor:rect:tablecolumn:item:mouselocation:)).
