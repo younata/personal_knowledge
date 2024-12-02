@@ -1,12 +1,8 @@
 # Addressing Climate Change
 
-Personal actions you/I can take.
+The biggest impact you can have on affecting climate change is advocating for climate-friendly policies at all levels of government. This is significantly easier on the local level than at higher levels, but is still something I struggle to do (talking with people? That's terrifying). This is because climate change is a systemic issue, and requires systemic change. 1 person replacing their natural gas appliances with electric ones is basically a rounding error in terms of total emissions. But enacting even local policy banning natural gas appliances will have a significant effect on emissions and overall quality of life. Or enacting a right to repair, and require products to be user-repairable will prevent tons of waste and emissions.
 
-Rather hypocritical coming from someone who flies airplanes. [Working on it, though!](https://coz-e.rachelbrindle.com/).
-
-But seriously, I'm putting multiple hours a day towards reducing the impact of one of my main hobbies.
-
-The biggest impact you can have on affecting climate change is advocating for climate-friendly policies at all levels of government. This is significantly easier on the local level than at higher levels, but is still something I struggle to do (talking with people? That's terrifying).
+However, for far less but still non-zero effect, there are some things you can do to affect climate change.
 
 As far as spending money (or not), the next best way is to basically not drive places. Ride a bike, walk, whatever. Ebikes, for example, are remarkably cheap nowadays. You can get an acceptable one for less than $500. This'll still get you going up to 20 miles per hour, which is perfect for around-town errands. Need to carry stuff and/or people? Get a cargo bike. Most cargo bikes nowadays come with some kind of electric assist, and all of them are designed to have electric assist added to them.
 
@@ -14,7 +10,16 @@ If you own a home that has natural gas appliances, replace them with electric eq
 
 Lastly, yeah. The big expenses. Replace your gas-powered vehicle with an electric vehicle. Install solar on your roof. Installing solar also has the benefit of encouraging your neighbors to do so. I guess it's one of the modern "keeping up with the Jones'" things.
 
-Installing something like a powerwall is probably not worth the expense. Unless your grid has otherwise been shown to be unreliable, it's likely not going to be worth doing. It is cool, though.
+Unless you're in California, the grid has otherwise shown to be unreliable, installing something like a powerwall is probably not worth the expense. In 2024, the CPUC (California Public Utilities Commission) changed the rules for net metering. Previously, any electricity your rooftop solar generated was sold at residential prices. Which meant that effectively the electricity you bought was offset 1-1 with electricity you sold. The CPUC changed this so that you now sell electricity at utility rates, which are far lower than residential rates.
+
+You could also learn to just live with less, but fuck degrowth. Asking people to just accept a lower standard of living will never work.
+
+## Emergency Prep
+
+If you have a powerwall (or equivalent), then you don't really need to worry about power during a natural disaster. Especially if you have rooftop solar. You should disable/turn off nonessential power usages (i.e. everything but heat, refrigeration, cooking), and also make sure that the powerwall is sized to handle a normal load for at least a day and a half, longer if you don't have rooftop solar.
+
+If you don't have a powerwall, then either get an inverter you can power off an ebike battery, or get a power station (which is a high-capacity battery with an inverter built in) from anker/bluetti/ecoflow/jackery/one of the many other companies doing this). These will power emergency essentials for some amount of time in the event a natural disaster hits and the grid goes down for an extended period of time. However, you will likely be unable to power high-power things like heat, especially during winter.  
+Additionally, even if you have rooftop solar, you should get dedicated portable solar panels for your power station. This is because, when the grid goes down, your solar install will detect that and disconnect themselves so as to prevent accidentally backfilling the grid. This also means that your house will lose power and you won't be able to power things off of your rooftop solar. Instead, you will have to set up the portable panels and connect them to the power station. This is especially important because power stations have a relatively small capacity. For this same reason, be sure to get a power station with at least 500 watt-hours of capacity (and enough solar to be able to fully charge it at least 2 times during the day. For a 500 Wh battery, this corresponds to just over 150 watts of solar for winter use (500 watt-hours ÷ 6 daylight-hours/day ÷ 2 charges/day = 167 watts)).
 
 ## Links
 
