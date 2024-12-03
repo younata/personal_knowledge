@@ -13,6 +13,7 @@ Things to check/verify when checking out a place to rent.
   - Verify shower pressure
   - Verify no toilet backup
 - Laundry
+  - In-Unit laundry will generally be more expensive, but is far and away worth it.
 
 ## Garage
 
@@ -23,10 +24,11 @@ Things to check/verify when checking out a place to rent.
 ## Kitchen
 
 - Stove/Oven:
-  - Gas or Electric? (old-style spiral electric sucks and gas is superior only to that. Otherwise, prefer electric or even induction)
-  - Age?
-  - Do burners work?
-  - Smell?
+  - Gas or Electric?
+    - Gas looks appealing thanks to marketing, but you really don't want to deal with the negative health effects.
+  - How old is it? Is it likely to need replacing while you're there?
+  - Do burners all work?
+  - Is there a smell when things are off?
 - Verify that all cupboards are clean. Shine a light in them.
 - Dishwasher
 
@@ -42,6 +44,7 @@ Things to check/verify when checking out a place to rent.
 - Capacity. Can we run everything all at once?
 
 ## Maintenance
+
 - What's their general policy on this?
 - Who's responsible?
 - Do they have recommendations on who to call?

@@ -8,11 +8,11 @@ As far as spending money (or not), the next best way is to basically not drive p
 
 If you own a home that has natural gas appliances, replace them with electric equivalents! More so than for climate, burning natural gas in the home has been found to be incredibly bad for your health - turns out "clean burning" natural gas just means it's less dirty than coal. Natural gas still emits tons of carcinogens that you do not want to breath. You don't need to go out and replace perfectly good natural gas appliances. But when they need to be replaced, instead of getting a new natural gas stove, get an induction stove. When your furnace needs to be replaced, get a heat pump. Heat pumps are so good right now, and they work down to really low temperatures. Even if you don't need to replace your furnace, get a heat pump. Most thermostats nowadays will default to the heat pump, and use the gas furnace as an "emergency heat" if necessary.
 
-Lastly, yeah. The big expenses. Replace your gas-powered vehicle with an electric vehicle. Install solar on your roof. Installing solar also has the benefit of encouraging your neighbors to do so. I guess it's one of the modern "keeping up with the Jones'" things.
+Lastly, yeah. The big expenses. If you must own a car (which is sadly an unavoidable fact of life in most of the North America), own an electric one. If you can, install solar on your roof. Installing solar also has the benefit of encouraging your neighbors to do so - it's one of the modern "keeping up with the Jones'" things.
 
 Unless you're in California or the grid has otherwise shown to be unreliable, installing something like a powerwall is probably not worth the expense (though, it might be worth it in terms of [emergency prep]({{#path_for Emergency Prep}}). Not likely though. Portable power stations are nearly as good, and are much cheaper). In 2024, the CPUC (California Public Utilities Commission) changed the rules for net metering. Previously, any electricity your rooftop solar generated was sold at residential prices. Which meant that effectively the electricity you bought was offset 1-1 with electricity you sold. The CPUC changed this so that you now sell electricity at utility rates, which are far lower than residential rates.
 
-You could also learn to just live with less, but fuck degrowth. Asking people to just accept a lower standard of living will never work. Humans are not a disease.
+You could also learn to just live with less, but fuck degrowth. Asking people to just accept a lower standard of living does not work. Humans are not a disease.
 
 ## Links
 

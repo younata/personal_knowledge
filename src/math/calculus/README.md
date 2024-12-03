@@ -10,4 +10,5 @@ Calculus is about manipulating algebra and functions. Computing things like how 
 
 Topics covered:
 
-- [Limits]({{path_for Limits}}) Intros the Intro to Calculus and covers Limits, which is used to rigorously define all the rest of calculus.
+- [Limits]({{#path_for Limits}}) Intros the Intro to Calculus and covers Limits, which is used to rigorously define all the rest of calculus.
+- [Derivatives]({{#path_for Derivatives}}) - An overview of derivatives and some of the laws for computing them.

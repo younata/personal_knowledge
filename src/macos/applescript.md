@@ -27,5 +27,7 @@ Change the `bounds` property of the given window. Unlike with AppKit apps, this 
 e.g. to resize the top xcode window to 1920 x 1080 and place it in the top-right corner, use this script:
 
 ```applescript
-tell application "Xcode"	set bounds of front window to {0, 0, 1920, 1080}end tell
+tell application "Xcode"
+	set bounds of front window to {0, 0, 1920, 1080}
+end tell
 ```

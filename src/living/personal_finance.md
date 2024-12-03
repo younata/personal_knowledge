@@ -33,7 +33,6 @@ For example, if your company does matching up to 4%, then at least put in that 4
 - If your company offers both [401k and Roth 401k](https://www.nerdwallet.com/blog/investing/roth-401k-vs-401k/), then do a pre-tax contribution and invest the tax savings.
     - If you don't think you'll invest the tax savings, then contribute to the post-tax 401k.
     - On the other hand, if you're currently in a high tax bracket (and have low expenses), then put the money in the pre-tax 401k.
-        - Because you should have low expenses, therefore being in a low tax bracket.
 - Just set it, and check on it every year as the contribution limit changes, or your company changes their matching policy.
 
 ### Index Funds
@@ -42,6 +41,7 @@ For example, if your company does matching up to 4%, then at least put in that 4
     - [Betterment](https://betterment.com) is what I use for my non-401k investments.
 - The S&P 500 environmental and socially responsible index has outperformed the S&P 500 since it was launched.
     - Which means that doing the right thing **is** financially responsible.
+        - Note that companies included in ESR funds are not necessarily what you might think of as "environmentally and socially responsible". They might just be less irresponsible than ones in the S&P 500.
     - The vanguard [ESGV](https://investor.vanguard.com/etf/profile/ESGV) and [VSGX](https://investor.vanguard.com/etf/profile/VSGX) funds are their US and International socially responsible index funds.
 
 ## Taxes

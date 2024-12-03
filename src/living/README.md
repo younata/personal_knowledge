@@ -1,3 +1,3 @@
-# Living
+# Living, Personal/Career Growth, Social, & Societal things
 
-[Orange Website on skills you can learn in an hour](https://news.ycombinator.com/item?id=21581361)
+Everything from leftist politics (Antiracism, antifascism, feminism), to emergency preparation, to even basic life things like what to look for when renting.
