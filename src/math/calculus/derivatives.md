@@ -2,7 +2,7 @@
 
 The derivative of a function is how quickly (or not) the output of a function changes as its input changes. Or, in another way, the derivative specifies the rate of change of a function.
 
-For example, if you have a function, such as \\(f(x) = 2x\\), which models the the position of an object at a given time, \\(x\\), you can use the derivative to calculate the velocity of the object. Similarly, you can the use the derivative of a velocity function to calculate the acceleration. The derivative of acceleration is called the jerk.
+For example, if you have a function, such as \\(f(x) = 2x\\), which models the the position of an object at a given time, \\(x\\), you can use the derivative to calculate the velocity of the object. Similarly, you can the use the derivative of a velocity function to calculate the acceleration. The derivative of acceleration is called the jerk (yes, really).
 
 The rest of this article will deal with 2-dimensional functions. Higher-dimensional functions will be another article.
 

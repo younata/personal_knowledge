@@ -78,7 +78,7 @@ One idea I'm planning to explore with solar is the idea of putting on a solar ro
 
 ## My Experience
 
-I currently have 2 ebikes, each of which is powered by a BBS02 mid-drive motor. One of which is on a Yuba Mundo longtail cargo bike, and the other is on a standard hybrid bike. I think that the BBS02 and BBSHD mid-drive motors are excellent kits for creating a really good ebike with minimal fuss. My main issue with these kits is that Bafang (the manufacturer) decided to only use cadence-based pedal-assist for these, not torque-sensing. Additionally, I'd love to use regenerative braking, so I'm actively looking at changing one of my bikes to use a hub-motor system so I can try out regenerative braking.
+I've had ebikes using mid-drives and ebikes using hub-motors. I currently favor hub-motors, because regenerative braking is just that good. Nearly-silent, all-weather, anti-locking, wear-free brakes? Hell yes.
 
 ## Links
 
