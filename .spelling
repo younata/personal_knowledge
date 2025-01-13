@@ -590,6 +590,9 @@ MREs
 SPL-01
 Roxim
 Elight
+HTTPClient
+SQLiteClient
+SQLite
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr

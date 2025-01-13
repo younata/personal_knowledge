@@ -15,6 +15,7 @@ No, but seriously, here's why bicycling is the best.
 
 - [Notes on installing a BBSXX mid-drive motor]({{#path_for BBSXX Electric Bike Motor}})
 - [Notes on electric bicycles]({{#path_for Ebikes}})
+- [My recumbent ebike build]({{#path_for Recumbent Ebike Build}})
 
 ## Links
 

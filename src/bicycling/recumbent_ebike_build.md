@@ -44,4 +44,5 @@ I bought a new 52v, 14 amp-hour battery, and I have it secured on top of the rea
 - Add dc-dc converters & USB-C ports. Additionally, add an inverter so I can use the bike as a power station.
 - Route lighting controls to the handlebars.
 - Add turn signals.
+- Add brake lights.
 - Add an additional light higher up to increase the chances that others will see me.
