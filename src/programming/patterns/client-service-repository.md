@@ -2,7 +2,7 @@
 
 I've known of this pattern since 2015 at least, and it's one manifestation of the <a href="https://martinfowler.com/eaaCatalog/repository.html" data-proofer-ignore>Repository Pattern</a> as described in Domain Driven Design.
 
-```
+```txt
 +------------+
 | Controller |
 +------------+
