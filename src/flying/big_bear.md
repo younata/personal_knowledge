@@ -6,9 +6,9 @@ Information for flying in to LA's local mountainous airport.
 
 (Not required, but please follow these)
 
-Available on [whispertrack](https://whispertrack.com/airports/KL35).
+(Was?) Available on <a href="https://whispertrack.com/airports/KL35" data-proofer-ignore>whispertrack</a>.
 
-Curfew: 10 pm to 7 am local time.
+Voluntary curfew: 10 pm to 7 am local time.
 
 Recommends minimizing "unnecessary engine idling and runups", especially at night.
 
