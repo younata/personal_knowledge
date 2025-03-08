@@ -8,12 +8,12 @@ See also the [Mac Observatory site](https://www.macobservatory.com).
 
 I use the following software:
 
-- <a href="http://www.cloudmakers.eu/astrodslr/" data-proofer-ignore>AstroDSLR</a> for capturing from my DSLR.
+- <a href="http://www.cloudmakers.eu/astrodslr/" data-proofer-ignore>AstroDSLR</a> (now discontinued) for capturing from my DSLR.
 - Nebulosity (No longer available) for stacking images.
 
 ## Theory and Books
 
-The standard recommended reading is <a href="https://www.amazon.com/Deep-sky-Imaging-Primer-Second/dp/0999470906" data-proofer-ignore>The Deep-sky Imaging Primer</a>.
+The standard recommended reading is <a href="https://bookshop.org/p/books/the-deep-sky-imaging-primer-charles-bracken/18799320" data-proofer-ignore>The Deep-sky Imaging Primer</a>.
 
 - [A bunch of other useful links for beginners](https://www.cloudynights.com/topic/22488-useful-links-for-beginning-imagers/). Though, the whole [cloudy nights](https://www.cloudynights.com/forum/80-beginning-and-intermediate-imaging/) forum is super useful.
 - [Other useful threads for beginning imaging on cloudy nights](https://www.cloudynights.com/topic/97172-best-threads-in-beginning-imaging/)
@@ -23,7 +23,6 @@ The standard recommended reading is <a href="https://www.amazon.com/Deep-sky-Ima
 ## Finding a site
 
 [Find a local dark sky site](https://darksitefinder.com/maps/world.html). In LA, I like [Joshua Tree National Park](https://darksitefinder.com/placemarks/joshua-tree-national-park-california-united-states/).
-However, being able to easily access far-away dark sky sites is one of my primary reasons for learning to fly.
 
 ## Equipment
 
