@@ -104,8 +104,6 @@ From Nebulosity, open batch -> align and combine images. Select "Translation + R
 Now, select the same star in each photograph as it prompts you. You're going to go through the sets 3 times (so that it can correct for translation/rotation/scale).
 Now, do some manual editing, and save the end result.
 
-Post to instagram[^instagram] or whatever. Use it as your new desktop background.
-
 [^selecting a telescope]: <a href="http://www.astropix.com/html/i_astrop/scopes.html" data-proofer-ignore>Much better advice on how to select one</a>. Though, usually, the best one is the one you already own.
 
 [^f.lux]: or use [f.lux](https://justgetflux.com) to remove as much blue from your screen as possible.
@@ -113,5 +111,3 @@ Post to instagram[^instagram] or whatever. Use it as your new desktop background
 [^stacking]: [How Image Stacking works](https://keithwiley.com/astroPhotography/imageStacking.shtml).
 
 [^stacking returns]: It's essentially an inverse square relation - to get 5x better quality, you need to take 25x more images.
-
-[^instagram]: [flume](https://flumeapp.com) seems to be a decent OSX client for instagram. The pro version is worth it.
