@@ -596,6 +596,11 @@ SQLite
 corsi-rosenthal
 140mm
 P14-size
+overworld
+multipart
+gameplay
+playthroughs
+arithmetics
  - src/astronomy/astrophotography/index.md
 Cafuego's
 astrodslr
@@ -1144,3 +1149,5 @@ gearsensor
 Subpages
  - src/antarctica.md
 SouthPoleStation.com
+ - src/games/fft.md
+Wiegraf

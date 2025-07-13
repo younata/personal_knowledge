@@ -88,7 +88,7 @@ Put the camera in manual mode, and have it set to average.
 
 ### Star Trails
 
-Sometimes you're going for that really cool effect, othertimes you're not.
+Sometimes you're going for that really cool effect, most times you're not.
 
 <a href="http://www.astropix.com/index.html" data-proofer-ignore>Here's an article</a> from Jerry Lodriguss on how to deal with star trails.
 
