@@ -6,9 +6,9 @@ XCUITest, introduced in iOS 9, is a technology for automating acceptance tests. 
 
 ## Predicates
 
-You can fetch a group of elements matching a predicate by calling [`element(matching:)`](https://developer.apple.com/documentation/xctest/xcuielementquery/1500768-element) on any XCUIElementQuery. Most objects in XCUITest are XCUIElementQuery's.
+You can fetch a group of elements matching a predicate by calling [`element(matching:)`](https://developer.apple.com/documentation/xcuiautomation/xcuielementquery/element(matching:)) on any XCUIElementQuery. Most objects in XCUITest are XCUIElementQuery's.
 
-Anything that conforms to [`XCUIElementAttribute`](https://developer.apple.com/documentation/xctest/xcuielementattributes) can be queried as part of one of these queries.
+Anything that conforms to [`XCUIElementAttribute`](https://developer.apple.com/documentation/xcuiautomation/xcuielementattributes) can be queried as part of one of these queries.
 
 ## Queries
 
